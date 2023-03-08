@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "Berkads"
-    ]
+    ],
+    "todo-tree.tree.showBadges": false,
+    "todo-tree.tree.scanMode": "current file"
 }

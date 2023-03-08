@@ -18,3 +18,5 @@ SottmannBosse_Masterthesis.tex.blg
 SottmannBosse_Masterthesis.toc
 indent.log
 *.aux
+*.json
+.vscode/settings.json
