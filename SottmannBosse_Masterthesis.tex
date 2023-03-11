@@ -53,6 +53,8 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage{url}
 
+\usepackage[acronyms]{glossaries}
+
 % \addbibresource{01_Masterarbeit.bib} % The filename of the bibliography
 
 
@@ -76,7 +78,7 @@ headsepline, % Uncomment to get a line under the header
 
 \thesistitle{Thesis Title} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{apl. Prof. Dr. Sven \textsc{Lautenbach}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
-\examiner{Dr. Michael \textsc{Auer}} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\examiner{Prof. Dr. Alexander \textsc{Zipf}} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Master of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 \author{Bosse \textsc{Sottmann}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
@@ -103,6 +105,22 @@ headsepline, % Uncomment to get a line under the header
 % If you want to have obvious links in the PDF but not the printed text, use:
 % \hypersetup{colorlinks=false}.
 }
+
+
+\makeglossaries
+
+\newacronym{}{}{}
+
+\newacronym{wmo}{WMO}{World Meteorological Organization}
+\newacronym{gwp}{GWP}{Global Water Partnership}
+\newacronym{idmp}{IDMP}{Integrated Drought Managment Programme}
+\newacronym{iwmi}{IWMI}{International Water Management Institute}
+\newacronym{wpi}{WPI}{Water Poverty Index\autocite{harrowsmithFutureForecastImpact2020,svobodaHandbookDroughtIndicators2016,vereintenationenSpecialReportDrought2021}}
+\newacronym{}{}{}
+
+
+
+
 
 \begin{document}
 
@@ -228,12 +246,14 @@ headsepline, % Uncomment to get a line under the header
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
 
-% \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
 % \textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
 % \textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
 
-% \end{abbreviations}
+\printglossary[type=\acronymtype]
+
+\end{abbreviations}
 
 %----------------------------------------------------------------------------------------
 %	PHYSICAL CONSTANTS/OTHER DEFINITIONS
