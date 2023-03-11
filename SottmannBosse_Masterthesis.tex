@@ -45,8 +45,12 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{marginnote}
 \usepackage[enable]{todonotes}
 
-% \usepackage[backend=biber,style=authoryear,natbib=true]{biblatex} % Use the bibtex
-\usepackage[backend=biber,style=apa, citestyle=apa,natbib=true, sorting=anyt]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+% \usepackage[style=authoryear]{biblatex}
+
+% \usepackage[backend=biblatex,style=authoryear,natbib=true]{biblatex} % Use the bibtex
+% \usepackage[backend=biber,style=authoryear, citestyle=apa,natbib=true, sorting=anyt]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[backend=biber,style=authoryear]{biblatex}
+
 \addbibresource{01_Masterarbeit.bib} % The filename of the bibliography
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
@@ -116,7 +120,7 @@ headsepline, % Uncomment to get a line under the header
 \newacronym{idmp}{IDMP}{Integrated Drought Managment Programme}
 \newacronym{iwmi}{IWMI}{International Water Management Institute}
 \newacronym{wpi}{WPI}{Water Poverty Index\autocite{harrowsmithFutureForecastImpact2020,svobodaHandbookDroughtIndicators2016,vereintenationenSpecialReportDrought2021}}
-\newacronym{}{}{}
+% \newacronym{}{}{}
 
 
 
@@ -306,7 +310,7 @@ headsepline, % Uncomment to get a line under the header
 \include{Chapters/ChapterTemplate.tex} 
 %\include{Chapters/Chapter3}
 %\include{Chapters/Chapter4} 
-%\include{Chapters/Chapter5} 
+% \include{Chapters/example_chapter} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
