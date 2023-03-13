@@ -5,5 +5,6 @@
         "RCCC"
     ],
     "todo-tree.tree.showBadges": false,
-    "todo-tree.tree.scanMode": "current file"
+    "todo-tree.tree.scanMode": "current file",
+    "latex-workshop.latex.autoBuild.run": "never"
 }
