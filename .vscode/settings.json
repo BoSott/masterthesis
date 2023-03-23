@@ -4,9 +4,11 @@
         "behaviour",
         "Berkads",
         "cbm",
+        "cbwm",
         "cocorahs",
         "Crowdsensing",
         "Crowdsourcing",
+        "drr",
         "eap",
         "endeavours",
         "ESCA",
@@ -16,8 +18,10 @@
         "RCCC",
         "socio",
         "subsec",
+        "trustbuilding",
         "VGI",
-        "Volunteersensing"
+        "Volunteersensing",
+        "zotero"
     ],
     "todo-tree.tree.showBadges": false,
     "todo-tree.tree.scanMode": "current file",
