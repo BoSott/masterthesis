@@ -16,7 +16,10 @@ SottmannBosse_Masterthesis.tex.bbl
 SottmannBosse_Masterthesis.tex.bcf
 SottmannBosse_Masterthesis.tex.blg
 SottmannBosse_Masterthesis.toc
+SottmannBosse_Masterthesis.acn
+SottmannBosse_Masterthesis.ist
 indent.log
 *.aux
 *.json
 .vscode/settings.json
+/figures/*
