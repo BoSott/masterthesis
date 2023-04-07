@@ -1,8 +1,10 @@
 % Chapter Template
 
-\chapter{Discussion} % Main chapter title
+\chapter{Discussion and Justification} % Main chapter title
 
 \label{chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+% Interpretation of the results that go further than the research questions. This can, e.g., contain implications for software development.
+
 
 % (in the discussion)
 % -> Reiterate the Research Problem/State the Major Findings
@@ -10,18 +12,10 @@
 % -> Relate the Findings to Similar Studies
 % -> Consider Alternative Explanations of the Findings
 % -> Acknowledge the Study's Limitations
-% -> Suggest Areas for Further Research
 
-% discussion:
-% read some guidelines mate. just read some guidelines. Bed time. can't think anymore.
-% last big chapter! Woop Woop!!
-% discuss context e.g. water security, water scarcity and drought
-% discuss FbF and CS
-
-\textbf{!!!!!!!!!!!!!STAY FOCUSSED on the discussion, do not iterate over everything !!!!!!!!!!}
+\textbf{!!!!!!!!!!!!!STAY FOCUSSED on the discussion, do not iterate over everything !!!!!!!!!!} I think I did though
 % difficult part -> stage 1 and 2 -> those are more or less already discussions in themselves..
 % -> reread the sections
-
 
 % interpret and explain
 
@@ -39,6 +33,9 @@
 %----------------------------------------------------------------------------------------
 % Step 1: restate your research problem, aim, hypotheses and questions
 %----------------------------------------------------------------------------------------
+
+% auch hier nicht so scharfe Trennung von Diskussion und Results wie normalerweise üblich --> case study
+% justification as discussion is not really possible
 
 This study aimed to design and test an approach for community-based participatory mapping and monitoring of water sources in a water-scarce and resource-limited setting in collaboration with the \acrlong{srcs}. The ultimate goal was to facilitate respective \acrlongpl{aa} in the context of \acrlong{fbf} and to improve water management and accessibility in underserved communities. To achieve this aim, four research objectives were formulated, including a comprehensive literature review to identify and evaluate principles for community-based participatory mapping and monitoring, assessing the feasibility of the approach in the given context, developing a replicable and adaptable framework based on the identified guidelines, and applying the framework to create a roadmap for implementation.\newline
 
@@ -62,6 +59,7 @@ In this discussion chapter, the focus is on reflecting on the main findings and 
 % Step 3: interpret your results
 %----------------------------------------------------------------------------------------
 % unpack the findings (no new information!)
+% ,“Climate information presented as early warnings are only as valuable as the actions that are taken in response to the information, even if the information is a perfect warning of future events.” ([Mariani et al., 2015, p. 8](zotero://select/groups/4773535/items/8THVVJVK)) ([pdf](zotero://open-pdf/groups/4773535/items/GYUFNK32?page=8&annotation=Y9DG5FSE))
 
 % -> follow a similar structure as in the result chapter
 % or research questions/hypotheses
@@ -82,40 +80,24 @@ In this discussion chapter, the focus is on reflecting on the main findings and 
 %  lit review, guidelines + relevant information and CS approaches
 1. Objective + 1. RQ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% but those are expected to be solved in future work..
 \section{Literature, Project and Data Analysis}
+% % data analysis
+% An in-depth analysis of existing data sets of water source point and feature information was considered, but  discarded after a first assessment. The very limited reliability, completeness and actuality of the available data sets had already been reviewed and stated by the project team before the start of this work. The lack of data was the main reason for this work to start with, and a short analysis via QGIS3 was able to confirm these statements. 
+
+% was considered, but was discarded at a very early stage. The very limited reliability, completeness and actuality of the available data sets had already been reviewed and stated by the project team before the start of this work. This lack of data was the reason for this work, but a short analysis was able to confirm these statements and thus, due to relevance and time constraints, 
+% and thus, due to relevance and time constraints, the focus shifted to the design approach.
+% --> poor quality for water source data analysis --> was the reason for this work % nice transitions for reasons for other work
+
+% zweiter Teil noch nicht im Methodenteil genannt
+% the focus was more on the design to create exactly such data sets for further analyses. This can be seen as a limitation, but can also be another reason to do exactly this work."
+
 
 % important: name the mapping campaign! planned as SRCS staff -> educated personal, no rookies, no volunteers.
 % biases.. important? mention? discussion? possibly discussion. Have fun old me!
 
 % The identification of the conceptual context along with the literature and \acrshort{cs} project analysis could successfully build a sound foundation for this work and specify relevant aspects and gaps for addressing the first and subsequent research objectives.
-stage 1:
-exploration
-conditions
-thorough identification
-project boundaries
-constraints
-requirements
-key stakeholders
-comparable projects
-evaluation practices
-
-stage 1 application:
--> more focussed on the case study, not so much on the guidelines themselves
-current situation
-problem
-water sources
-stakeholders
-comparable projects
-challenges etc.
-solutions
-
-
-
-
-
-
-Besides addressing the first objective, \textit{to conduct a comprehensive review of existing literature and guidelines related to the design and implementation of \acrlong{cs} programmes, and identify relevant work in regard to the research aim and overall case study context} the literature and \acrshort{cs} project analysis could also create a sound foundation for the following study (see section \ref{subsec:stage1_appl}). % The exploration of the conceptual and practical context allowed the identification and specification of relevant frameworks, aspects and gaps in literature for the subsequent research objectives.\newline
+Besides addressing the first objective, to \textit{conduct a comprehensive review of existing literature and guidelines related to the design and implementation of \acrlong{cs} programmes, and identify relevant work in regard to the research aim and overall case study context} the literature and \acrshort{cs} project analysis could also create a sound foundation for the following study (see section \ref{subsec:stage1_appl}). % The exploration of the conceptual and practical context allowed the identification and specification of relevant frameworks, aspects and gaps in literature for the subsequent research objectives.\newline
 Breaking down the broad concepts of Water Security, Water Scarcity and Drought along with their indicators and indices to the local context highlighted that only relatively rough forecasts are available for Somaliland (see section \ref{subsec:indicators}). Currently, climate, weather and hazard forecasts for Somaliland are either based on international indices like SPI or on a scarce network of local weather gauging stations (see section \ref*{subsec:case_eap}). Besides their coarseness, these indices predict the climate or weather itself and not its impacts, making them unsuitable for \acrlong{fbf} (see section \ref*{subsec:eap}). For successful implementation of \acrshort{fbf}, triggers and actions should be developed and directly linked (see section \ref{subsec:trigger} and \ref{subsec:case_eap}). This is often not feasible as local information about water sources is either missing completely, is incomplete or outdated (see section \ref{subsec:stage1_appl}). This highlighted the need for new local impact indicators for the creation of which the \acrshort{cs} approach was consulted. Several \acrshort{cbm}, \acrshort{mcs}, \acrshort{cbs}, \acrshort{cbwm} and other risk related \acrshort{cs} frameworks and respective guidelines could be identified but none of them exactly matched the intended application (see section \ref{sec:cs}). While "there is no one-size-fits-all approach" \autocite[2]{fraislCitizenScienceEnvironmental2022}, the existing frameworks either focussed on different thematics, different contexts, had different participation levels, different goals or a combination of the above (see sections \ref{subsubsec:cbwm}, \ref{subsubsec:cbs} and \ref{subsec:cbc}). This is consistent with \autocite{butteFrameworkWaterSecurity2022}'s and \autocite{carrionCROWDSOURCINGWATERQUALITY2020}'s findings that existing frameworks guiding the development of water security data collection projects are often very specific and limited to certain factors, in many cases also not taking socio-economic factors into account. At the same time, frameworks like the on from \autocite{butteFrameworkWaterSecurity2022,eu-citizen.scienceEUCitizenScience,citizenscience.govBasicStepsYour} and others were too broad, to be more than general guidelines. Therefore, no applicable framework existed for the implementation of a community-based participatory mapping and monitoring of water sources approach in a water-scarce and resource-limited setting. Especially not, with the focus on providing feasible information for triggering \acrshortpl{aa} in the context of an \acrshort{eap} and in collaboration with a \acrshort{rcrc} National Society.% irgendwo habe ich noch einen Absatz rumfliegen, der genau das anspricht.. dass es zwar viele frameworks gibt, aber genau deswegen, da es so komplex ist..
 Other networks like \acrlong{brcis} and the local branch of \acrshort{ocha} implemented their own early action approaches in Somaliland. However, on the one hand with different goals, and on the other hand with different methods (see sections \ref{subsec:stage1_appl} and \ref{subsec:case_eap}). While \acrshort{brcis} collects and interpolates qualitative local information, \acrshort{ocha} bases their early actions on the before mentioned large scale indicators. These approaches are either too slow or to coarse to address the aim of this research, but the concrete experiences from projects in the case study area are valuable to adapt and relate other information to the given context. The transfer of knowledge from other regions, projects and topics is necessary, as scientific literature about the case study area of Somaliland is generally scarce. In addition to these case study related domains, there are further gaps in knowledge when in comes to the application of the \acrshort{fbf} approach on the slow-onset hazard of drought. Generally, the concept of \acrshort{fbf} is now well established in regard to fast-onset disasters, but the drought use case is relatively new (2020) and not yet well researched, which severely limits the amount of guidelines and frameworks available for this particular application (see section \ref{subsec:eap}). Thus, each new project or study focussing on this hazard in the context of \acrshort{fbf} has, at least in part, an exploratory character.\newline
 As any new project or study addressing this hazard within these concepts is thus 'automatically' exploratory in nature and no other suitable framework could be identified, the literature and project review suggested the need to develop a new framework to address the specifics of the case study (see section \ref{subsec:cbm}). However, before the new conceptualisation, the general feasibility had to be assessed first, leading to the second objective of this work.
@@ -125,242 +107,54 @@ As any new project or study addressing this hazard within these concepts is thus
 2. Objective + 2. RQ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Feasibility Assessment}
+% especially the extensions with red flags was new here
 
-Since the feasibility had to be determined before this work could move on to address the other research objectives and questions, the second objective \textit{to assess the feasibility of the \acrlong{cs} approach in the given context by identifying potential challenges and opportunities for successful implementation, and to propose recommendations for addressing these challenges} was an interim result of the work. Based on the developed framework in section \ref{subsec:stage2_design} the feasibility was already assessed in sections \ref{subsec:stage1_appl} and \ref{subsec:stage2_appl}. This assessment combined and applied general, international guidance from many projects and studies with local experiences with the \acrshort{cbs} program. It is believed that, even though no dedicated pilot study could be conducted, this combination and interpolation of experiences can reasonably suggest the feasibility of the \acrshort{cs} concept for this application. However, this claim can ultimately only be verified or falsified by a pilot study on site. Furthermore, several challenges such as the embedding into local decision-making and processes, actual tailoring to local conditions and clarifying financial capacities could not further be investigated due to the limited amount of interviews with local stakeholders and ongoing developments of the superordinate project.\newline
+Since the feasibility had to be determined before this work could move on to address the other research objectives and questions, the second objective to \textit{assess the feasibility of the \acrlong{cs} approach in the given context by identifying potential challenges and opportunities for successful implementation, and to propose recommendations for addressing these challenges} was an interim result of the work. Based on the developed framework in section \ref{subsec:stage2_design} the feasibility was already assessed in sections \ref{subsec:stage1_appl} and \ref{subsec:stage2_appl}. This assessment combined and applied general, international guidance from many projects and studies with local experiences with the \acrshort{cbs} program. It is believed that, even though no dedicated pilot study could be conducted, this combination and interpolation of experiences can reasonably suggest the feasibility of the \acrshort{cs} concept for this application. However, this claim can ultimately only be verified or falsified by a pilot study on site. Furthermore, several challenges such as the embedding into local decision-making and processes, actual tailoring to local conditions and clarifying financial capacities could not further be investigated due to the limited amount of interviews with local stakeholders and ongoing developments of the superordinate project.\newline
 Due to the already conducted discussion in section \ref{subsec:stage2_appl} and challenges that cannot be investigated further in this context, the remaining part of this section focusses more on how, why and in what order this assessment was realised as it is believed that this holds more value to the reader than iterating over the discussion again.\newline
 Since, to the best of my knowledge, no work has been conducted with the combination of methods, goals and context of this work, there was no concrete existing guidance to assess the feasibility of this approach to achieve the research's aim in the first place. The lack of suitable frameworks for this project made it thus necessary to work on the development of the framework and its application step by step and not only chronologically, at least to some extent. This was facilitated by the iterative working approach, which made it possible to first sketch out possible solutions and then deepen them when the conditions were met accordingly. This was also the case in addressing the second objective and the early conduction of the feasibility assessment is also recommended by multiple other guidelines \autocite{citizenscience.govBasicStepsYour,garciaFindingWhatYou2021,ifrcCommunityBasedSurveillanceGuiding2017,ifrcFbFPractitionersManual2023b,minkmanCitizenScienceWater2015}.\newline
 The \acrlong{ssf} and \acrlong{slmc} were adopted at an early stage of the work to have a general direction for the development. To conduct the assessment, the third research objective had to be somewhat anticipated in order to provide an initial framework for the structured feasibility assessment. This framework, now conceptually integrated in the second stage of the design roadmap (see section \ref{subsec:stage2_design}) was in the beginning primarily a combination of the \acrshort{ssf}'s second stage and the feasibility assessment of the \acrshort{cbs} of the \acrshort{ifrc}. The final feasibility assessment took place on the current basis, which was further underpinned with some additional guidelines, best practices and knowledge of the interviewees over the course of multiple iterations.\newline
 When designing a framework for or directly assessing the feasibility of \acrshort{cs}, it becomes clear that \textit{feasibility} depends on a variety of factors, but also that there are no clear rules that must be followed. Each \acrshort{cs} project is somewhat special and the flexible concept also allows for several adaptations (see section \ref{sec:cs}). Therefore, the feasibility is not assessed by a specific set of rules, but rather how well it relates to general principles and factors of success. This makes sense in the way, that what specifically works in e.g. \autocite{minkmanCitizenScienceWater2015}'s approach in the Netherlands may not be feasible in Somaliland, e.g. the use of smartphone sensors as the rural population in Somaliland has few smartphones and internet coverage is poor. Assessing challenges and opportunities is thus a highly specific and local task and depends on many factors.\newline
-Nonetheless, the \acrshort{ecsa} along with many other associations and studies developed \acrshort{cs} principles and characteristics that support the successful design, implementation and operation of a \acrshort{cs} project. Furthermore, a \acrshort{cbs} project was already successfully implemented and in operation for several years within the context and the \acrshort{srcs} but focused on a different topic. This, again highlights the thorough analysis of local comparable projects, mentioned in stage 1, section \ref{subsec:stage1_design}. The actual feasibility assessment therefore focussed primarily on the differences between the \acrshort{cbs} and the potential water source mapping and monitoring project. 
-
-
-
-
-
-% --> further comparison though possibly also good in the discussion section (?)
-“When Are Mobile Phones Useful for Water Quality Data Collection? An Analysis of Data Flows and ICT Applications among Regulated Monitoring Institutions in Sub-Saharan Africa” ([Kumpel et al., 2015, p. 10846](zotero://select/groups/4773535/items/GPM4C7RJ)) ([pdf](zotero://open-pdf/groups/4773535/items/7VXVKEXK?page=1&annotation=M5J4FFSH))
-
-application design 
-“Citizen Science experiments have demonstrated that at least three issues must be addressed: commitment of people participating in data collection (were social component is key), the validation of data collected and sent by citizens and privacy concerns about the collection of personal information.” ([Alfonso and Jonoski, 2012, p. 6](zotero://select/groups/4773535/items/4W4Q8E6B)) ([pdf](zotero://open-pdf/groups/4773535/items/PU944FGI?page=6\&annotation=LZXCJDFB))
-
-
-“It is important to note that local indicators cannot be collected specifically for the FbF system by RCRC national societies.” ([RCRC, 2020, p. 30](zotero://select/groups/4773535/items/UESIQTRJ)) ([pdf](zotero://open-pdf/groups/4773535/items/P5JPVZ97?page=30&annotation=LRDPV2M7))
-
-“Indeed, collecting data on local indicators would require from the national society a team of enumerators that work continually to collect and process that information in all places where the program could possibly trigger (e.g. collect food price information for every village market). This would have extensive cost implications and likely over-burden the national society staff and volunteers.” ([RCRC, 2020, p. 30](zotero://select/groups/4773535/items/UESIQTRJ)) ([pdf](zotero://open-pdf/groups/4773535/items/P5JPVZ97?page=30&annotation=2YIIK6ZY))
-
-“As such, the inclusion of local indicators into an FbA trigger must involve assessing what indicators are relevant for the impacts the program is trying to anticipate and identify which of those indicators are already collected (e.g. the ministry of agriculture's food price bulletin) and are available at the time they would be needed to inform a possible trigger.” ([RCRC, 2020, p. 30](zotero://select/groups/4773535/items/UESIQTRJ)) ([pdf](zotero://open-pdf/groups/4773535/items/P5JPVZ97?page=30&annotation=7X3RFGVB))
-
-
-% “strengths of using mobile phone sensing: • Highly mobile and scalable; • Low-cost; • Automatic time stamp and GPS possible; • Citizens could interfere when necessary.” ([Minkman, 2015, p. 182](zotero://select/groups/4773535/items/ZKLE6CPT)) ([pdf](zotero://open-pdf/groups/4773535/items/QMAPCSZG?page=182&annotation=9GR233CN))
-
-
-“The results suggest that citizen science can be a cost-effective method to collect essential monitoring information and can also produce the high levels of citizen engagement that are vital to the adaptive management learning process.” ([Aceves-Bueno et al., 2015, p. 493](zotero://select/groups/4773535/items/YK2MKLA9)) ([pdf](zotero://open-pdf/groups/4773535/items/WGGHNGZB?page=1&annotation=ZQQBEP74))
-
-“Furthermore it is an interesting communication tool in the light of science communication. Correspondingly water managers should be interested in participatory monitoring in the light of integrated water management.” ([Minkman, 2015, p. 199](zotero://select/groups/4773535/items/ZKLE6CPT)) ([pdf](zotero://open-pdf/groups/4773535/items/QMAPCSZG?page=199&annotation=GHI9KSDA))
-
-“When Are Mobile Phones Useful for Water Quality Data Collection? An Analysis of Data Flows and ICT Applications among Regulated Monitoring Institutions in Sub-Saharan Africa” ([Kumpel et al., 2015, p. 10846](zotero://select/groups/4773535/items/GPM4C7RJ)) ([pdf](zotero://open-pdf/groups/4773535/items/7VXVKEXK?page=1&annotation=M5J4FFSH))
-
-“Remote monitoring of rural water systems: A pathway to improved performance and sustainability?” ([Thomson, 2021, p. 1](zotero://select/groups/4773535/items/UQLXVVYI)) ([pdf](zotero://open-pdf/groups/4773535/items/K9XBXPQD?page=1&annotation=B59B5U68))
-
-“The analysis also provides a set of recommendations for citizen science program design that addresses spatial and temporal scale, data quality, costs, and effective incentives to facilitate participation and integration of findings into adaptive management.” ([Aceves-Bueno et al., 2015, p. 493](zotero://select/groups/4773535/items/YK2MKLA9)) ([pdf](zotero://open-pdf/groups/4773535/items/WGGHNGZB?page=1&annotation=3NRZ7R8Y))
-
-% though only when embedded correctly
-“Even when receiving timely information on the ground, Members often had to wait for validation from national sources such as the Food Security and Nutrition Analysis Unit (FSNAU) to make decisions, and the resources for anticipatory action were very limited.” ([Gualazzini, 2021, p. 4](zotero://select/groups/4773535/items/BWDYDL8T)) ([pdf](zotero://open-pdf/groups/4773535/items/8U5XVU5K?page=4&annotation=CZST8S2L))
-
-,“Climate information presented as early warnings are only as valuable as the actions that are taken in response to the information, even if the information is a perfect warning of future events.” ([Mariani et al., 2015, p. 8](zotero://select/groups/4773535/items/8THVVJVK)) ([pdf](zotero://open-pdf/groups/4773535/items/GYUFNK32?page=8&annotation=Y9DG5FSE))
-
-“Intervening early to respond to spikes in need – i.e. before negative coping strategies are employed - can deliver significant gains and should be prioritized.” ([USAID, 2018, p. 6](zotero://select/groups/4773535/items/LGRWAU43)) ([pdf](zotero://open-pdf/groups/4773535/items/MBXSCVWR?page=6&annotation=C47BGB9V))
-
-
-
-
-
-
-
-
-
-
-%limitations: 
-“Additionally, there may be limitations related to designing and implementing citizen science projects in remote and unsafe areas, where crime levels are high and political risks exist, or where mobile network coverage is poor, access to smartphones and electricity is low and illiteracy levels among participants are high. Co-design and community-based approaches can address such challenges and ensure a high level of participant engagement20” ([Fraisl et al., 2022, p. 14](zotero://select/groups/4773535/items/FBJD7SWS)) ([pdf](zotero://open-pdf/groups/4773535/items/7WBDKYDY?page=14&annotation=MZ95QT2P))
-
-
-
+Nonetheless, the \acrshort{ecsa} along with many other associations and studies developed \acrshort{cs} principles and characteristics that support the successful design, implementation and operation of a \acrshort{cs} project. Furthermore, a \acrshort{cbs} project was already successfully implemented and in operation for several years within the context and the \acrshort{srcs} but focused on a different topic. This, again highlights the thorough analysis of local comparable projects, mentioned in stage 1, section \ref{subsec:stage1_design}. The actual feasibility assessment therefore focussed primarily on the differences between the \acrshort{cbs} and the potential water source mapping and monitoring project.\newline
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % framework development based on the identified principles
 3. Objective + 3. RQ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{A Replicable and Adaptable Framework}
+% --> why only participatory levels (1) and (2) (ssf)
 
+Having established the feasibility of the \acrshort{cs} approach, the third objective to \textit{develop a replicable and adaptable framework for community-based participatory water source mapping and monitoring in the context of \acrlong{fbf}, based on the principles and recommendations identified in objectives 1 and 2} could be pursued. There are now a high number and wide variety of guidelines, \acrshort{cs} associations, initiatives and projects to choose from, that the question of the necessity to add just another one to the list suggests itself. The literature analysis suggested that, above all, the high variety is explained and reflected in the high diversity of the \acrshort{cs} approach of e.g. methodology, temporal and spatial scale, goals, context, level of participation and overall goal (see section \ref{sec:cs}). \autocite{fraislCitizenScienceEnvironmental2022, westonCommunityBasedWaterMonitoring2015} and \autocite{zhengCrowdsourcingMethodsData2018} all summarise a wide variety of these guidelines and \autocite{garciaFindingWhatYou2021} even created a \textit{Guide to Citizen Science Guidelines}. Nonetheless, none of these met the needs of this work, which prompted the development of a new framework. That goes along with the recommendations, of \autocite{garciaFindingWhatYou2021}, that the development and thus transfer of experience in guidelines is the currently the best practice in the field when new, previously unrealised combinations of the thematic diversity listed above are approached and realised \autocite{garciaFindingWhatYou2021}. This highlights the need, that frameworks need to be focussed on a specific topic, region and environment in order to give meaningful advice and not only generic information that is too coarse to be of great use.\newline
+The decision to build on \autocite{fraislCitizenScienceEnvironmental2022}'s \acrlong{ssf} was primarily driven by its timeliness, comprehensiveness and focus on environmental issues as it was clear, that a more social and local component can be integrated from the \acrshort{srcs}'s experiences with \acrshort{cbs}. The usefulness of the interpolation of these two approaches was particularly evident in the consideration of personal data. While observing natural phenomena at the level of data collection did not raise too many privacy concerns for \autocite{fraislCitizenScienceEnvironmental2022}, this was almost the opposite for CBS \autocite{ifrcCommunityBasedSurveillanceGuiding2017}. Applying these contrasting perspectives to the issue of water sources was thus able to address both the physical and social components well by considering trade-offs between the two 'extremes'. This claim was further supported over the course of this work, when the iterative integration of other guidelines from several divergent foci into the existing framework could be implemented smoothly and only minor revisions had to be made. \autocite{mcgowanCommunitybasedSurveillanceInfectious2022} also found that the success factors of \acrshort{cbs} are closely linked to the general principles of participatory community engagement and could therefore be transferred to other participatory surveillance preparedness activities. As the individual stages are outlined and described in detail in section \ref{sec:design_roadmap} and all identified relatable guidance is included into the design roadmap, no further discussion of the individual stages will be undertaken. % geht das so durch (?)
+Nonetheless, this processual \acrshort{ssf} has some short-comings which will mostly be addressed in the discussion of its actual application (section \ref{TODO:}) and following limitation section \ref{TODO:} of this entire work.\newline
+However, a couple of shortcomings became apparent right at the beginning of the application in the third phase. It was increasingly difficult to keep an overview of the actual project requirements and their interdependencies in terms of subject matter and temporal constraints (see section \ref{subsec:project_requirements} and \ref{subsubsec:knowledge}). Furthermore, \acrshort{cbs}, \acrshort{cbwm} and other approaches have strongly emphasised the importance of embedding the project into prevailing social and decision-making conditions and procedures, which was under-represented in the \acrshort{ssf} (see section \ref{subsubsec:groundwork}). The Interviewees also highlighted, the time (over a year) and resource requirements, which they needed for the development and adaptation of methods and techniques to start with the \acrshort{cbs} project in Somaliland (I2, I3). This goes along with \autocite{garciaFindingWhatYou2021}'s findings, that some adjustments and tailoring always need to be done when implementing a new project (see section \ref{subsubsec:innovations}). Together with the emerging need to structure smaller developments and create an overview of decision dependencies, a fourth area of management became apparent that needed to be addressed >(see section \ref{subsubsec:management}). These reasons provided the ground for the new development of the \acrlong{pcr} to expand the \acrshort{ssf} from the third phase onwards. Since the first and second stages are primarily exploratory in nature, it is believed that the \acrshort{prc} should not be integrated in these stages, as it could limit the exploration to the given categories. Should something be overlooked, completions are still possible at the beginning of the third phase.\newline
+The conceptualisation and structure of the \acrshort{prc} with the \acrlong{slmc}, guided by the derived goals by \autocite{minkmanCitizenScienceWater2015} further supports the structuring and elaboration of the dependency. Emphasis is given to the top three layers, the \textit{Goal-, Products-, and Activities-Layer}., firstly due to time and information constraints and secondly as practical applicable\textit{ methods, techniques, tools and scripts} need to be highly adjusted to the local context (see section \ref{subsec:slmc}). Both are main limitations of this work and will further be discussed in the last section of this chapter. Nonetheless, the limitation of this work may not be true for subsequent work, which can then benefit from the deeper and more detailed structural possibilities of the \acrshort{slmc}. Despite the fact that the thematic focus of the \acrshort{slmc} is not on \acrshort{cs}, the overall design pattern could be adopted well. The successful preservation of design patterns to other fields is also supported by \autocite{diggelenGroundedDesignDesign2009}'s findings. Thus, although the work has a sound methodological basis, it is primarily based on the perspective of a process- and requirements-oriented understanding and reasoning of the design phase. Other perspectives such as resource, behavioural network or stakeholder networks, cultural norms and values, as well as the communication network perspective may play a role in certain aspects, but are of secondary importance in this work. Engaging these other perspectives more in depth could yield further important insights by encouraging a more holistic view of the design.
 
-
-“The Value and Diversity of Guidelines in Citizen Science” ([García et al., 2021, p. 411](zotero://select/groups/4773535/items/54UWYNL4)) ([pdf](zotero://open-pdf/groups/4773535/items/MUB2MMUY?page=414&annotation=LFSGF6A2))
-
-“The findings confirm other studies on technology acceptance, as the mobile crowd sensing technology should be useful rather than free of effort.” ([Minkman, 2015, p. 12](zotero://select/groups/4773535/items/ZKLE6CPT)) ([pdf](zotero://open-pdf/groups/4773535/items/QMAPCSZG?page=12&annotation=IQEBUPYG))
-
-% about the slmc
-In this work, emphasis is given to the top three layers, the \textit{Goal-, Products-, and Activities-Layer}., firstly due to time and information constraints and secondly as practical applicable methods need to be highly adjusted to the local context. This will further be discussed and outlined in subsequent chapters.
-
-discussion: the SLMC was good until general activities - then: it has to become quite detailed --> not feasible in the scope of this work. but a good framework to continue the work with.
-
--> sub-sub-activities or products could also be labelled differently.. not all levels were clear and distinct
-
---> Methods, techniques, tools and scripts need to be created/developed -> therefore sub-goal instead of following the SLMC --> believed to: better overview, prerequisites -> important
-
-%%%%% 7 Layer model
-The \acrfull{slmc} was created primarily with group collaboration in mind and is not geared towards \acrshort*{cs} projects. The specific methods and techniques of the model are aimed at the collaboration of groups, but the overall pattern can be applied to designs in other contexts as well. 
-
-"Van Diggelen & Overdijk (2009) noted that although the use of a design pattern may change when it is applied in other domains, the basic concept of the design process will be preserved when applied to other fields." Minkman 2015
-
-% starting point
-The 7-layer-model provides a detailed roadmap for the design of collaboration systems that allows for the separation of concerns and thus minimizes cognitive overload. While it is focused on the design phase, it is not conclusive nor specifically designed for the development of a citizen science project. Therefore, it is combined with the design and implementation 6-stage-cycle specifically addressing Crowdsourcing projects. Furthermore, practical guidelines from other projects and a literature review are also considered.
-
-The design and implementation cycle was specifically developed as a toolkit that "provides five basic process steps for planning, designing and carrying out a crowdsourcing or citizen science project" (https://www.citizenscience.gov/toolkit/#). This toolkit gives a great overall framework for the development of a citizen science project, but lacks specifications in the design stage. In this work is applied twofold. First, it embeds the seven-layer model in a crowdsensing project development framework precisely designed for this purpose and secondly it provides a good overview about all stages, facilitating a comprehensive analysis of other citizen science projects. 
-
-The 7-Layer Model of Collaboration can add additional (more detailed) guidance specifically in the design phase. Thus, the 7-Layer Model is the primary, in detail guide, while the 5-stages-cycle embeds this into the larger context of the full life cycle of such a development.
-Besides these methodological frameworks, tangible guidelines based on other projects experiences are also integrated into the design phase as focal points to which additional attention is paid in the process.
-
-Nonetheless there are areas were both systems overlap. The first stage of the 5-stage-cycle e.g. overlaps with the first 'goal' layer of the 7-layer-model and the fifth stage aligns with the 5th,6th, and 7th layer. While these overlaps may exist, they do not contradict each other but just highlight the importance of those aspects also in later stages of the citizen science project.
-
-what about dimensions: economic, political, social, cognitive, physical, and technical dimensions
---> all play into this project but to different degrees. Focus here is on the network, process and technical dimension on how to implement such a citizen science project in a resource scarce environment
-%% not sure.. needs some more thinking.. fliegt raus. Ist zu viel und nicht nötig.
-While this gives the work a well founded methodological base, it is primarily based on the perspective of a process focussed understanding/thinking of the design phase. Other perspectives like the ones of resource, behavioral network / stakeholder, value network and culture, as well as the communication network perspective may come into play in certain aspects but are of secondary nature in this work.
-
---> these perspectives accompany specifically the design process in the 7-layer-model - encouraging a more holistic view of the design.
-
--> same procedure by.. 
-More examples of \acrshort*{mcs} were compiled and analysed by fraisl and xy
-% environmental monitoring --> Zheng 2018 figure 10 and chapter 4 -> quite extensive (weather, air quality, precipitation, geography (VGI), ecology, surface water,) + table 2 overview literature for these
-% further tools and platforms: “Table 2 | Examples of existing citizen science data collection platform” ([Fraisl et al., 2022, p. 5](zotero://select/groups/4773535/items/FBJD7SWS)) ([pdf](zotero://open-pdf/groups/4773535/items/7WBDKYDY?page=5&annotation=UHP9I7LS))
-
-
-other perspectives than process oriented -> 7-layer model self-critisism (resource, behavioral perspectives, + value and communication network design approaches)
-
-% in regard to prc
-Don't integrate in stage 1 \& 2 --> no bias/not limit into the exploration phase and feasibility phase --> project requirements are for the design, and not for the exploration stage or feasibility assessment in stage 2.
-
-% -> Innovation -> it is believed, that every context is special and that some sort of adjustments and innovations must be made every time - varying extend but nonetheless (not many papers talked about this though)
-% foundation: transition of CBS --> no CBS without thorough embeddedness into the context with a good and well laid out basis - policy development is somewhat in between innovation and foundation. but e.g. the framework of Day 2009 lies a good foundation for this -> though, not that new and many IWRM concepts exist as well. Though, as already discussed, often way too complicated to be applicable in practice --> Day found to be extensive but also limited enough to be realisable.
-% knowledge, gathers everything that needs to be known for the entire project. Is answered across all stages 
-% management -> what the goal is: initial and regular information gathering --> good to know what the knowledge is needed for
-
-% while multiple other frameworks and guidelines already exist, their numrous number is also explained/reflected by the need, that the frameworks need to be focussed on a specific topic, region and environment in order to give meaningful advice and not only generic information that is too coarse to be of great use. Therefore, -> new development and adjustments --> fraisl was e.g. focused on environmental and ecological stuff, CBS was too heavy on the social side e.g. patient privacy and case handling is way less important in this case
-
-% Groundwork ist dürftig.. wegen:
-Practical pilot test runs of any of the activities summarized under this goal were out of scope of this project and were thus postponed to a later phase. 
-
-% in regard to decision-making in The Management: Mapping \& Monitoring section (stage 3, group 4)
-and could not made in the context of this work. Nonetheless, many \acrshortpl{aa}, thresholds and triggers could be identified and connected, giving a good foundation for subsequent decision-making. 
-
-
-% possibly give recommendations here (?)
-Recommendations in terms of... data management and community stuff (?)
-
-(A1) evaluation practices have been thought of in every stage and the integration of feedback loops has been mentioned in every phase. (A2) \acrshortpl{aa} were presented in section \ref*{subsubsec:assemblage} together with respective thresholds and triggers. As with the data for triangulation purposes and data management procedures, the final decision will be made by to the overall \acrshort{eap} development team. (A3)
-
-(A) specification and implementation of processes and activities
-(B) Specification of processes of regular activities
-(C) Specification of the embedding process
-
-%%%%%%%%%%%%%%% CBS important papers: 2 systematic reviews
-“Community-based surveillance of infectious diseases: a systematic review of drivers of success” ([McGowan et al., 2022, p. 1](zotero://select/groups/4773535/items/P74WDM6C)) ([pdf](zotero://open-pdf/groups/4773535/items/NP79EIIE?page=1&annotation=XJRZ7YIR))
-“The Landscape of Participatory Surveillance Systems Across the One Health Spectrum: Systematic Review” ([McNeil et al., 2022, p. 1](zotero://select/groups/4773535/items/LVLYX8N5)) ([pdf](zotero://open-pdf/groups/4773535/items/4YG35TC6?page=1&annotation=IMCGBJLB))
-
--> "map closely to principles of participatory community engagement" (McGowan 2022 p.1)
-+ “Other factors included: strong supervision and training, a strong sense of responsibility for community health, effective engagement of community informants, close proximity of surveillance workers to communities, the use of simple and adaptable case definitions, quality assurance, effective use of technology, and the use of data for real-time decision-making.” ([McGowan et al., 2022, p. 1](zotero://select/groups/4773535/items/P74WDM6C)) ([pdf](zotero://open-pdf/groups/4773535/items/NP79EIIE?page=1&annotation=FLMKXLLM))
--> tech
-
+% The division into several stages was also adopted by \autocite{citizenscience.govBasicStepsYour}, for example, and could represent procedural developments well. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % specific application of the framework to the context
 4. Objective + 4. RQ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Application}
 
-% DESIGN FRAMEWORKS
-SSF worked really well - good framework
-but: requirements were missing -> complicated to think about everything --> during the course of the work -> too far spread --> development of PRC helped tremendously
+The fourth research objective to \textit{apply the adapted and developed framework to establish a roadmap for the implementation of a water source mapping and monitoring approach to trigger appropriate anticipatory actions to address water shortages} has already been partially addressed under the first two objectives. Stage 1 was primarily addressed by the first research objective which explored much of the underlying concepts, context, prevailing problems and also carved out potential solutions. Stage 2, the feasibility assessment, was addressed with the second research objective. Therefore, this section concentrates on the stages three to six.\newline
+In stage 3, the subdivision into the \acrshort{prc} was helpful to reduce cognitive overload and highlight chronological and thematic (inter-) dependencies. In terms of knowledge, the \acrshort{prc} helped to structure the identified information from stages 1 and 2, which additionally helped to make knowledge gaps, such as e.g. missing detailed knowledge about local decision-making procedures, obvious. As it is was not feasible to gather these information in the scope of this work, it was therefore simplified to concentrate on those areas, that could be tackled. For example, it became clear that the initial mapping, which includes gathering other key information about the berkad, cannot be done by local volunteers as the knowledge and technical equipment requirements are too high for most. Thus the initial mapping needs to be conducted by the \acrshort{srcs} professionals who are already experienced and don't need further guidance for the process. Nonetheless, gathering the information that is initially required was feasible in the context of the work and thus focussed on. The knowledge gathered was thus more broad than deep and in most cases requires further investigation, especially in relation to local conditions. For example, in the case of the \acrshort{aa} of water trucking, see figure \ref{TODO:} in section \ref{subsubsec:assemblage}, requirements could be listed, but their actual specification is only possible on the ground with local stakeholders.\newline
+Close and early cooperation with other local actors in the area of embedding the project in conceptual water management practice was also suggested as important by the interviewees (see section \ref{subsubsec:groundwork_appl}). This compares well with common recommendations for \acrshort{cs} projects (see section \ref{sec:cs}). To facilitate this, a light \acrshort{iwrm} framework which was also already tested in other local circumstances could be identified in \autocite{dayCommunitybasedWaterResources2009}'s adaptation. Yet, the same limitations apply here, as the actual feasibility can only assessed on the ground. Nonetheless, the willingness and experience of local managers to implement those concepts could be identified, which suggests at least a good initial situation for the successful embedding of the project into local management practices. The great importance of deep local embedding is also highlighted by \autocite{gualazziniEWEAEarlyWarning2021} because even if the information gathered is good and timely, it still needs to be incorporated in decision-making and acted upon.\newline
+Besides the conceptual groundwork directly on site, innovations for the determination and collection of water level thresholds are required. The gathered information suggest, that there are two potential ways to assess the water level (see section \ref{subsubsec:innovations_appl}). The technical measuring and transmission of the actual water height would require the knowledge about the exact capacity and size of the berkad to assess the water level. Although this method would provide a more objective measurement, local knowledge of the potential duration of water supply was also found to be good with a Berkad (see section \ref{subsubsec:assemblage}). Both approaches do not contradict each other and could also be used together. This would also allow a good basis over time for evaluating the quality of the assessment of local which could what could then improve local water management. In addition to the quantity of water, its quality was also considered very important, but no locally feasible approach to assessing quality could be identified. This supports the importance of providing a sound knowledge foundation about contamination prevention and water management practices to the community. This is also supported by several other studies \autocite{danielAssessingDrinkingWater2020,huangManagementDrinkingWater2020,tariqOpenSourceWater2021,wmoPlanningWaterqualityMonitoring2013}. Research in this field is still ongoing \autocite{tariqOpenSourceWater2021} and \autocite{delaireHowMuchWill2017} cost estimations suggest, that even with current equipment, costs are minimal in relation to achieving the SDG 6.1 of safe water for all.\newline
+While no management decision or concrete developments could be made in the scope of this work, the results suggest some additional considerations. In the case of deciding for a specific water source monitoring strategy, all accessible water sources in a community should be monitored, as the largest, e.g. a ballay, is not necessarily the one that can withstand a period of drought the longest. Physical as well as social access factors need to be considered in terms of actual water withdrawal and monitoring when deciding on the actual monitoring routine see section \ref{subsubsec:assemblage}. Furthermore, the results support the feasibility and usefulness of a staggered trigger as proposed by \autocite{rcrcFORECASTBASEDFINANCINGEARLY2020} for triggering on water level thresholds as both, a seasonal and a short-term assessment are possible. In terms of \acrshortpl{aa}, the results mostly supported the feasibility of water trucking and cash transfer \acrshortpl{aa} (see section \ref{subsec:case_eap} and \ref{subsubsec:assemblage}), which compares well with \autocite{gettliffeOCHAAnticipatoryAction2021} findings. Yet, when comparing this finding with the statements of the interviewees from section \ref{subsec:stage1_appl} that water is often over prized in times of scarcity and with the statement of \autocite{ochaANTICIPATORYACTIONPLAN2020} that markets need to be operational to permit this handling of the demand, distributions of cash or water vouchers may not always be feasible as \acrshort{aa}. Besides the social factors \autocite{birchSomalilandSomaliRegion2008} further highlights that impact on natural ecosystems through water availability for animals need to be considered when addressing water shortages. 
+% “Additionally, there may be limitations related to designing and implementing citizen science projects in remote and unsafe areas, where crime levels are high and political risks exist, or where mobile network coverage is poor, access to smartphones and electricity is low and illiteracy levels among participants are high. Co-design and community-based approaches can address such challenges and ensure a high level of participant engagement20” ([Fraisl et al., 2022, p. 14](zotero://select/groups/4773535/items/FBJD7SWS)) ([pdf](zotero://open-pdf/groups/4773535/items/7WBDKYDY?page=14&annotation=MZ95QT2P))
+The community building aspect in stage 4 was mainly focussed on assessing the capacities of the \acrshort{srcs}. The findings suggested good capacities and high experiences in the area of community engagement as well as volunteer training and supervision (see section \ref{subsec:stage4_appl} and \ref{subsec:stage2_appl}). This was to be expected, as the \acrshort{srcs} already implemented a comparable project and was also found to be performing well within the framework of the overarching \acrshort{fbf} project. Findings of Stage 5 \textit{Data management} support the technical practicability of the project. The solution of the implemented \acrshort{cbs} project with the NYSS platform was found to be very dedicated and technically adaptable to the new requirements. Currently, discussions about the adaptation are ongoing on management level. In addition to this very automated and already well-rehearsed system, however, several other potential systems could be identified which, although not quite as advanced or tailored, would also suffice for the application for the time being (see section \ref{subsec:stage5_appl}and \ref{subsec:mcs}).\newline
+A major concern of data collected by \acrshort{cs} is their quality and accuracy. This is well addressed in the current \acrshort{cbs} program with initial and refresher trainings, close supervision and further verifications when necessary. Together with the built-in automatic checks in NYSS, measures of \acrshort{qc} and \acrshort{qa} are well considered. It is expected that these mechanisms can be translated to the new project largely addressing quality concerns right from the start. Constructed validity needs to be addressed by further data triangulation, as the simple measurement of the water level itself does not proof, that the underlying reason for low water levels is indeed a drought but could also be reasoned by social factors (see section \ref{subsec:water_scarcity}). Evaluation practices are integrated in every stage but due to no actual implementation and operation, evaluation could not be conducted. Nonetheless, the design process, due to its iterative processes underwent several evaluations and piecemeal improvements itself suggesting good adaptability and upgradeability.\newline
+The overall application of the developed framework worked well and the combination of the \acrshort{ssf} together with the \acrshort{prc} based on the \acrshort{slmc} could provide good guidance while also remaining flexible to incorporate new, unexpected findings. Yet, the entire power of the \acrshort{slmc} could not be exploited as the coming layers were too detailed and most of those need to be determined in closer collaboration with the team and the local stakeholders. Nonetheless, based on the positive experiences with the first three stages, it is believed that the following layers will also prove fruitful to potential future developments.\newline
+The application also supports the findings of \autocite{garciaFindingWhatYou2021} and \autocite{conradCommunityBasedMonitoringFrameworks2008} that a framework should be used but also highlights the need to adapt this framework the actual projects conditions and goal. Furthermore, the work suggests that a respective implementation of a \acrlong{cs} project is not only theoretically feasible but practically implementable. While an end to end establishment of an implementation roadmap was not feasible in the context of this work due to several information, resource and time constraints, a sound foundation could be laid for further practical implementation in the scope of a pilot study. Yet, important questions need to be answered on management level and not all indicators are in favour of a practical application. For example, the \acrshort{rcrc} is generally not recommending its National Societies to implement their own data gathering strategies as this would, under normal circumstances over-burden and exceed costs \autocite{rcrcFORECASTBASEDFINANCINGEARLY2020}. Therefore, \autocite{rcrcFORECASTBASEDFINANCINGEARLY2020} generally recommends to found the triggers and information on already gathered information by other stakeholders or international organisations. As suggested by the results, this is not feasible in this context. Furthermore, the analysis of the \acrshort{cbs} approach and other projects together with the feasibility assessment and conducted application of this work suggest that \acrshort{cs} can be reasonable and cost-effective approach to gather relevant information. This is also supported by \autocite{aceves-buenoCitizenScienceApproach2015} and \autocite{minkmanCitizenScienceWater2015} findings. Timely and accurate data can support the appropriate \acrlongpl{aa} to be tailored, making mitigation and response potentially more streamlined, efficient and effective.\newline
 
-stage 1 once a bit redundant to the overall research design, as the problem definition was the reason for this work
-
-
-SLMC -> only the first three stages. The rest was too detailed and most of those need to be determined in closer collaboration with the team and the local stakeholders. Nonetheless, based on the positive experiences with the first three stages, it is believed that the following layers will also prove fruitful to potential future developments.
-
-PRC
-worked well in this context but it also came out of this context so what would one expect..
-% reasoning why pcr
-as the guidance for requirements of the is relatively scarce for practical application at this stage. 
-
-
-
-other guidelines:
-hard to keep an overview about everything
-
-
-“Given the different layers of complexity with drought, different types of triggers may be required beyond what is often used in EAP development. For instance, unconventional triggers for FbA for drought could include metrics such as staple food prices, percentages of crop failure, and other elements of food security early warning systems.” ([RCRC, 2020, p. 30](zotero://select/groups/4773535/items/UESIQTRJ)) ([pdf](zotero://open-pdf/groups/4773535/items/P5JPVZ97?page=30&annotation=JZV26DPP))
-% --> even the RCRC is still looking for good triggers -> maybe water levels are a good way -> reasoning for this study
-
-
-
-% Challenges:
-“Challenges and risks have related to: securing free SMS channels for alerts, time required for contextualised design, ensuring response action, and managing expectations of the scope of CBS.” ([Byrne and Nichol, 2020, p. 71](zotero://select/groups/4773535/items/R9QNVPU8)) ([pdf](zotero://open-pdf/groups/4773535/items/VFH6JVJS?page=2&annotation=KKVDV6DE))
-
-% war ja so auch nicht ganz richtig.. 
-This work has focussed primarily on the stages one to three. as stage 4, community building is not necessary to that extent since the \acrshort*{srcs} already has a vivid network of active and motivated volunteers. The fifth stage, was partly considered, but could not be mainly worked on due to time constraints and unresolved issues in the design phase and as this project did not leave the design phase, a major evaluation in phase 6 was obsolete. % though I did consider those.. see results --> rewrite this section to account for the changes
-
-- BRCiS: "Cash transfers were "identified across several clusters as the preferred action" where local markets and the operational context allow" (TB) --> but only there and market prices are very high when drought sets in
---> Beledi highlights help throughout the society -> but water prices rise very high.. 
-
--> size of Berkad is detrimental! --> Richard water levels are for a week. Improved ones are for a couple of months --> water level is only one variable! needs to be correlated with the extraction and storage size
-
-% size is important, but quality as well
-% from case study EAP stuff --> here is interesting, that the largest aka the ballay (open reservoir) may be the largest, though definitely not the one which holds water for the longest time.. so not a very good trigger + berkads are often build in clusters, making an average of these more important + no ownership -> access is not observed.. shitty shit shit.
-For example, the condition of the primary water source is assessed at the end of rainy season and based on its water level categorized into normal (more than half-full [75\%] or full), alert (half-full [50\%]) or alert (less than half-full [25\%] or empty).
-
-%core paper:
-“Community-based water resources management” ([Day, 2009, p. 47](zotero://select/groups/4773535/items/YWSNQ8A2)) ([pdf](zotero://open-pdf/groups/4773535/items/ETPCI5RI?page=2&annotation=RQLJMKL7))
-
-“Households’ perceptions of their drinking water quality were mostly influenced by the water’s visual appearance, and these perceptions in general motivated their use of HWT.” ([Daniel et al., 2020, p. 1](zotero://select/groups/4773535/items/ZA5MKHPC)) ([pdf](zotero://open-pdf/groups/4773535/items/CS4A7XIN?page=1&annotation=KHJHJFPM))
-“Improving water quality within the distribution network and promoting safer water handling practices are proposed to reduce the health risk due to consumption of contaminated water in this setting.” ([Daniel et al., 2020, p. 1](zotero://select/groups/4773535/items/ZA5MKHPC)) ([pdf](zotero://open-pdf/groups/4773535/items/CS4A7XIN?page=1&annotation=3WKEQLY4))
-
-I1.2
-- WATER QUALITY
-Water quality is difficult to monitor at community level as it is a technical activity. Unless if the SRCS through the branch staff are equipped with water testing equipment as well as training them on the water parameters to be tested.
-+ not aware of any feasible water quality tests on the ground.. (should be further investigated though..)
-
-"I'm not aware of any" I1.2 in regard to water quality testing
-
-
-"As a rule, the following parameters are always monitored:
-
-Water Temperature.
-Transparency or Turbidity.
-pH.
-Conductivity.
-Dissolved oxygen (DO).
-Total phosphorus.
-Total nitrogen.
-Nitrogen, Ammonia.
-Nitrogen, Nitrate.
-Soluble Reactive Phosphorus.
-Faecal coliform bacteria." https://echo2.epfl.ch/VICAIRE/mod_4/chapt_5/main.htm
-
-%Berkad construction not only helpful --> also lead to overgrazing “The explosion of permanent water points means that the Haud is now grazed all year round, leaving no space for regeneration” ([Birch, 2008, p. 4](zotero://select/groups/4773535/items/X92LGIEA)) ([pdf](zotero://open-pdf/groups/4773535/items/ZWD3FAK4?page=6&annotation=FYWWUNR9))
-
-% I guess better leave this out and put it in the discussion section (?) 
-“Using Remote Sensing to Map and Monitor Water Resources in Arid and Semiarid Regions” ([Klemas and Pieterse, 2015, p. 33](zotero://select/groups/4773535/items/BVN6IXG5)) ([pdf](zotero://open-pdf/groups/4773535/items/UPSYZXDK?page=1&annotation=4DPZD4BZ))
-
-% Establishing an operational waterhole monitoring system using satellite data and hydrologic modelling: Application in the pastoral regions of East Africa
-https://earlywarning.usgs.gov/docs/Senay-et-al-Pastoralism-Research-Policy-and-Practice-2013.pdf
-
-
-“Global Monitoring of Water Supply and Sanitation: History, Methods and Future Challenges” ([Bartram et al., 2014, p. 8137](zotero://select/groups/4773535/items/6AWUJTW5)) ([pdf](zotero://open-pdf/groups/4773535/items/BFNSQGWS?page=1&annotation=ZWSBJVDM))
-
-% --> thus - monthly review of users is necessary
-“In a region where migration is one of the main coping mechanisms for drought, a targeted survey focusing on the early detection of migration movements would help mobilize the timely allocation of resources by humanitarian decision-makers or even the mitigation of drought impacts.” ([Enenkel et al., 2020, p. 1167](zotero://select/groups/4773535/items/RX575C79)) ([pdf](zotero://open-pdf/groups/4773535/items/XD499UNK?page=7&annotation=N9FRDA9C))
-
-% keeping data up to date is crucial in ensuring correct vulnerability and exposure data 
-“Vulnerability and exposure changes over time, particularly after an extreme weather or climate event. Datasets must be kept up to date to ensure the impact-based forecast or warning using this data is reliable. Recognise that many official governmental data sources, such as a national census or demographic and health surveys, are updated infrequently – every five or ten years.” ([Harrowsmith et al., 2020, p. 28](zotero://select/groups/4773535/items/QJ397Y54)) ([pdf](zotero://open-pdf/groups/4773535/items/2GS362N5?page=28&annotation=5XVAQCTY))
-
+% % alternative designs
+% % I guess better leave this out and put it in the discussion section (?) 
+% “Using Remote Sensing to Map and Monitor Water Resources in Arid and Semiarid Regions” ([Klemas and Pieterse, 2015, p. 33](zotero://select/groups/4773535/items/BVN6IXG5)) ([pdf](zotero://open-pdf/groups/4773535/items/UPSYZXDK?page=1&annotation=4DPZD4BZ))
+% % Establishing an operational waterhole monitoring system using satellite data and hydrologic modelling: Application in the pastoral regions of East Africa
+% https://earlywarning.usgs.gov/docs/Senay-et-al-Pastoralism-Research-Policy-and-Practice-2013.pdf
+% “Global Monitoring of Water Supply and Sanitation: History, Methods and Future Challenges” ([Bartram et al., 2014, p. 8137](zotero://select/groups/4773535/items/6AWUJTW5)) ([pdf](zotero://open-pdf/groups/4773535/items/BFNSQGWS?page=1&annotation=ZWSBJVDM))
+% “Remote monitoring of rural water systems: A pathway to improved performance and sustainability?” ([Thomson, 2021, p. 1](zotero://select/groups/4773535/items/UQLXVVYI)) ([pdf](zotero://open-pdf/groups/4773535/items/K9XBXPQD?page=1&annotation=B59B5U68))
 
 %% --> not gonna happen but still interesting
 
@@ -370,250 +164,15 @@ https://earlywarning.usgs.gov/docs/Senay-et-al-Pastoralism-Research-Policy-and-P
 % - can cover any part of the study (theory up to methods or sample)
 % e.g. small sample -> no generalisation possible nono
 % + possible improvements, but don't undermine the research
-However, this work has not addressed the integration or applications of local and/or indigenous knowledge or the implications of \acrfull*{vgi}, although very interesting as neither is the primary focus of this work. Furthermore, the concepts mentioned, such as water security, drought or Citizen Science, are extremely complex and highly debated topics. Discussing them in detail would have exceeded the scope of this thesis, which is why focal points were set according to the priority of this work.
 
-"in your discussion, include a paragraph on strengths and weaknesses that you have discovered as a result of carrying out the research, say what you would do differently, and what would lend itself to further research."
-
-- better comparison between the comparable projects of NADFOR, MoWR and OCHA was not possible due to lack of raw data --> no interviews
-
-generally: one should look out for eurocentric views and perceptions / attitudes
-Afrotopia
-
-% methods:
-deductive and inductive
-
-
-"Advantages of Exploratory Research
-
-    Lower costs of conducting the study
-    Flexibility and adaptability to change
-    Exploratory research is effective in laying the groundwork that will lead to future studies.
-    Exploratory studies can potentially save time by determining at the earlier stages the types of research that are worth pursuing
-
-Disadvantages of Exploratory Research
-
-    Inclusive nature of research findings
-    Exploratory studies generate qualitative information and interpretation of such type of information is subject to bias
-    These types of studies usually make use of a modest number of samples that may not adequately represent the target population. Accordingly, findings of exploratory research cannot be generalized to a wider population.
-    Findings of such type of studies are not usually useful in decision making in a practical level."
-    https://research-methodology.net/research-methodology/research-design/exploratory-research/
-
-    
-% pros and cons
-intense studying of a phenomenon within its natural setting in one or few sites. data collection --> interviews, observations, prerecorded documents and secondary data. (trochim)+
--> rich, detailed, contextualized
-strength: 
-- either theory testing or theory building
-- research question can be adjusted on the go
-- richer, more contextualized and more authentic interpretation o the phenomenon of interest -> capture rich information specific for that site/context
-- multiple perspectives as multiple participants can be interviewed to the same topics
-
-“the detailed qualitative accounts often produced in case studies not only help to explore or describe the data in real-life environment, but also help to explain the complexities of reallife situations which may not be captured through experimental or survey research.” ([Zainal, 2007, p. 4](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=4&annotation=TYRDUNIQ))
-
-% weaknesses see Joplin
-“lack of rigour.” ([Zainal, 2007, p. 5](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=5&annotation=CI6GH9S8))
-“very little basis for scientific generalisation” ([Zainal, 2007, p. 5](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=5&annotation=8KZYICFK))
-“case studies are often labelled as being too long, difficult to conduct and producing a massive amount of documentation” ([Zainal, 2007, p. 5](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=5&annotation=XBHGF788))
-
-“single case exploration making it difficult to reach a generalising conclusion” ([Zainal, 2007, p. 5](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=5&annotation=UCKNUPGP))
-
-
-% justification..
-% correct method when: 
-“Often time, case study research is dismissed as useful only as an exploratory tool.” ([Zainal, 2007, p. 5](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=5&annotation=R3WVKIIC)) %this is explanatory yooo
-“. Despite these criticisms, researchers continue to deploy the case study method particularly in studies of real-life situations governing social issues and problems.” ([Zainal, 2007, p. 5](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=5&annotation=T3DHFPRT))
-
-
-“address issues of awareness, the acceptability of citizen science data and the long-term sustainability of citizen science initiatives can be summarized in” ([Fraisl et al., 2022, p. 16](zotero://select/groups/4773535/items/FBJD7SWS)) ([pdf](zotero://open-pdf/groups/4773535/items/7WBDKYDY?page=16&annotation=HPNZ53NF))
-
-
-% other topics
-- biases
-- internal, external, constructed validity 
-
-(external -> not really interesting as this is so novel, generalisable results were not even a goal to start with yo)
-
-
-“. However, the drawback of a single-case design is its inability to provide a generalising conclusion, in particular when the events are rare.” ([Zainal, 2007, p. 2](zotero://select/groups/4773535/items/E7AYTQ3N)) ([pdf](zotero://open-pdf/groups/4773535/items/XVAZ2W6C?page=2&annotation=L3Z4EIY8))
-
-"Other research types such as experimental research, desk or field surveys and survey research all have their inherent strengths and weaknesses, but none lends itself as well to exploratory, in-depth and contextual analysis to create a roadmap as case study research does \autocite{pelzResearchMethodsSocial}." (woher?)
-
-% and how I could address those
-5 typical errors (Benbasat et al. (1987)) Benbasat, I., Goldstein, D. K., and Mead, M. (1987). “The Case Research Strategy in Studies of Information Systems,” MIS Quarterly (11:3), 369-386.
-research studies start without specific research questions --> end up without any specific answers or insightful inferences
-case sites aree often chosen based on access and convenience, rather than based on the fit with the research question --> no adequate address of the RQ
-often no validation or triangulation of data collected using multiple means --> leads to biased interpretation based on responsen from biased interviewees.
-very little provision of how data was collected (interview questions, which documents er examined, positions of interviewees, etc.) or analyzed --> doubts about the reliability
-often not as longitudinal research method but only cross-sectional with limited views of processes and phenomena that are temporal in nature
-
-% there will alwys be problems with case studies.. reality is just no laboratory
-"No matter the extent of scientific rigour, consultation and planning, unexpected obstacles will inevitably emerge during field research, and these will require adaptive strategies to be overcome. In particular, conducting survey research in remote rural areas of the developing world may pose unique challenges that require appropriate context-relevant responses. Unfortunately, text books and the current body of scientific papers do little to equip researchers for the experience that awaits them. Obtaining trust and buy-in from key gatekeepers, overcoming logistics difficulties, effectively developing local skills and managing staff relocation are some fieldwork aspects that may be particularly trying when working in deep rural settings."
-https://health-policy-systems.biomedcentral.com/articles/10.1186/1478-4505-11-14
-
-“Case Study Method: A Step-by-Step Guide for Business Researchers” ([Rashid et al., 2019, p. 1](zotero://select/groups/4773535/items/23TRE6V7)) ([pdf](zotero://open-pdf/groups/4773535/items/9EE7QIYZ?page=1&annotation=6PQGIXRY))
-
-“Case Study Method for Design Research: A Justification” ([Teegavarapu et al., 2008, p. 0](zotero://select/groups/4773535/items/KZ4TKKH4)) ([pdf](zotero://open-pdf/groups/4773535/items/6UWHB8WI?page=1&annotation=DELVNW3E))
-
-% methods were also used by other case studies:
-"We employed a mixed methods case study methodology that combined semi-structured interviews, technological and environmental surveys, and observations. "https://www.mdpi.com/2079-9276/9/6/77
-network analysis + semi-structured interviews -> tailor the choice of variables to regional/national level/conditions “identifying key stakeholders, decision-makers, communities at risk, data collection agencies” ([Enenkel et al., 2020, p. 1166](zotero://select/groups/4773535/items/RX575C79)) ([pdf](zotero://open-pdf/groups/4773535/items/XD499UNK?page=6&annotation=USUTKZ27))
-% Case study methodology
-https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-11-100#:~:text=A%20case%20study%20is%20a,particularly%20in%20the%20social%20sciences.
-Minkman
-
-problems and challenges are inevitable but addressing them in a timely and effective manner seems to be of high importance. (https://health-policy-systems.biomedcentral.com/articles/10.1186/1478-4505-11-14)
-
-research type case study (exploratory, complex, in-depth + defined area) -> fitted well
-constraints: I was not connected to the case study
-external validity: -> little basis for scientific generalisation (\autocites{yinCaseStudyResearch1984}[5]{zainalCaseStudyResearch2007} -> true, future studies but: framework (prc))
-
-internal validity -> prone to bias and subjectivity (good question..)
-
-constructed validity "the extent to which a study investigates what it claims to investigate" \autocite[3]{gibbertWhatPassesRigorous2008} so that "the researcher can correctly evaluate the studied concepts" \autocite[277]{ferreiraHowImproveValidity2020}
-addressed by establishing a clear chain of evidence and triangulation of perspectives and sources --> could be done by the frameworks -> only ssf lacked though --> prc to address this
-
-
-reliability -> extensively documented: but interviews: well.. humans (absence of random error)
-enhanced by: clear procedures and good documentation
-
-"Furthermore, case studies are frequently criticized for being excessively long, challenging to execute, and requiring significant documentation efforts \autocite{yinCaseStudyResearch1984}."
---> yeaah welllll true
-
-other research type such as experimental or survey research were not fit for purpose - but: survey research within a pilot study with the communities might be feasible to get some more juicy quantity (but: biases)
-
-justification in the methodology: can be followed
-
-hypothesis could be tested + framework could be developed + applied and tested
-
-
-exploratory technique + iterative -> nothing else would have worked
-
-% lit analysis
---> lit review and expecially the search was not scientifically structured -> might have missed a point or two
-
-feasible technique - critisism: not standardised but also not the goal of this project -> was more groundwork than the goal itself
-
-scarce literature about Somaliland itself - well notting to change here but name it
-
-data analysis was limited and an indepth machine learning what ever approach might be able to get something out of it but -> project team + this project was based on the insight, that data is shitty. -> discarded
-OSM could have been another source.. shitty as fk (-> personal communication project team)
-
-interviews:
-expert sampling worked, snowball system as well though both very limited
-
-iterative strategy allowed to get the most out of it as each interview questionnaire could build on the former information
-
-open ended questions were felt as good option. The questionnaire for I1 worked also well and a lot of information was gained through that.
-
--> + high level interviewees (all project managers)
-
-transcription by Whisper: that worked damn well mate
-
-coding: unaufgeregt und recht gut machbar
-
-% Methods end
---> why only participatory levels (1) and (2) (ssf)
-
-
-(e.g. everything always had to be approved by the red cross.. super slow, extremely unreliable, many tries, no results)
-In the context of this project, interviews should always be initiated and supported by either the GRC or the FbF project manager at SCRS, but there was no response even after several requests. Further limited by the time constraints of this work and previous complications, it was not possible to conduct further interviews as part of this work. Nevertheless, due to the iterative methodology building up over time, valuable insights could be gained with each of the interviews. 
---> very tense situation in Somaliland -> time constraints are completely understandable
-
-
---> IMPORTANT:
-discussion itself is just soso.. because there are no directly comparable projects or studies and no fixed rules to relate this work to
-
-
-
-% \ref*{subsubsec:assemblage} - result group 1
-Applicable law will be covered, as soon as the \acrshort{mowr} is in the loop. (A6) need to be investigated on site and cannot be covered by a desk-based review.
-
-
-% do not include (?)
-% in comparison to sensor networks:
-“It is suggested, based on literature, that water authorities might prefer MCS to wireless sensor networks, for its mobility, lower costs and scalability.” ([Minkman, 2015, p. 11](zotero://select/groups/4773535/items/ZKLE6CPT)) ([pdf](zotero://open-pdf/groups/4773535/items/QMAPCSZG?page=11&annotation=RM5PX55M))
-
-
-http://www.repository.embuni.ac.ke/bitstream/handle/embuni/3705/SPEI-based%20spatial%20and%20temporal%20evaluation%20of%20drought%20in%20Somalia.pdf?sequence=1&isAllowed=y
-% notes from the team
-evaluate the spatio-temporal variations of drought occurrences in Somalia for the period between 1980 and 2015 as quantified by Standardized Precipitation Evapotranspiration Index (SPEI)
-The temporal variations in drought showed decreasing trends in severity and increasing trends in drought duration as the SPEI timescales increas
-However, the study was limited by the low security levels in Somalia that makes
-the country largely inaccessible. This has complicated possibilities for
-ground-truthing available information. Besides, the 1991 civil war in
-Somalia led to the collapse of hydro-meteorological monitoring network
-(Muchiri, 2007). The current stations established by Food and Agricul-
-ture Organization Somalia Water and Land Information Management
-(FAO SWALIM) from 2002 do not have uniform spatial distribution
-throughout the country and therefore cannot be useful in computing
-reference SPE
-
-
-
-Nonetheless, it needs to be mentioned, that most indices will always be proxies for other conditions, which can not or only very arduously be measured. 
-e.g. “While food security forecasts may be an acceptable means for mobilizing global funding earlier, this does not imply that the underlying crisis is strictly a food security crisis.” ([OCHA, 2020, p. 6](zotero://select/groups/4773535/items/NYQL45SA)) ([pdf](zotero://open-pdf/groups/4773535/items/3PG9LF86?page=7&annotation=JD7JZTTN))
-
-
-
-
-“. In fact, needs are multi-dimensional, interrelated and complex” ([OCHA, 2020, p. 6](zotero://select/groups/4773535/items/NYQL45SA)) ([pdf](zotero://open-pdf/groups/4773535/items/3PG9LF86?page=7&annotation=SMBIBQ3G))
---> future research
-
-% stakeholder perceptions and limitations
-difference scientific vs. stakeholders perception of drought impact
-“The comparison between stakeholders’ perception of drought impacts and scientific knowledge allowed us to draw some preliminary conclusions concerning both the drought impacts at local level and the coherence between local and scientific knowledge on drought impacts.” ([Giordano et al., 2013, p. 539](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=17\&annotation=QFD3UE4C))
-
-“the correlation degree between perception indicators and scientific indicators is high only when considering a direct impact of drought, for example the reduction of productivity for non-irrigated crops.” ([Giordano et al., 2013, p. 540](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=18&annotation=6KRIS4DA))
-“Firstly, stakeholders tend to oversimplify the cause-effect chain” ([Giordano et al., 2013, p. 540](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=18&annotation=IBV34JQL))
-“Stakeholders seem to focus exclusively on the portion of the system they perceived.” ([Giordano et al., 2013, p. 541](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=19&annotation=73P565M3))
-“On the one hand, this allows them to have a clear picture of the evolutionary trends of the different variables that make up that portion of the system” ([Giordano et al., 2013, p. 541](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=19&annotation=ZJSACLXJ))
-“On the other hand, due to the limitations of their viewpoint, stakeholders tend to neglect the existence of multiple causes for certain observed phenomena.” ([Giordano et al., 2013, p. 541](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=19&annotation=8CUNSCXS))
-“Secondly, the data collected shows that the stakeholders tend to aggregate the variables describing the drought impacts, for example the impacts of crop productivity vary dramatically according to the crop under consideration, whereas stakeholders perceived a general reduction in productivity.” ([Giordano et al., 2013, p. 541](zotero://select/groups/4773535/items/B7LM5ZR4)) ([pdf](zotero://open-pdf/groups/4773535/items/7I66DBIK?page=19&annotation=TT7JRW3U))
-
-
-% this project cannot stand alone
-There are three main types of water resources monitoring, used in the water resources management system:
-%% main points:
-local monitoring, performed for solution of specific local problems on a limited part of the water body or the territory;
-global (background) monitoring, performed at man-impact free sites, or on sites with low level of anthropogenic influence. Such monitoring is performed for acquisition of information on steady natural characteristics of environmental components. The background monitoring of water bodies is used for evaluation and/or prognostication of shifts in their state caused by economic activities;
-comprehensive (regime) monitoring performed at the water body observation network for determination of the actual state of the water body, for decision making on efficient use, protection, and restoration of water resources;
-critical or alarm monitoring, performed at sites of high risk for immediate warning about unfavourable situations caused primarily by human activities.
-In the water management system there is also a special type of monitoring for wastewater discharges to the water body."https://echo2.epfl.ch/VICAIRE/mod_4/chapt_5/main.htm
-
-
-
-\subsection{Limitations}
-
-
-
-% from the methodology 
-Furthermore, case studies are frequently criticized for being excessively long, challenging to execute, and requiring significant documentation efforts \autocite{yinCaseStudyResearch1984}.
--->
-it's true. Case studies are difficult and there is a lot to learn.
-e.g. case study protocol --> nice to have but how to handle short term changes that srew everything? such as non responding interviewees and so on.. 
-
-% won't of course change everything
-% also: impact is based on humans, governance, social patterns and behaviour. Who would have guessed?!
-
-“In humanitarian practice, the term "drought" is often used to refer to some socio-meteorological combination where water shortages produce stress on human and livelihood systems. Droughts are a function of the fragility of human systems, and they become disasters where systems cannot cope with deviations from the hydro-meteorological norm. It has been argued that droughts are particularly devastating when livelihood choices are strongly determined by the climate (e.g. the decision to grow certain crops, or traditional seasonal migration patterns) - for instance, if in a given year, the weather patterns are different than normal, those livelihoods are especially vulnerable to these changes. It has also been argued that droughts pose specific challenges to income generating activities marked by low productivity that are not able to take advantage of ‘good years’ in order to provide a buffer during ‘bad years’.” ([RCRC, 2020, p. 12](zotero://select/groups/4773535/items/UESIQTRJ)) ([pdf](zotero://open-pdf/groups/4773535/items/P5JPVZ97?page=12&annotation=C622YWIR))
-
-
-% funding
-Funding is not considered in this work, as it is generally out of scope of a Master Thesis to account for that. This is the task of the project management and should be covered by some grant.
-
-“Citizen science has several limitations, including the wide range of required skills outside the research subject, sustaining engagement, biases related to data collection and analysis, sensor calibration issues and varying data privacy regulations around the world, among others.” ([Fraisl et al., 2022, p. 13](zotero://select/groups/4773535/items/FBJD7SWS)) ([pdf](zotero://open-pdf/groups/4773535/items/7WBDKYDY?page=13&annotation=WNQZRHRF))
-
-Besides the already mentioned limitations of the case study research type limited time and no possibility to be on site limited the possibilities. The dependence on specific people to initiate and allow each interview complicated and prolonged an already complex situation. Combined with the understandably limited time of SRCS staff, who were already stressed by the acute response to the current drought, this resulted in few interviews.
-
-% data analysis
-An in-depth analysis of existing data sets of water source point and feature information was considered, but  discarded after a first assessment. The very limited reliability, completeness and actuality of the available data sets had already been reviewed and stated by the project team before the start of this work. The lack of data was the main reason for this work to start with, and a short analysis via QGIS3 was able to confirm these statements. 
-
-was considered, but was discarded at a very early stage. The very limited reliability, completeness and actuality of the available data sets had already been reviewed and stated by the project team before the start of this work. This lack of data was the reason for this work, but a short analysis was able to confirm these statements and thus, due to relevance and time constraints, 
-% zweiter Teil noch nicht im Methodenteil genannt
-the focus was more on the design to create exactly such data sets for further analyses. This can be seen as a limitation, but can also be another reason to do exactly this work."
-
-and thus, due to relevance and time constraints, the focus shifted to the design approach.
---> poor quality for water source data analysis --> was the reason for this work % nice transitions for reasons for other work
-
-% put that chapter here? or after the conclusion?
-
+\section{Limitations}
+% theoretical foundation
+In any research project, limitations are an important aspect to consider and some were already addressed in the above discussion. Yet, there are further limitations that need to be acknowledged. The literature review did not follow a strict formal structure and that comparable projects may have been overlooked, although unlikely, cannot be ruled out. Nonetheless, this exploratory approach also allowed for the discovery of many, formerly unknown aspects and contributed many insights to the study. The subsequent in depth literature review, although not formal, was detailed and extended and was able to identify and close some gaps. However, the generally sparse literature on Somaliland limited the desk-based collection of information about local conditions. Furthermore, this work has also not addressed the integration or application of local and/or indigenous knowledge or the further use of VGI, to the extent that this would have been possible in principle. Although both areas are very interesting, this was either not the focus of this work or, the case of available water source datasets and VGI an in-depth analysis had been deemed unsuitable due to the poor quality identified early on. Nevertheless, insights could be gained from the data using more refined methods in future work. On the theoretical level of the contextual basis, the concepts mentioned, such as water security, drought or Citizen Science, are extremely complex and highly debated topics. Discussing them in detail would have exceeded the scope of this thesis, which is why focal points were set according to the priority of this work.\newline
+% exploratory approach
+The inclusive nature of the exploratory approach, was thus tried to be addressed by information triangulation from other studies but it made for a generally more consensual work and fewer contradictory findings. This, together with the inclusion of most relatable studies and projects into the framework itself, also made for a relatively homogeneous discussion due to the lack of contradictory findings. It is expected that this comparison with other work will be possible in the future as more CS projects are carried out in a similar context and with similar objectives.\newline
+% case study
+The critique of the case study research type, its challenge to execute, significant documentation efforts and complex nature also had certain shares in this work. Nevertheless, its strength of being rich, detailed and contextual also contributed positively. The generalisability of the understanding gained through actual application can be considered low, but the applicability of the framework developed can be expected to be transferable to other comparable contexts.\newline
+% validities and biases
+An attempt was made to improve internal validity through the iterative design, reciprocal reviews and triangulation of multiple sources of information, but despite great efforts, it is hardly possible to establish causal relationships in such a complex environment. Constructed validity of the framework is believed to be reasonable due the extensive triangulation of resources but can only be tested in a practical examination. The importance of data triangulation was also noted and integrated in the actual application. Interviews always add a human factor which can complicate repeatability but clear procedures and documentation were established to account for this as best as possible. The expert and snowball sampling strategy itself worked well, but was severely limited by other factors. The interviews always had to be arranged and signed off by senior managers, and the already tense situation with ongoing response activities and parallel \acrshort{fbf} development in Somaliland made the availability of interviewees even scarcer. This resulted in a relatively low sample of interviewees, limiting the otherwise strength of a case study to incorporate a multitude of perspectives on one area of interest. Here, interviews especially with representatives of \acrshort{nadfor}, the \acrshort{mowr} and \acrshort{moh} as well as \acrshort{brcis} and \acrshort{ocha} mights have been fruitful. The conversion of one interview into a questionnaire hindered direct clarification and follow-up questions in the interview, but this could be compensated for by a second questionnaire. Since a lot of information could be drawn from the answers and the interview could not have taken place otherwise, this can ultimately be seen as a good compromise.\newline
+% overall
+Overall, the study was conducted under difficult conditions in a case study area known for its complex and difficult environment. The generally limited time and resources available in the context of a Master's thesis further constrained the study and the focus on just the development of the framework might have been beneficial. Nevertheless, it is believed that the study conducted was ultimately able to provide a good theoretical and structural basis for a potential practical implementation of this approach. Furthermore, this study contributes to the general ongoing discourse of \acrlong{cs}-projects by adding a work from a currently underrepresented region. It is to be expected that in the further process of this discourse many of the limitations mentioned here can be addressed and overcome.
