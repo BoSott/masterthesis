@@ -63,6 +63,11 @@ headsepline, % Uncomment to get a line under the header
 
 % \addbibresource{01_Masterarbeit.bib} % The filename of the bibliography
 
+\usepackage{enumitem}
+
+\newlist{questions}{enumerate}{2}
+\setlist[questions,1]{label=RQ\arabic*.,ref=RQ\arabic*}
+\setlist[questions,2]{label=(\alph*),ref=\thequestionsi(\alph*)}
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -107,7 +112,7 @@ headsepline, % Uncomment to get a line under the header
 
 % hide links
 % \hypersetup{allcolors=.}, or even better:
-% \hypersetup{hidelinks}
+\hypersetup{hidelinks}
 % If you want to have obvious links in the PDF but not the printed text, use:
 % \hypersetup{colorlinks=false}.
 }
@@ -143,7 +148,7 @@ headsepline, % Uncomment to get a line under the header
 \newacronym{srcs}{SRCS}{Somalia Red Crescent Society}
 \newacronym{rcrc}{RCRC}{Red Cross Red Crescent}
 \newacronym{ifrc}{IFRC}{International Federation of Red Cross and Red Crescent Societies}
-\newacronym{rccc}{RCCC}{Red Cross Climate Center}
+\newacronym{rcrccc}{RCRCCC}{Red Cross Red Crescent Climate Center}
 \newacronym{grc}{GRC}{German Red Cross}
 \newacronym{nrc}{NRC}{Norwegian Red Cross}
 \newacronym{brcis}{BRCiS}{Building Resilient Communities in Somalia Consortium}
@@ -175,7 +180,6 @@ headsepline, % Uncomment to get a line under the header
 \newacronym{dpia}{DPIA}{Data Protection Impact Assessment}
 \newacronym{prc}{PRC}{Project Requirements Catalogue}
 \newacronym{ecsa}{ECSA}{European Citizen Science Association}
-% \newacronym{}{}{}
 
 
 
@@ -225,7 +229,7 @@ headsepline, % Uncomment to get a line under the header
 
 \large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
+\deptname\\\facname\\[2cm] % Research group name and department name
  
 \vfill
 
@@ -268,9 +272,9 @@ headsepline, % Uncomment to get a line under the header
 
 \vspace*{0.2\textheight}
 
-\noindent\enquote{\itshape “Whatever source of water they can find is what they have.”}\bigbreak
+\centerline{\noindent\enquote{\itshape“Whatever source of water they can find is what they have.”}}\bigbreak
 
-\hfill Interviewee SRCS about the current situation in Somaliland
+\hfill {\tiny Interviewee 3}
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -364,11 +368,12 @@ headsepline, % Uncomment to get a line under the header
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\include{Chapters/Chapter1_Introduction.tex}
-% \include{Chapters/Chapter2_TheoreticalBackground.tex}
+% \include{Chapters/Chapter1_Introduction.tex}
+\include{Chapters/Chapter2_TheoreticalBackground.tex}
 % \include{Chapters/Chapter3_methodology.tex}
 % \include{Chapters/Chapter4_Results.tex} 
 % \include{Chapters/Chapter5_Discussion.tex}
+% \include{Chapters/Chapter6_conclusion_outlook.tex}
 % \include{Chapters/chapter_test.tex} 
 % \include{Chapters/ChapterTemplate.tex} 
 % \include{Chapters/example_chapter} 
