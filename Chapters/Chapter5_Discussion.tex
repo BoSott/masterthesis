@@ -1,6 +1,6 @@
 % Chapter Template
 
-\chapter{Discussion and Justification} % Main chapter title
+\chapter{Discussion and Reasoning} % Main chapter title
 
 \label{chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 % Interpretation of the results that go further than the research questions. This can, e.g., contain implications for software development.
@@ -12,28 +12,15 @@
 % -> Relate the Findings to Similar Studies
 % -> Consider Alternative Explanations of the Findings
 % -> Acknowledge the Study's Limitations
-
-% \textbf{!!!!!!!!!!!!!STAY FOCUSSED on the discussion, do not iterate over everything !!!!!!!!!!} I think I did though
-% difficult part -> stage 1 and 2 -> those are more or less already discussions in themselves..
-% -> reread the sections
-
-% interpret and explain
-
-% elaborate on an evaluate research findings + significance and implications
-
-% -> address research questions and hypotheses
-
-% --> draw conclusion
-
 % evaluate and interpret results
 % -> focus on stuff that is directly related to the research aim
-
 % don't report ANY new findings
 
 %----------------------------------------------------------------------------------------
 % Step 1: restate your research problem, aim, hypotheses and questions
 %----------------------------------------------------------------------------------------
 % introduction + overall findings/aim
+
 % method section --> use of frameworks and literature to create a framework + prc
 % pros and cons of ssf and slmc + why not others and how it relates to those
 % e.g. several other .. have also a staged, iterative process design (.gov, butte)
@@ -52,19 +39,15 @@
 % "However, the reduction to essential parts also allows clarity and focus that would otherwise not be possible. An attempt was made to name the various advantages and disadvantages and to show that the methodology applied is appropriate in this con-
 % text." myself, BA
 
-
 % application --> case study also used from others for similar attempts
 % basically worked well - inherent limitations -> just a research method with cons and pros
 % reason why not include the mapping and what could be done about it.
 
+% The augmentation of both the theoretical and empirical underpinnings of this endeavour has served to enhance its overall depth and rigor.
 
-
-% 
 % “Experts in trigger methodology have indicated a more appropriate strategy may be to build on tools that currently exist at the government level such as national drought monitoring systems. As such, the ideal is an iterative process with the ground level along with a technology push that creates new ways to analyse drought and drought risk.” ([RCRC, 2020, p. 28](zotero://select/groups/4773535/items/UESIQTRJ)) ([pdf](zotero://open-pdf/groups/4773535/items/P5JPVZ97?page=28&annotation=977VS8FC))
 
-% auch hier nicht so scharfe Trennung von Diskussion und Results wie normalerweise üblich --> case study
-% justification as discussion is not really possible
-
+%! am Ende noch überarbeiten
 This study aimed to design and test an approach for community-based participatory mapping and monitoring of water sources in a water-scarce and resource-limited setting in collaboration with the \acrlong{srcs}. The ultimate goal was to facilitate respective \acrlongpl{aa} in the context of \acrlong{fbf} and to improve water management and accessibility in underserved communities. To achieve this aim, four research objectives were formulated, including a comprehensive literature review to identify and evaluate principles for community-based participatory mapping and monitoring, assessing the feasibility of the approach in the given context, developing a replicable and adaptable framework based on the identified guidelines, and applying the framework to create a roadmap for implementation.\newline
 
 The literature and data analysis revealed the high complexity of the context and could determine gaps in the data situation on water sources as well as the project and framework landscape in regard to \acrlong{cs} approaches in the given context for the implementation in a \acrshort{fbf} project. However, the general feasibility of the approach for the project was suggested through further analysis. Building on this positive assessment, the identified frameworks and guidelines were adapted and expanded to ultimately lead to the development of a new replicable and adaptable framework for a community-based participatory water source mapping and monitoring in the context of \acrlong{fbf}. Its application on this specific case area resulted in a roadmap for the practical implementation of the project. This roadmap includes goals and sub-goals, required products and respective activities.\newline
@@ -104,10 +87,10 @@ In this discussion chapter, the focus is on reflecting on the main findings and 
 
 % don't draw conclusions, that aren't substantiated -> everything need to be backed up by something
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  lit review, guidelines + relevant information and CS approaches
-1. Objective + 1. RQ
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%?%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  How can a replicable and adaptable framework for community-based participatory water source mapping and monitoring with the aim of facilitating AA in the context of \acrlong{fbf} be developed?
+1. RQ
+%?%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % but those are expected to be solved in future work..
 \section{Literature, Project and Data Analysis}
 % % data analysis
@@ -125,16 +108,260 @@ In this discussion chapter, the focus is on reflecting on the main findings and 
 % biases.. important? mention? discussion? possibly discussion. Have fun old me!
 
 % The identification of the conceptual context along with the literature and \acrshort{cs} project analysis could successfully build a sound foundation for this work and specify relevant aspects and gaps for addressing the first and subsequent research objectives.
+
+The first RQ is addressed in this section by discussing the literature and project analysis along with the \acrshort{ssdr} and \acrshort{prc}. The development of a replicable and adaptable framework for community-based participatory water source mapping and monitoring with the aim of facilitating AA in the context of \acrlong{fbf} 
+
+
+resulted in an adaptation of the \acrshort{SSF} by \autocite{fraislCitizenScienceEnvironmental2022} and the new development of a requirements oriented catalogue.
+
+% lit discussion Kernpunkte
+- lit review could underline the assumption, that no other framework exists that fit
+
+- "Several \acrshort{cbm}, \acrshort{mcs}, \acrshort{cbs}, \acrshort{cbwm} and other risk related \acrshort{cs} frameworks and respective guidelines could be identified but none of them exactly matched the intended application (see section \ref{sec:cs})."
+- While "there is no one-size-fits-all approach" \autocite[2]{fraislCitizenScienceEnvironmental2022}, the existing frameworks either focussed on different thematics, different contexts, had different participation levels, different goals or a combination of the above (see sections \ref{subsubsec:cbwm}, \ref{subsubsec:cbs} and \ref{subsec:cbc}).
+- This is consistent with \autocite{butteFrameworkWaterSecurity2022}'s and \autocite{carrionCROWDSOURCINGWATERQUALITY2020}'s findings that existing frameworks guiding the development of water security data collection projects are often very specific and limited to certain factors, in many cases also not taking socio-economic factors into account. 
+- At the same time, frameworks like the on from \autocite{butteFrameworkWaterSecurity2022,eu-citizen.scienceEUCitizenScience,citizenscience.govBasicStepsYour} and others were too broad, to be more than general guidelines.
+- Especially not, with the focus on providing feasible information for triggering \acrshortpl{aa} in the context of an \acrshort{eap} and in collaboration with a \acrshort{rcrc} National Society.
+
+- However, on the one hand with different goals, and on the other hand with different methods (see sections \ref{subsec:stage1_appl} and \ref{subsec:case_eap}). While \acrshort{brcis} collects and interpolates qualitative local information, \acrshort{ocha} bases their early actions on the before mentioned large scale indicators. These approaches are either too slow or to coarse to address the aim of this research, but the concrete experiences from projects in the case study area are valuable to adapt and relate other information to the given context. 
+
+% somewhat expected but this was really not a lot
+- The transfer of knowledge from other regions, projects and topics is necessary, as scientific literature about the case study area of Somaliland is generally scarce.
+
+% further gaps in drought FbF - partly unexpected
+In addition to these case study related domains, there are further gaps in knowledge when in comes to the application of the \acrshort{fbf} approach on the slow-onset hazard of drought. Generally, the concept of \acrshort{fbf} is now well established in regard to fast-onset disasters, but the drought use case is relatively new (2020) and not yet well researched, which severely limits the amount of guidelines and frameworks available for this particular application (see section \ref{subsec:eap}).
+
+Thus, each new project or study focussing on this hazard in the context of \acrshort{fbf} has, at least in part, an exploratory character.\newline
+
+As any new project or study addressing this hazard within these concepts is thus 'automatically' exploratory in nature and no other suitable framework could be identified, the literature and project review suggested the need to develop a new framework to address the specifics of the case study (see section \ref{subsec:cbm}).
+
+- + relatively rough forecasts
+
+% ! framework
+% all models are wrong, but some are useful. --> other frameworks group stuff differently, same as with research methods: advantages and disadvantages... just be concious about it.
+
+% not always easy to clearly put one thing into one stage -> interconnectedness and so on..
+% e.g. networks
+% not detrimental, just a certain perspective
+% counter acted by the PRC
+
+% auch andere anderen von frameworks finden sich hier wieder wie... 
+
+% how did the lit compare to the CBS and others?
+% the findings/recommendations of the SRCS were only new in two major aspects
+% -> assessment
+% -> redflags
+% anything else?
+
+was könnte schiefgehen?
+über Zeit stabil? --> jein. Mit stage 6 schon.
+metaperspektive
+konnte selbst unter dem Fokus auf Somalia nicht letztlich zugezurrt werden - viel allgemein gehalten. Einfach ein riesen topic. not surprising aber wichtig.
+
+https://data.jrc.ec.europa.eu/dataset/jrc-citsci-10004
+ja well. auch wenige Wasser data 
+so far so good. Lot's of it can also be derived by logical thinking, but: special juicy findings!
+
+vor und nachteile dieser 6 stages Aufteilung?
+-> iteration was more between the last four. not all 6. no other requirements catalogue could be found in the sources. some lists, some hints, but nothing really structured
+-> use my fking systematic thinking man.
+complex adaptive systems - critical parts? critical stakeholders? critical stages? could all be different for every project.
+funding? may also work or not. 
+
+
+% ! SSF
+
+after that:
+systematic review of each finding
+open data. Its own huge discussion.
+data quality
+
+relate to other studies. Look in the book -> some stuff CBDRR, CBWM and so on..
+questions from other studies sparked this? e.g. global inequality of studies
+
+alternative explanations:
+discover. not prove!
+
+
+main adaptations of the SSF -> integration of CBS experiences and knowledge
+-> stage 2: assessment + red flags
+-> stage 3: PRC + IWRM but could not be tested
+-> stage 4: focus on improvements (?) not only not starting when the other end but iterative!
+-> + just more guidelines, more references, more basis
+but really: main adjustment was the PRC
+
+Stage 1:
+will be difficult to know, if one has identified everything.. some deadline will be required. can't explore for ever.
+
+Stage 2:
+not only positive but also negative constraints e.g. red flags
+
+Stage 3:
+PRC & IWRM
+different levels of usage and practicability: Yes guidelines for science: rigorous methods. for practice? hell, it shall work.
+should be seen as BEST practice. Not as: you have to do it like this or otherwise it will instantly fail
+
+stage 4:
+what happens over time? people etc. can change
+what about negative motivations? maybe some are not interested in the working of this? (gennant -> I1)
+clear: kein Selbstläufer. Ein großer Haufen an Arbeit.
+how influential is the culture?
+
+stage 5:
+data minimisation -> has a lot to do with concise borders and good and clear objectives
+- data management or at least the transmission is just one way - don't over estimate the importance of this! the tool is not the goal. The message is.
+Interesting: Discussions about server locations and access rights -> Julia Jung with MoH
+
+privacy concerns for the open data pledge.. not everybody will be a friend..
+
+
+Stage 6:
+output, quality, participant experience and impact
+-> evaluation practices may be difficult. Bias towards positive results
+
+% ! PRC
+\textbf{PRC}
+no requirements: I could just not find a fking list of more or less specific requirements/products/activities. All there is are general guidelines. Would that make sense? nobody publishes that? -> together with Jung: no time to publish for years on end --> who knows.. 
+https://eu-citizen.science/
+ESCA ten principles and characteristics
+evaluation criteria: https://discovery.ucl.ac.uk/id/eprint/10066007/1/Chapter%206.pdf
+quality criteria: https://www.fosteropenscience.eu/sites/default/files/pdf/20608.pdf
+more criterias: https://theoryandpractice.citizenscienceassociation.org/articles/10.5334/cstp.294/
+and more: https://www.buergerschaffenwissen.de/sites/default/files/assets/dokumente/handreichunga5_engl_web.pdf
+and other designing stuff:https://sites.nationalacademies.org/cs/groups/dbassesite/documents/webpage/dbasse_189605.pdf
+same same: https://citizenscience.org.au/set-up-your-own-citizen-science-program/
+joar. tatsächlich keine Liste an konkreteren Requirements gefunden.. sind das hier denn überhaupt "richtige" requirements?
+-> ggf. management nicht
+definitiv aber nicht für FbF stuff
+
+und nicht mit den goals: in der Art der erste und einzige: ggf. aus gutem Grund? Ich fand's jedenfalls sinnvoll..
+
+knowledge: A-D more or less generic - though also rather unspecific. Could need to be more detailed.. A has at least many activities
+E-F specific for monitoring stuff (initial and regular) but this could be adapted
+G \& H AA and trigger: FbF context. leave it or take it. Generalisation should easily be possible
+
+Groundwork
+e.g. groundwork -> focussed on IWRM and day, but really: everything could be included here
+together with community -> realm of local knowledge
+first find the important stuff with com. leaders and key stakeholders and then disseminate --> maybe also in a case study
+giving community so much leverage may not always be wanted by everyone and could be quite tough in the beginning - though good for the embedding
+
+Policy: these will also limit the freedom of some - that should be accounted for.
+
+Innovations:
+- new developments may be difficult for a standalone project without scientific accompaniment
+- but adjustments need to be considered. Which are the biggest? what could go wrong? what could be done now, to later integrate improved methods?
+
+Management:
+- overview about developments/derivations and decisions
+- what else could influence this? also over time and across industries? Who makes decisions about this project in the first place? overlying projects? _> those boundaries should have been addressed in stages 1 and 2 and the beginning of stage 3
+
+in the end. Really comes done to its execution.
+
+
+
+
+
+
 Besides addressing the first objective, to \textit{conduct a comprehensive review of existing literature and guidelines related to the design and implementation of \acrlong{cs} programmes, and identify relevant work in regard to the research aim and overall case study context} the literature and \acrshort{cs} project analysis could also create a sound foundation for the following study (see section \ref{subsec:stage1_appl}). % The exploration of the conceptual and practical context allowed the identification and specification of relevant frameworks, aspects and gaps in literature for the subsequent research objectives.\newline
-Breaking down the broad concepts of Water Security, Water Scarcity and Drought along with their indicators and indices to the local context highlighted that only relatively rough forecasts are available for Somaliland (see section \ref{subsec:indicators}). Currently, climate, weather and hazard forecasts for Somaliland are either based on international indices like SPI or on a scarce network of local weather gauging stations (see section \ref*{subsec:case_eap}). Besides their coarseness, these indices predict the climate or weather itself and not its impacts, making them unsuitable for \acrlong{fbf} (see section \ref*{subsec:eap}). For successful implementation of \acrshort{fbf}, triggers and actions should be developed and directly linked (see section \ref{subsec:trigger} and \ref{subsec:case_eap}). This is often not feasible as local information about water sources is either missing completely, is incomplete or outdated (see section \ref{subsec:stage1_appl}). This highlighted the need for new local impact indicators for the creation of which the \acrshort{cs} approach was consulted. Several \acrshort{cbm}, \acrshort{mcs}, \acrshort{cbs}, \acrshort{cbwm} and other risk related \acrshort{cs} frameworks and respective guidelines could be identified but none of them exactly matched the intended application (see section \ref{sec:cs}). While "there is no one-size-fits-all approach" \autocite[2]{fraislCitizenScienceEnvironmental2022}, the existing frameworks either focussed on different thematics, different contexts, had different participation levels, different goals or a combination of the above (see sections \ref{subsubsec:cbwm}, \ref{subsubsec:cbs} and \ref{subsec:cbc}). This is consistent with \autocite{butteFrameworkWaterSecurity2022}'s and \autocite{carrionCROWDSOURCINGWATERQUALITY2020}'s findings that existing frameworks guiding the development of water security data collection projects are often very specific and limited to certain factors, in many cases also not taking socio-economic factors into account. At the same time, frameworks like the on from \autocite{butteFrameworkWaterSecurity2022,eu-citizen.scienceEUCitizenScience,citizenscience.govBasicStepsYour} and others were too broad, to be more than general guidelines. Therefore, no applicable framework existed for the implementation of a community-based participatory mapping and monitoring of water sources approach in a water-scarce and resource-limited setting. Especially not, with the focus on providing feasible information for triggering \acrshortpl{aa} in the context of an \acrshort{eap} and in collaboration with a \acrshort{rcrc} National Society.% irgendwo habe ich noch einen Absatz rumfliegen, der genau das anspricht.. dass es zwar viele frameworks gibt, aber genau deswegen, da es so komplex ist..
+Breaking down the broad concepts of Water Security, Water Scarcity and Drought along with their indicators and indices to the local context highlighted that only relatively rough forecasts are available for Somaliland (see section \ref{subsec:indicators}). Currently, climate, weather and hazard forecasts for Somaliland are either based on international indices like SPI or on a scarce network of local weather gauging stations (see section \ref*{subsec:case_eap}). Besides their coarseness, these indices predict the climate or weather itself and not its impacts, making them unsuitable for \acrlong{fbf} (see section \ref*{subsec:eap}). For successful implementation of \acrshort{fbf}, triggers and actions should be developed and directly linked (see section \ref{subsec:trigger} and \ref{subsec:case_eap}). This is often not feasible as local information about water sources is either missing completely, is incomplete or outdated (see section \ref{subsec:stage1_appl}). This highlighted the need for new local impact indicators for the creation of which the \acrshort{cs} approach was consulted. Several \acrshort{cbm}, \acrshort{mcs}, \acrshort{cbs}, \acrshort{cbwm} and other risk related \acrshort{cs} frameworks and respective guidelines could be identified but none of them exactly matched the intended application (see section \ref{sec:cs}). While "there is no one-size-fits-all approach" \autocite[2]{fraislCitizenScienceEnvironmental2022}, the existing frameworks either focussed on different thematics, different contexts, had different participation levels, different goals or a combination of the above (see sections \ref{subsubsec:cbwm}, \ref{subsubsec:cbs} and \ref{subsec:cbc}). This is consistent with \autocite{butteFrameworkWaterSecurity2022}'s and \autocite{carrionCROWDSOURCINGWATERQUALITY2020}'s findings that existing frameworks guiding the development of water security data collection projects are often very specific and limited to certain factors, in many cases also not taking socio-economic factors into account. At the same time, frameworks like the on from \autocite{butteFrameworkWaterSecurity2022,eu-citizen.scienceEUCitizenScience,citizenscience.govBasicStepsYour} and others were too broad, to be more than general guidelines. Therefore, no applicable framework existed for the implementation of a community-based participatory mapping and monitoring of water sources approach in a water-scarce and resource-limited setting. Especially not, with the focus on providing feasible information for triggering \acrshortpl{aa} in the context of an \acrshort{eap} and in collaboration with a \acrshort{rcrc} National Society.\newline
+
 Other networks like \acrlong{brcis} and the local branch of \acrshort{ocha} implemented their own early action approaches in Somaliland. However, on the one hand with different goals, and on the other hand with different methods (see sections \ref{subsec:stage1_appl} and \ref{subsec:case_eap}). While \acrshort{brcis} collects and interpolates qualitative local information, \acrshort{ocha} bases their early actions on the before mentioned large scale indicators. These approaches are either too slow or to coarse to address the aim of this research, but the concrete experiences from projects in the case study area are valuable to adapt and relate other information to the given context. The transfer of knowledge from other regions, projects and topics is necessary, as scientific literature about the case study area of Somaliland is generally scarce. In addition to these case study related domains, there are further gaps in knowledge when in comes to the application of the \acrshort{fbf} approach on the slow-onset hazard of drought. Generally, the concept of \acrshort{fbf} is now well established in regard to fast-onset disasters, but the drought use case is relatively new (2020) and not yet well researched, which severely limits the amount of guidelines and frameworks available for this particular application (see section \ref{subsec:eap}). Thus, each new project or study focussing on this hazard in the context of \acrshort{fbf} has, at least in part, an exploratory character.\newline
 As any new project or study addressing this hazard within these concepts is thus 'automatically' exploratory in nature and no other suitable framework could be identified, the literature and project review suggested the need to develop a new framework to address the specifics of the case study (see section \ref{subsec:cbm}). However, before the new conceptualisation, the general feasibility had to be assessed first, leading to the second objective of this work.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{A Replicable and Adaptable Framework}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% framework development based on the identified principles
+3. Objective + 3. RQ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --> why only participatory levels (1) and (2) (ssf)
+
+
+
+
+
+https://libguides.usc.edu/writingguide/discussion
+
+"The stages of the roadmap outlined above give a good overview of what needs to be done and in what order. However, the process-oriented structure makes it difficult not to overlook important information, as there is no more detailed and grouped listing of this. This catalogue attempts to close this gap. " yeah well.. right mate but how good is it really?
+
+more difficult to transfer to other contexts with concise and concrete requirements but: tried to keep them relative general by also not being to far off - future will show how well that worked.
+
+Systematically explain the meaning of your case study findings and why you believe they are important. 
+
+
+
+1. Most effectively demonstrates your ability as a researcher to think critically about an issue, to develop creative solutions to problems based upon a logical synthesis of the findings, and to formulate a deeper, more profound understanding of the research problem under investigation;
+2. Presents the underlying meaning of your research, notes possible implications in other areas of study, and explores possible improvements that can be made in order to further develop the concerns of your research;
+3. Highlights the importance of your study and how it can contribute to understanding the research problem within the field of study;
+4. Presents how the findings from your study revealed and helped fill gaps in the literature that had not been previously exposed or adequately described; and,
+5. Engages the reader in thinking critically about issues based on an evidence-based interpretation of findings; it is not governed strictly by objective reporting of information.
+
+
+\textbf{The content of the discussion section of your paper most often includes:}
+
+Explanation of results: Comment on whether or not the results were expected for each set of findings; go into greater depth to explain findings that were unexpected or especially profound. If appropriate, note any unusual or unanticipated patterns or trends that emerged from your results and explain their meaning in relation to the research problem.
+References to previous research: Either compare your results with the findings from other studies or use the studies to support a claim. This can include re-visiting key sources already cited in your literature review section, or, save them to cite later in the discussion section if they are more important to compare with your results instead of being a part of the general literature review of prior research used to provide context and background information. Note that you can make this decision to highlight specific studies after you have begun writing the discussion section.
+Deduction: A claim for how the results can be applied more generally. For example, describing lessons learned, proposing recommendations that can help improve a situation, or highlighting best practices.
+Hypothesis: A more general claim or possible conclusion arising from the results [which may be proved or disproved in subsequent research]. This can be framed as new research questions that emerged as a consequence of your analysis.
+
+
+\textbf{Keep the following sequential points in mind as you organize and write the discussion section of your paper:}
+
+Think of your discussion as an inverted pyramid. Organize the discussion from the general to the specific, linking your findings to the literature, then to theory, then to practice [if appropriate].
+
+Use the same key terms, narrative style, and verb tense [present] that you used when describing the research problem in your introduction.
+
+Begin by briefly re-stating the research problem you were investigating and answer all of the research questions underpinning the problem that you posed in the introduction.
+
+Describe the patterns, principles, and relationships shown by each major findings and place them in proper perspective. The sequence of this information is important; first state the answer, then the relevant results, then cite the work of others. If appropriate, refer the reader to a figure or table to help enhance the interpretation of the data [either within the text or as an appendix].
+
+Regardless of where it's mentioned, a good discussion section includes analysis of any unexpected findings. This part of the discussion should begin with a description of the unanticipated finding, followed by a brief interpretation as to why you believe it appeared and, if necessary, its possible significance in relation to the overall study. If more than one unexpected finding emerged during the study, describe each of them in the order they appeared as you gathered or analyzed the data. As noted, the exception to discussing findings in the same order you described them in the results section would be to begin by highlighting the implications of a particularly unexpected or significant finding that emerged from the study, followed by a discussion of the remaining findings.
+
+Before concluding the discussion, identify potential limitations and weaknesses if you do not plan to do so in the conclusion of the paper. Comment on their relative importance in relation to your overall interpretation of the results and, if necessary, note how they may affect the validity of your findings. Avoid using an apologetic tone; however, be honest and self-critical [e.g., in retrospect, had you included a particular question in a survey instrument, additional data could have been revealed].
+
+The discussion section should end with a concise summary of the principal implications of the findings regardless of their significance. Give a brief explanation about why you believe the findings and conclusions of your study are important and how they support broader knowledge or understanding of the research problem. This can be followed by any recommendations for further research. However, do not offer recommendations which could have been easily addressed within the study. This would demonstrate to the reader that you have inadequately examined and interpreted the data.
+
+
+
+\textbf{Problems to Avoid}
+Do not waste time restating your results. 
+Do not introduce new results in the discussion section.
+
+but focus on the interpretation of those results and their significance in relation to the research problem, not the data itself.
+
+
+
+
+"How do the findings of this study contribute to the existing body of knowledge on community-based participatory mapping and monitoring in the context of forecast-based financing?
+In what ways could the framework developed in this study be adapted for use in other contexts, and what challenges might arise in doing so?
+What ethical considerations must be taken into account when implementing a community-based participatory approach to water source mapping and monitoring, and how were these addressed in this study?
+How did the use of a mixed-methods approach impact the validity and reliability of the study's findings?
+To what extent did the involvement of local community members in the research process influence the outcomes of the study?
+In what ways could the framework developed in this study be further refined or improved upon in future research?
+What implications do the findings of this study have for policy-makers and practitioners in the fields of water resource management and disaster risk reduction?
+How might the methods and approach used in this study be adapted for other types of community-based initiatives or projects?
+What challenges did the research team encounter during the development and implementation of the framework, and how were these addressed?
+How might the findings of this study contribute to broader discussions around the role of community participation in the management of natural resources and disaster risk reduction efforts?" ChatGPT
+
+
+
+
+%! text design roadmap Klappe die Erste
+Having established the feasibility of the \acrshort{cs} approach, the third objective to \textit{develop a replicable and adaptable framework for community-based participatory water source mapping and monitoring in the context of \acrlong{fbf}, based on the principles and recommendations identified in objectives 1 and 2} could be pursued. There are now a high number and wide variety of guidelines, \acrshort{cs} associations, initiatives and projects to choose from, that the question of the necessity to add just another one to the list suggests itself. The literature analysis suggested that, above all, the high variety is explained and reflected in the high diversity of the \acrshort{cs} approach of e.g. methodology, temporal and spatial scale, goals, context, level of participation and overall goal (see section \ref{sec:cs}). \autocite{fraislCitizenScienceEnvironmental2022, westonCommunityBasedWaterMonitoring2015} and \autocite{zhengCrowdsourcingMethodsData2018} all summarise a wide variety of these guidelines and \autocite{garciaFindingWhatYou2021} even created a \textit{Guide to Citizen Science Guidelines}. Nonetheless, none of these met the needs of this work, which prompted the development of a new framework. That goes along with the recommendations, of \autocite{garciaFindingWhatYou2021}, that the development and thus transfer of experience in guidelines is the currently the best practice in the field when new, previously unrealised combinations of the thematic diversity listed above are approached and realised \autocite{garciaFindingWhatYou2021}. This highlights the need, that frameworks need to be focussed on a specific topic, region and environment in order to give meaningful advice and not only generic information that is too coarse to be of great use.\newline
+The decision to build on \autocite{fraislCitizenScienceEnvironmental2022}'s \acrlong{ssf} was primarily driven by its timeliness, comprehensiveness and focus on environmental issues as it was clear, that a more social and local component can be integrated from the \acrshort{srcs}'s experiences with \acrshort{cbs}. The usefulness of the interpolation of these two approaches was particularly evident in the consideration of personal data. While observing natural phenomena at the level of data collection did not raise too many privacy concerns for \autocite{fraislCitizenScienceEnvironmental2022}, this was almost the opposite for CBS \autocite{ifrcCommunityBasedSurveillanceGuiding2017}. Applying these contrasting perspectives to the issue of water sources was thus able to address both the physical and social components well by considering trade-offs between the two 'extremes'. This claim was further supported over the course of this work, when the iterative integration of other guidelines from several divergent foci into the existing framework could be implemented smoothly and only minor revisions had to be made. \autocite{mcgowanCommunitybasedSurveillanceInfectious2022} also found that the success factors of \acrshort{cbs} are closely linked to the general principles of participatory community engagement and could therefore be transferred to other participatory surveillance preparedness activities. As the individual stages are outlined and described in detail in section \ref{sec:design_roadmap} and all identified relatable guidance is included into the design roadmap, no further discussion of the individual stages will be undertaken. % geht das so durch (?)
+Nonetheless, this processual \acrshort{ssf} has some short-comings which will mostly be addressed in the discussion of its actual application (section \ref{TODO:}) and following limitation section \ref{TODO:} of this entire work.\newline
+However, a couple of shortcomings became apparent right at the beginning of the application in the third phase. It was increasingly difficult to keep an overview of the actual project requirements and their interdependencies in terms of subject matter and temporal constraints (see section \ref{subsec:project_requirements} and \ref{subsubsec:knowledge}). Furthermore, \acrshort{cbs}, \acrshort{cbwm} and other approaches have strongly emphasised the importance of embedding the project into prevailing social and decision-making conditions and procedures, which was under-represented in the \acrshort{ssf} (see section \ref{subsubsec:groundwork}). The Interviewees also highlighted, the time (over a year) and resource requirements, which they needed for the development and adaptation of methods and techniques to start with the \acrshort{cbs} project in Somaliland (I2, I3). This goes along with \autocite{garciaFindingWhatYou2021}'s findings, that some adjustments and tailoring always need to be done when implementing a new project (see section \ref{subsubsec:innovations}). Together with the emerging need to structure smaller developments and create an overview of decision dependencies, a fourth area of management became apparent that needed to be addressed >(see section \ref{subsubsec:management}). These reasons provided the ground for the new development of the \acrlong{prc} to expand the \acrshort{ssf} from the third phase onwards. Since the first and second stages are primarily exploratory in nature, it is believed that the \acrshort{prc} should not be integrated in these stages, as it could limit the exploration to the given categories. Should something be overlooked, completions are still possible at the beginning of the third phase.\newline
+The conceptualisation and structure of the \acrshort{prc} with the \acrlong{slmc}, guided by the derived goals by \autocite{minkmanCitizenScienceWater2015} further supports the structuring and elaboration of the dependency. Emphasis is given to the top three layers, the \textit{Goal-, Products-, and Activities-Layer}., firstly due to time and information constraints and secondly as practical applicable\textit{ methods, techniques, tools and scripts} need to be highly adjusted to the local context (see section \ref{subsec:slmc}). Both are main limitations of this work and will further be discussed in the last section of this chapter. Nonetheless, the limitation of this work may not be true for subsequent work, which can then benefit from the deeper and more detailed structural possibilities of the \acrshort{slmc}. Despite the fact that the thematic focus of the \acrshort{slmc} is not on \acrshort{cs}, the overall design pattern could be adopted well. The successful preservation of design patterns to other fields is also supported by \autocite{diggelenGroundedDesignDesign2009}'s findings. Thus, although the work has a sound methodological basis, it is primarily based on the perspective of a process- and requirements-oriented understanding and reasoning of the design phase. Other perspectives such as resource, behavioural network or stakeholder networks, cultural norms and values, as well as the communication network perspective may play a role in certain aspects, but are of secondary importance in this work. Engaging these other perspectives more in depth could yield further important insights by encouraging a more holistic view of the design.
+
+% The division into several stages was also adopted by \autocite{citizenscience.govBasicStepsYour}, for example, and could represent procedural developments well. 
+
+
+\section{Feasibility Assessment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % feasibility assessment + challenges, opportunities and solutions
 2. Objective + 2. RQ
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Feasibility Assessment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % especially the extensions with red flags was new here
 
 Since the feasibility had to be determined before this work could move on to address the other research objectives and questions, the second objective to \textit{assess the feasibility of the \acrlong{cs} approach in the given context by identifying potential challenges and opportunities for successful implementation, and to propose recommendations for addressing these challenges} was an interim result of the work. Based on the developed framework in section \ref{subsec:stage2_design} the feasibility was already assessed in sections \ref{subsec:stage1_appl} and \ref{subsec:stage2_appl}. This assessment combined and applied general, international guidance from many projects and studies with local experiences with the \acrshort{cbs} program. It is believed that, even though no dedicated pilot study could be conducted, this combination and interpolation of experiences can reasonably suggest the feasibility of the \acrshort{cs} concept for this application. However, this claim can ultimately only be verified or falsified by a pilot study on site. Furthermore, several challenges such as the embedding into local decision-making and processes, actual tailoring to local conditions and clarifying financial capacities could not further be investigated due to the limited amount of interviews with local stakeholders and ongoing developments of the superordinate project.\newline
@@ -145,25 +372,17 @@ When designing a framework for or directly assessing the feasibility of \acrshor
 Nonetheless, the \acrshort{ecsa} along with many other associations and studies developed \acrshort{cs} principles and characteristics that support the successful design, implementation and operation of a \acrshort{cs} project. Furthermore, a \acrshort{cbs} project was already successfully implemented and in operation for several years within the context and the \acrshort{srcs} but focused on a different topic. This, again highlights the thorough analysis of local comparable projects, mentioned in stage 1, section \ref{subsec:stage1_design}. The actual feasibility assessment therefore focussed primarily on the differences between the \acrshort{cbs} and the potential water source mapping and monitoring project.\newline
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% framework development based on the identified principles
-3. Objective + 3. RQ
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{A Replicable and Adaptable Framework}
-% --> why only participatory levels (1) and (2) (ssf)
-
-Having established the feasibility of the \acrshort{cs} approach, the third objective to \textit{develop a replicable and adaptable framework for community-based participatory water source mapping and monitoring in the context of \acrlong{fbf}, based on the principles and recommendations identified in objectives 1 and 2} could be pursued. There are now a high number and wide variety of guidelines, \acrshort{cs} associations, initiatives and projects to choose from, that the question of the necessity to add just another one to the list suggests itself. The literature analysis suggested that, above all, the high variety is explained and reflected in the high diversity of the \acrshort{cs} approach of e.g. methodology, temporal and spatial scale, goals, context, level of participation and overall goal (see section \ref{sec:cs}). \autocite{fraislCitizenScienceEnvironmental2022, westonCommunityBasedWaterMonitoring2015} and \autocite{zhengCrowdsourcingMethodsData2018} all summarise a wide variety of these guidelines and \autocite{garciaFindingWhatYou2021} even created a \textit{Guide to Citizen Science Guidelines}. Nonetheless, none of these met the needs of this work, which prompted the development of a new framework. That goes along with the recommendations, of \autocite{garciaFindingWhatYou2021}, that the development and thus transfer of experience in guidelines is the currently the best practice in the field when new, previously unrealised combinations of the thematic diversity listed above are approached and realised \autocite{garciaFindingWhatYou2021}. This highlights the need, that frameworks need to be focussed on a specific topic, region and environment in order to give meaningful advice and not only generic information that is too coarse to be of great use.\newline
-The decision to build on \autocite{fraislCitizenScienceEnvironmental2022}'s \acrlong{ssf} was primarily driven by its timeliness, comprehensiveness and focus on environmental issues as it was clear, that a more social and local component can be integrated from the \acrshort{srcs}'s experiences with \acrshort{cbs}. The usefulness of the interpolation of these two approaches was particularly evident in the consideration of personal data. While observing natural phenomena at the level of data collection did not raise too many privacy concerns for \autocite{fraislCitizenScienceEnvironmental2022}, this was almost the opposite for CBS \autocite{ifrcCommunityBasedSurveillanceGuiding2017}. Applying these contrasting perspectives to the issue of water sources was thus able to address both the physical and social components well by considering trade-offs between the two 'extremes'. This claim was further supported over the course of this work, when the iterative integration of other guidelines from several divergent foci into the existing framework could be implemented smoothly and only minor revisions had to be made. \autocite{mcgowanCommunitybasedSurveillanceInfectious2022} also found that the success factors of \acrshort{cbs} are closely linked to the general principles of participatory community engagement and could therefore be transferred to other participatory surveillance preparedness activities. As the individual stages are outlined and described in detail in section \ref{sec:design_roadmap} and all identified relatable guidance is included into the design roadmap, no further discussion of the individual stages will be undertaken. % geht das so durch (?)
-Nonetheless, this processual \acrshort{ssf} has some short-comings which will mostly be addressed in the discussion of its actual application (section \ref{TODO:}) and following limitation section \ref{TODO:} of this entire work.\newline
-However, a couple of shortcomings became apparent right at the beginning of the application in the third phase. It was increasingly difficult to keep an overview of the actual project requirements and their interdependencies in terms of subject matter and temporal constraints (see section \ref{subsec:project_requirements} and \ref{subsubsec:knowledge}). Furthermore, \acrshort{cbs}, \acrshort{cbwm} and other approaches have strongly emphasised the importance of embedding the project into prevailing social and decision-making conditions and procedures, which was under-represented in the \acrshort{ssf} (see section \ref{subsubsec:groundwork}). The Interviewees also highlighted, the time (over a year) and resource requirements, which they needed for the development and adaptation of methods and techniques to start with the \acrshort{cbs} project in Somaliland (I2, I3). This goes along with \autocite{garciaFindingWhatYou2021}'s findings, that some adjustments and tailoring always need to be done when implementing a new project (see section \ref{subsubsec:innovations}). Together with the emerging need to structure smaller developments and create an overview of decision dependencies, a fourth area of management became apparent that needed to be addressed >(see section \ref{subsubsec:management}). These reasons provided the ground for the new development of the \acrlong{prc} to expand the \acrshort{ssf} from the third phase onwards. Since the first and second stages are primarily exploratory in nature, it is believed that the \acrshort{prc} should not be integrated in these stages, as it could limit the exploration to the given categories. Should something be overlooked, completions are still possible at the beginning of the third phase.\newline
-The conceptualisation and structure of the \acrshort{prc} with the \acrlong{slmc}, guided by the derived goals by \autocite{minkmanCitizenScienceWater2015} further supports the structuring and elaboration of the dependency. Emphasis is given to the top three layers, the \textit{Goal-, Products-, and Activities-Layer}., firstly due to time and information constraints and secondly as practical applicable\textit{ methods, techniques, tools and scripts} need to be highly adjusted to the local context (see section \ref{subsec:slmc}). Both are main limitations of this work and will further be discussed in the last section of this chapter. Nonetheless, the limitation of this work may not be true for subsequent work, which can then benefit from the deeper and more detailed structural possibilities of the \acrshort{slmc}. Despite the fact that the thematic focus of the \acrshort{slmc} is not on \acrshort{cs}, the overall design pattern could be adopted well. The successful preservation of design patterns to other fields is also supported by \autocite{diggelenGroundedDesignDesign2009}'s findings. Thus, although the work has a sound methodological basis, it is primarily based on the perspective of a process- and requirements-oriented understanding and reasoning of the design phase. Other perspectives such as resource, behavioural network or stakeholder networks, cultural norms and values, as well as the communication network perspective may play a role in certain aspects, but are of secondary importance in this work. Engaging these other perspectives more in depth could yield further important insights by encouraging a more holistic view of the design.
-
-% The division into several stages was also adopted by \autocite{citizenscience.govBasicStepsYour}, for example, and could represent procedural developments well. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % specific application of the framework to the context
 4. Objective + 4. RQ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Application}
+
+
+any surprising findings? 
+--> e.g. there might be people, that have an interest in this project not working. Private vendors of water trucking e.g.? what about those.
+more power to the people -> less power to others. Problems?
+
+
 
 The fourth research objective to \textit{apply the adapted and developed framework to establish a roadmap for the implementation of a water source mapping and monitoring approach to trigger appropriate anticipatory actions to address water shortages} has already been partially addressed under the first two objectives. Stage 1 was primarily addressed by the first research objective which explored much of the underlying concepts, context, prevailing problems and also carved out potential solutions. Stage 2, the feasibility assessment, was addressed with the second research objective. Therefore, this section concentrates on the stages three to six.\newline
 In stage 3, the subdivision into the \acrshort{prc} was helpful to reduce cognitive overload and highlight chronological and thematic (inter-) dependencies. In terms of knowledge, the \acrshort{prc} helped to structure the identified information from stages 1 and 2, which additionally helped to make knowledge gaps, such as e.g. missing detailed knowledge about local decision-making procedures, obvious. As it is was not feasible to gather these information in the scope of this work, it was therefore simplified to concentrate on those areas, that could be tackled. For example, it became clear that the initial mapping, which includes gathering other key information about the berkad, cannot be done by local volunteers as the knowledge and technical equipment requirements are too high for most. Thus the initial mapping needs to be conducted by the \acrshort{srcs} professionals who are already experienced and don't need further guidance for the process. Nonetheless, gathering the information that is initially required was feasible in the context of the work and thus focussed on. The knowledge gathered was thus more broad than deep and in most cases requires further investigation, especially in relation to local conditions. For example, in the case of the \acrshort{aa} of water trucking, see figure \ref{TODO:} in section \ref{subsubsec:assemblage}, requirements could be listed, but their actual specification is only possible on the ground with local stakeholders.\newline
@@ -192,6 +411,7 @@ The application also supports the findings of \autocite{garciaFindingWhatYou2021
 % - can cover any part of the study (theory up to methods or sample)
 % e.g. small sample -> no generalisation possible nono
 % + possible improvements, but don't undermine the research
+
 
 \section{Limitations}
 % theoretical foundation

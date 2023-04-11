@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>main.bcf</file>
+      <file>SottmannBosse_Masterthesis.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bbl</file>
+      <file>SottmannBosse_Masterthesis.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>main</infile>
+      <infile>SottmannBosse_Masterthesis</infile>
     </cmdline>
     <input>
-      <file>main.bcf</file>
+      <file>SottmannBosse_Masterthesis.bcf</file>
     </input>
     <output>
-      <file>main.bbl</file>
+      <file>SottmannBosse_Masterthesis.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>main.bbl</file>
+      <file>SottmannBosse_Masterthesis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bcf</file>
+      <file>SottmannBosse_Masterthesis.bcf</file>
     </requires>
     <requires type="editable">
       <file>C:\\Users\\bosse\\Documents\\UNIVERSITY\\masterthesis\\01_Masterarbeit.bib</file>
