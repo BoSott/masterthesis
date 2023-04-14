@@ -70,7 +70,9 @@ headsepline, % Uncomment to get a line under the header
 
 % \usepackage[backend=biblatex,style=authoryear,natbib=true]{biblatex} % Use the bibtex
 % \usepackage[backend=biber,style=authoryear, citestyle=apa,natbib=true, sorting=anyt]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
-\usepackage[backend=biber,style=authoryear]{biblatex}
+% \usepackage[backend=biber,style=authoryear]{biblatex}
+% \usepackage{apacite}
+\usepackage[backend=biber,style=apa, citestyle=apa, natbib=true, sorting=anyt]{biblatex}
 
 \addbibresource{C:\\Users\\bosse\\Documents\\UNIVERSITY\\masterthesis\\01_Masterarbeit.bib} % The filename of the bibliography
 
@@ -85,7 +87,6 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{enumitem}
 \usepackage{wrapfig}
 \usepackage{pdflscape}
-% \usepackage{apacite}
 % \PassOptionsToPackage{table}{xcolor}
 % \usepackage[table]{xcolor}
 
@@ -349,6 +350,8 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 
 \printglossary
 \printglossary[type=\acronymtype]
+\printglossary[type=\acronymtype]
+
 
 % \end{abbreviations}
 
@@ -399,11 +402,11 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 % Uncomment the lines as you write the chapters
 
 % \include{Chapters/Chapter1_Introduction.tex}
-% \include{Chapters/Chapter2_TheoreticalBackground.tex}
+\include{Chapters/Chapter2_TheoreticalBackground.tex}
 % \include{Chapters/Chapter3_methodology.tex}
 % \include{Chapters/Chapter4_Results.tex}
 % \include{Chapters/Chapter5_Discussion.tex}
-\include{Chapters/Chapter6_conclusion_outlook.tex}
+% \include{Chapters/Chapter6_conclusion_outlook.tex}
 % \include{Chapters/chapter_test.tex} 
 % \include{Chapters/ChapterTemplate.tex} 
 % \include{Chapters/example_chapter} 
@@ -428,7 +431,7 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 % Uncomment the lines as you write the Appendices
 
 %\include{Appendices/AppendixA}
-% \include{Appendices/AppendixB}
+%\include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
 

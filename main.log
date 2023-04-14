@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.12)  14 APR 2023 10:05
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.12)  14 APR 2023 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,7 +1122,11 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count405
@@ -1161,38 +1165,48 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count438
 \c@shorteditor=\count439
 \c@savedshorteditor=\count440
-\c@labelname=\count441
-\c@savedlabelname=\count442
-\c@institution=\count443
-\c@savedinstitution=\count444
-\c@lista=\count445
-\c@savedlista=\count446
-\c@listb=\count447
-\c@savedlistb=\count448
-\c@listc=\count449
-\c@savedlistc=\count450
-\c@listd=\count451
-\c@savedlistd=\count452
-\c@liste=\count453
-\c@savedliste=\count454
-\c@listf=\count455
-\c@savedlistf=\count456
-\c@location=\count457
-\c@savedlocation=\count458
-\c@organization=\count459
-\c@savedorganization=\count460
-\c@origlocation=\count461
-\c@savedoriglocation=\count462
-\c@origpublisher=\count463
-\c@savedorigpublisher=\count464
-\c@publisher=\count465
-\c@savedpublisher=\count466
-\c@language=\count467
-\c@savedlanguage=\count468
-\c@origlanguage=\count469
-\c@savedoriglanguage=\count470
-\c@pageref=\count471
-\c@savedpageref=\count472
+\c@narrator=\count441
+\c@savednarrator=\count442
+\c@execproducer=\count443
+\c@savedexecproducer=\count444
+\c@execdirector=\count445
+\c@savedexecdirector=\count446
+\c@with=\count447
+\c@savedwith=\count448
+\c@labelname=\count449
+\c@savedlabelname=\count450
+\c@institution=\count451
+\c@savedinstitution=\count452
+\c@lista=\count453
+\c@savedlista=\count454
+\c@listb=\count455
+\c@savedlistb=\count456
+\c@listc=\count457
+\c@savedlistc=\count458
+\c@listd=\count459
+\c@savedlistd=\count460
+\c@liste=\count461
+\c@savedliste=\count462
+\c@listf=\count463
+\c@savedlistf=\count464
+\c@location=\count465
+\c@savedlocation=\count466
+\c@organization=\count467
+\c@savedorganization=\count468
+\c@origlocation=\count469
+\c@savedoriglocation=\count470
+\c@origpublisher=\count471
+\c@savedorigpublisher=\count472
+\c@publisher=\count473
+\c@savedpublisher=\count474
+\c@language=\count475
+\c@savedlanguage=\count476
+\c@origlanguage=\count477
+\c@savedoriglanguage=\count478
+\c@citation=\count479
+\c@savedcitation=\count480
+\c@pageref=\count481
+\c@savedpageref=\count482
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -1222,46 +1236,72 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count473
-\c@textcitetotal=\count474
-\c@textcitemaxnames=\count475
-\c@biburlbigbreakpenalty=\count476
-\c@biburlbreakpenalty=\count477
-\c@biburlnumpenalty=\count478
-\c@biburlucpenalty=\count479
-\c@biburllcpenalty=\count480
+\c@textcitecount=\count483
+\c@textcitetotal=\count484
+\c@textcitemaxnames=\count485
+\c@biburlbigbreakpenalty=\count486
+\c@biburlbreakpenalty=\count487
+\c@biburlnumpenalty=\count488
+\c@biburlucpenalty=\count489
+\c@biburllcpenalty=\count490
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count481
+\c@smartand=\count491
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
 
-(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
-.bbx
-File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count482
-\c@bbx:relatedtotal=\count483
-))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
+\c@bbx:relatedcount=\count492
+\c@bbx:relatedtotal=\count493
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
 
-(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
-.cbx
-File: authoryear.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
 Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 )
@@ -1286,12 +1326,12 @@ Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 ))
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count484
-\csq@gtype=\count485
-\csq@glevel=\count486
-\csq@qlevel=\count487
-\csq@maxlvl=\count488
-\csq@tshold=\count489
+\csq@reset=\count494
+\csq@gtype=\count495
+\csq@glevel=\count496
+\csq@qlevel=\count497
+\csq@maxlvl=\count498
+\csq@tshold=\count499
 \csq@ltx@everypar=\toks39
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -1331,14 +1371,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count490
+\inf@bad=\count500
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count491
-\leftroot@=\count492
+\uproot@=\count501
+\leftroot@=\count502
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count493
-\DOTSCASE@=\count494
+\classnum@=\count503
+\DOTSCASE@=\count504
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -1351,20 +1391,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen356
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count495
+\macc@depth=\count505
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count496
+\c@MaxMatrixCols=\count506
 \dotsspace@=\muskip21
-\c@parentequation=\count497
-\dspbrk@lvl=\count498
+\c@parentequation=\count507
+\dspbrk@lvl=\count508
 \tag@help=\toks42
-\row@=\count499
-\column@=\count500
-\maxfields@=\count501
+\row@=\count509
+\column@=\count510
+\maxfields@=\count511
 \andhelp@=\toks43
 \eqnshift@=\dimen357
 \alignsep@=\dimen358
@@ -1381,7 +1421,7 @@ LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count502
+\c@su@anzahl=\count512
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.st
 y
@@ -1392,19 +1432,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count503
+\actioncount=\count513
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count504
-\FP@xia=\count505
-\FP@xib=\count506
-\FP@xfa=\count507
-\FP@xfb=\count508
-\FP@rega=\count509
-\FP@regb=\count510
-\FP@regs=\count511
-\FP@times=\count512
+\FP@xs=\count514
+\FP@xia=\count515
+\FP@xib=\count516
+\FP@xfa=\count517
+\FP@xfb=\count518
+\FP@rega=\count519
+\FP@regb=\count520
+\FP@regs=\count521
+\FP@times=\count522
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1423,7 +1463,7 @@ Package: fp-pas 1994/08/29
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count513
+\FPseed=\count523
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1435,14 +1475,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks46
-\@dtl@tmpcount=\count514
+\@dtl@tmpcount=\count524
 \dtl@tmplength=\skip103
-\dtl@sortresult=\count515
-\@dtl@numgrpsepcount=\count516
-\@dtl@datatype=\count517
-\dtl@codeA=\count518
-\dtl@codeB=\count519
-\@dtl@foreach@level=\count520
+\dtl@sortresult=\count525
+\@dtl@numgrpsepcount=\count526
+\@dtl@datatype=\count527
+\dtl@codeA=\count528
+\dtl@codeB=\count529
+\@dtl@foreach@level=\count530
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
@@ -1457,7 +1497,7 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 saries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count521
+\gls@level=\count531
 \@gls@tmpb=\toks47
 \gls@tmplen=\skip104
 \glskeylisttok=\toks48
@@ -1487,7 +1527,7 @@ Package: glossary-super 2022/11/03 v4.52 (NLCT)
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
 ar.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count522
+\c@tracingst=\count532
 \ST@wd=\dimen363
 \ST@rightskip=\skip108
 \ST@leftskip=\skip109
@@ -1514,66 +1554,66 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen373
 \enit@toks=\toks52
 \enit@inbox=\box109
-\enit@count@id=\count523
-\enitdp@description=\count524
+\enit@count@id=\count533
+\enitdp@description=\count534
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen374
 \WF@size=\dimen375
-\c@WF@wrappedlines=\count525
+\c@WF@wrappedlines=\count535
 \WF@box=\box110
 \WF@everypar=\toks53
 Package: wrapfig 2003/01/31  v 3.6
 )
-\c@questionsi=\count526
-\c@questionsii=\count527
-\enitdp@questions=\count528
+\c@questionsi=\count536
+\c@questionsii=\count537
+\enitdp@questions=\count538
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 146.
+Package glossaries Info: Writing glossary file main.glo on input line 147.
 \glo@acronym@file=\write7
 \openout7 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 146.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 204.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 204.
-Package hyperref Info: Option `colorlinks' set `true' on input line 204.
-Package hyperref Info: Option `unicode' set `true' on input line 204.
-Package hyperref Info: Option `breaklinks' set `true' on input line 204.
+Package glossaries Info: Writing glossary file main.acn on input line 147.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 206.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 206.
+Package hyperref Info: Option `colorlinks' set `true' on input line 206.
+Package hyperref Info: Option `unicode' set `true' on input line 206.
+Package hyperref Info: Option `breaklinks' set `true' on input line 206.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(main.aux (Appendices/AppendixB.aux))
+(main.aux (Chapters/Chapter2_TheoreticalBackground.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 204.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 206.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-04.
+06.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1581,7 +1621,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 204.
+or `english'. on input line 206.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
@@ -1623,14 +1663,14 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \abbrevname on input line 204.
-Package scrbase Info: activating english \byname on input line 204.
-Package scrbase Info: activating english \acknowledgementname on input line 204
+Package scrbase Info: activating english \abbrevname on input line 206.
+Package scrbase Info: activating english \byname on input line 206.
+Package scrbase Info: activating english \acknowledgementname on input line 206
 .
-Package scrbase Info: activating english \authorshipname on input line 204.
-Package scrbase Info: activating english \constantsname on input line 204.
-Package scrbase Info: activating english \symbolsname on input line 204.
-Package hyperref Info: Link coloring ON on input line 204.
+Package scrbase Info: activating english \authorshipname on input line 206.
+Package scrbase Info: activating english \constantsname on input line 206.
+Package scrbase Info: activating english \symbolsname on input line 206.
+Package hyperref Info: Link coloring ON on input line 206.
 (main.out) (main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
@@ -1641,6 +1681,12 @@ ty
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 
 )
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-ap
+a.lbx
+File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1648,6 +1694,25 @@ Package biblatex Info: ... file 'english.lbx' found.
 x
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-a
+pa.lbx
+File: american-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
+bx
+File: american.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
+File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+))))
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1656,9 +1721,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 204.
-Package biblatex Info: Reference segment=0 on input line 204.
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                escaeuropeancitizenscienceassociationTenPrinciplesCit
+izen2015
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 206.
+Package biblatex Info: Reference segment=0 on input line 206.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
 saries-dictionary-English.dict
@@ -1676,40 +1750,40 @@ Dictionary: glossaries-dictionary, Language: English
  Declaration of Authorship
 --------------------
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
-67.
+69.
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 1: section
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 2
-82.
+84.
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-282.
+284.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-282.
+284.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-282.
+284.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-282.
+284.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1718,7 +1792,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 ]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 282.
+e 284.
  [2
 
 ]
@@ -1762,46 +1836,527 @@ e 282.
 ]
 No file main.gls.
 No file main.acr.
+No file main.acr.
 [8
 
 ]
 1: section
-\openout2 = `Chapters/Chapter6_conclusion_outlook.aux'.
+\openout2 = `Chapters/Chapter2_TheoreticalBackground.aux'.
 
-(Chapters/Chapter6_conclusion_outlook.tex
+(Chapters/Chapter2_TheoreticalBackground.tex
 Chapter 1.
 1: section
 [1
 
 
 
-]) [2]
+]
 
-LaTeX Warning: Empty bibliography on input line 415.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 39.
 
-(main.aux (Chapters/Chapter6_conclusion_outlook.aux))
+File: figures/2023_MA_th_drought_interconnections.pdf Graphic file (type pdf)
+<use figures/2023_MA_th_drought_interconnections.pdf>
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Overfull \hbox (0.75209pt too wide) in paragraph at lines 47--50
+\T1/ppl/m/n/10.95 tem-po-ral, spa-tial and the-matic di-men-sions makes the def
+-i-ni-tion of \T1/ppl/m/it/10.95 drought \T1/ppl/m/n/10.95 a fairly multi-layer
+ed
+ []
+
+[2] [3]
+File: figures/2023_MA_drought_stages.jpg Graphic file (type bmp)
+<figures/2023_MA_drought_stages.jpg>
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+[5]
+Overfull \hbox (6.688pt too wide) in paragraph at lines 98--100
+\T1/ppl/m/n/10.95 bers and scales that can be mea-sured, tracked and rea-son-ab
+ly com-pared ([]Blau-velt, []2014[][]; Williams
+ []
+
+[6] [7] [8]
+File: figures/2023_MA_th_fbf_diagram.jpg Graphic file (type bmp)
+<figures/2023_MA_th_fbf_diagram.jpg>
+ [9]
+File: figures/2023_MA_th_eap.pdf Graphic file (type pdf)
+<use figures/2023_MA_th_eap.pdf>
+File: figures/2023_MA_th_eap_validation_steps.jpg Graphic file (type bmp)
+<figures/2023_MA_th_eap_validation_steps.jpg>
+ [10] [11] [12]
+File: figures/2023_MA_th_slow_onset.jpg Graphic file (type bmp)
+<figures/2023_MA_th_slow_onset.jpg>
+ [13] [14]
+
+LaTeX Warning: Citation 'escaTenPrinciplesCitizen2015' on page 15 undefined on 
+input line 221.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Citation 'escaTenPrinciplesCitizen2015' on page 15 undefined on 
+input line 222.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: DE37DB1AE5DD3103A35AEE3F144F5E38;1464
-(rerunfilecheck)             After:  D94C93DF2ECB08EC2B374D514C091CE6;535.
+
+Overfull \hbox (11.63751pt too wide) in paragraph at lines 219--227
+\T1/ppl/m/n/10.95 ([]; []Cit-i-zen-Science.gov, []n.d.[][]; ESCA et al., []2020
+[][]; ^^P  EU-Citizen.Science^^Q,
+ []
+
+[15] [16] [17] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 261--265
+
+ []
+
+[20] [21]
+File: figures/2023_MA_th_nyss_diagram.jpg Graphic file (type bmp)
+<figures/2023_MA_th_nyss_diagram.jpg>
+ [22]
+
+LaTeX Warning: Reference `TODO:' on page 23 undefined on input line 293.
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Environmental
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 322--322
+\T1/ppl/m/n/10 mon-i-tor-ing, wa-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Internet ac-cess,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 USA &
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Precipitation, con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 di-tion, drought
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Internet ac-cess,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 lo-cal knowl-edge,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 mea-sure-ment
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Lackstrom et al.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Environmental
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 322--322
+\T1/ppl/m/n/10 mon-i-tor-ing, wa-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Measurement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Smart Wa-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 Crowd-sens-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Groundwater
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Internet ac-cess,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 mea-sure-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Hydrologic mea-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Fienen & Lowry,
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Hydrologic mon-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Cooperative Ob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Weather and cli-
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Lawrimore et al.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Haltwhistle Burn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Water, En-vi-ron-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Starkey et al.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Measurement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Internet ac-cess,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 An-droid ap-pli-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Frigerio et al.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Internet ac-cesss,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Carrion et al.,
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Citizen sci-ence in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Sub-Saharan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Drought pre-dic-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 wire-less sen-sors,
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Masinde & Bag-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Smartphone-based
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 322--322
+\T1/ppl/m/n/10 Sys-tem for wa-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Rajasthan,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Smartphone,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/ppl/m/n/10 Mea-sure-ment
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 (Srivastava et al.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Disaster Man-age-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Mobile phone,
+ []
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 322--322
+\T1/ppl/m/n/10 back-end self ser-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Disaster Man-age-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/ppl/m/n/10 Internet ac-cess,
+ []
+
+
+LaTeX Warning: Float too large for page by 10.76158pt on input line 325.
+
+File: figures/2023_MA_th_day_iwrm.jpg Graphic file (type bmp)
+<figures/2023_MA_th_day_iwrm.jpg>
+[24] [25]
+Missing character: There is no ć in font pplr8t!
+Missing character: There is no ć in font pplr8t!
+
+LaTeX Warning: Reference `subsec:stage5_appl' on page 26 undefined on input lin
+e 346.
+
+[26]
+
+LaTeX Warning: Reference `TODO: create map of Somaliland with regions' on page 
+27 undefined on input line 357.
+
+[27]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 359.
+ [28]
+
+LaTeX Warning: Reference `subsec:stage1_appl' on page 29 undefined on input lin
+e 372.
+
+
+LaTeX Warning: Reference `subsec:stage1_appl' on page 29 undefined on input lin
+e 373.
+
+[29]
+Overfull \hbox (1.98947pt too wide) in paragraph at lines 386--390
+\T1/ppl/m/n/10.95 Geographically, the east-ern re-gions Sanaag, Sool and Todghe
+er are his-tor-i-cally the most severely
+ []
+
+
+Overfull \hbox (9.20612pt too wide) in paragraph at lines 386--390
+\T1/ppl/m/n/10.95 riod since 1960, So-ma-liland ex-pe-ri-enced 17 ma-jor drough
+ts with the most in-tense and widespread
+ []
+
+
+Overfull \hbox (2.85522pt too wide) in paragraph at lines 386--390
+\T1/ppl/m/n/10.95 Cascading droughts can have cas-cad-ing im-pacts as af-fected
+ peo-ple are forced into bad feedback-
+ []
+
+[30] [31] [32]
+
+Package biblatex Warning: Package option 'sortcites' enabled.
+(biblatex)                Verify postnote placement on input line 406.
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Overfull \hbox (1.18935pt too wide) in paragraph at lines 432--433
+\T1/ppl/m/n/10.95 brella, [][]Community-based Surveil-lance (CBS)[] to-gether w
+ith [][]Mo-bile Crowd-sens-ing[] pro-vide prac-
+ []
+
+[34]) [35]
+Missing character: There is no – in font pplr8t!
+1: section
+[36
+
+
+
+]
+Missing character: There is no — in font pplr8t!
+Missing character: There is no ’ in font pplr8t!
+Missing character: There is no ’ in font pplr8t!
+[37]
+Missing character: There is no š in font pplr8t!
+Missing character: There is no š in font pplr8t!
+
+Overfull \hbox (184.84326pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/it/10.95 US-AID, Wash-ing-ton DC. Avail-able from www. us-aid. gov/si
+tes/default/files/documents/1867/Summary_Economics_of_Resilience_Final_
+ []
+
+Missing character: There is no – in font pplri8t!
+[38]
+Overfull \hbox (2.2903pt too wide) in paragraph at lines 419--419
+[][]\T1/ppl/m/n/10.95 Committee, N. D. (2022). \T1/ppl/m/it/10.95 SO-MA-LILAND 
+DROUGHT RAPID AS-SESS-MENT RE-PORT\T1/ppl/m/n/10.95 . Re-trieved
+ []
+
+[39]
+Missing character: There is no – in font pplr8t!
+[40]
+Missing character: There is no — in font pplr8t!
+Missing character: There is no ‘ in font pplr8t!
+Missing character: There is no ’ in font pplr8t!
+[41]
+Missing character: There is no ’ in font pplr8t!
+Missing character: There is no — in font pplr8t!
+Missing character: There is no – in font pplri8t!
+[42] [43]
+Missing character: There is no ’ in font pplri8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+[44] [45]
+Missing character: There is no ’ in font pplr8t!
+
+Overfull \hbox (4.01569pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 In-te-gra-tion of In-dige-nous and Sci-en-tific Drought Fore-
+casts Us-ing Fuzzy Cog-ni-tive Maps.
+ []
+
+Missing character: There is no ’ in font pplr8t!
+[46]
+Overfull \hbox (10.21503pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 2023, from []$https : / / climatedataguide . ucar . edu / cli
+mate -[] data / standardized -[] precipitation -[]
+ []
+
+
+Overfull \hbox (6.15286pt too wide) in paragraph at lines 419--419
+[][]\T1/ppl/m/n/10.95 NDMC. (2023a). Types of Drought. In \T1/ppl/m/it/10.95 Na
+-tional Drought Mit-i-ga-tion Cen-ter\T1/ppl/m/n/10.95 . Uni-ver-sity of Nebras
+ka-
+ []
+
+
+Overfull \hbox (5.71739pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 Lincoln. Re-trieved March 7, 2023, from []$https : / / drough
+t . unl . edu / Education / DroughtIn -[]
+ []
+
+
+Overfull \hbox (5.1493pt too wide) in paragraph at lines 419--419
+[][]\T1/ppl/m/n/10.95 NDMC. (2023b). What is Drought? In \T1/ppl/m/it/10.95 Na-
+tional Drought Mit-i-ga-tion Cen-ter\T1/ppl/m/n/10.95 . Uni-ver-sity of Nebrask
+a-
+ []
+
+
+Overfull \hbox (5.71739pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 Lincoln. Re-trieved March 6, 2023, from []$https : / / drough
+t . unl . edu / Education / DroughtIn -[]
+ []
+
+[47]
+Overfull \hbox (1.42096pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 Com-pan-ion Ox-fam Dis-as-ter Risk Re-duc-tion and Cli-mate C
+hange Adap-ta-tion Re-sources.
+ []
+
+
+Overfull \hbox (6.67921pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 People-centred surveil-lance: A nar-ra-tive re-view of commun
+ity-based surveil-lance among
+ []
+
+[48] [49]
+Missing character: There is no ‘ in font pplr8t!
+Missing character: There is no ’ in font pplr8t!
+Missing character: There is no “ in font pplr8t!
+Missing character: There is no ” in font pplr8t!
+[50]
+Missing character: There is no ć in font pplr8t!
+[51]
+Missing character: There is no – in font pplr8t!
+
+Overfull \hbox (20.95744pt too wide) in paragraph at lines 419--419
+\T1/ppl/m/n/10.95 Def-i-ni-tions. \T1/ppl/m/it/10.95 Wa-ter In-ter-na-tional\T1
+/ppl/m/n/10.95 , \T1/ppl/m/it/10.95 10\T1/ppl/m/n/10.95 (3), 111^^U120. []$http
+s : / / doi . org / 10 . 1080 / 02508068508686328$[] 
+ []
+
+[52] [53] (main.aux (Chapters/Chapter2_TheoreticalBackground.aux))
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A9648CB2C8D56052AD50F2F8DADAC485;4181.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50498 strings out of 411476
- 1077176 string characters out of 5818380
- 1857001 words of memory out of 5000000
- 70089 multiletter control sequences out of 15000+600000
- 540529 words of font info for 69 fonts, out of 8000000 for 9000
+ 53780 strings out of 411476
+ 1188147 string characters out of 5818380
+ 2878872 words of memory out of 5000000
+ 73344 multiletter control sequences out of 15000+600000
+ 550266 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,20n,95p,2235b,4138s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,20n,108p,3475b,6099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (11 pages).
+Output written on main.pdf (62 pages).
