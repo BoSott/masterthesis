@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.12)  11 APR 2023 20:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.12)  14 APR 2023 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -845,73 +845,276 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count330
 )
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 11
+2.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+))
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box79
+)
+\tc@llx=\dimen294
+\tc@lly=\dimen295
+\tc@urx=\dimen296
+\tc@ury=\dimen297
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen298
+\adjbox@Height=\dimen299
+\adjbox@Depth=\dimen300
+\adjbox@Totalheight=\dimen301
+\adjbox@pwidth=\dimen302
+\adjbox@pheight=\dimen303
+\adjbox@pdepth=\dimen304
+\adjbox@ptotalheight=\dimen305
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count331
+) (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box80
+\sift@deathcycles=\count332
+\@vwid@loff=\dimen306
+\@vwid@roff=\dimen307
+)) (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package scrhack Info: loading lscape hack on input line 77.
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\lscape.hak
+File: lscape.hak 2022/10/12 v3.38 KOMA-Script scrhack part (hacking package lsc
+ape)
+Package scrhack Info: \landscape patched to make \textheight change optional on
+ input line 90.
+\scrh@LT@textheight=\skip61
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+))
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count333
+\rotFPtop=\skip62
+\rotFPbot=\skip63
+\rot@float@box=\box81
+\rot@mess@toks=\toks37
+)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen308
+\TX@old@table=\dimen309
+\TX@old@col=\dimen310
+\TX@target=\dimen311
+\TX@delta=\dimen312
+\TX@cols=\count334
+\TX@ftn=\toks38
+)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/02/22 v3.3 ragged2e Package
+\CenteringLeftskip=\skip64
+\RaggedLeftLeftskip=\skip65
+\RaggedRightLeftskip=\skip66
+\CenteringRightskip=\skip67
+\RaggedLeftRightskip=\skip68
+\RaggedRightRightskip=\skip69
+\CenteringParfillskip=\skip70
+\RaggedLeftParfillskip=\skip71
+\RaggedRightParfillskip=\skip72
+\JustifyingParfillskip=\skip73
+\CenteringParindent=\skip74
+\RaggedLeftParindent=\skip75
+\RaggedRightParindent=\skip76
+\JustifyingParindent=\skip77
+)
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
+ty
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count335
+\l__tblr_c_int=\count336
+\l__tblr_r_int=\count337
+\l__tblr_d_dim=\dimen313
+\l__tblr_h_dim=\dimen314
+\l__tblr_o_dim=\dimen315
+\l__tblr_p_dim=\dimen316
+\l__tblr_q_dim=\dimen317
+\l__tblr_r_dim=\dimen318
+\l__tblr_s_dim=\dimen319
+\l__tblr_t_dim=\dimen320
+\l__tblr_v_dim=\dimen321
+\l__tblr_w_dim=\dimen322
+\l__tblr_a_box=\box82
+\l__tblr_b_box=\box83
+\l__tblr_c_box=\box84
+\l__tblr_d_box=\box85
+\g__tblr_table_count_int=\count338
+\c@rownum=\count339
+\c@colnum=\count340
+\c@rowcount=\count341
+\c@colcount=\count342
+\abovesep=\dimen323
+\belowsep=\dimen324
+\leftsep=\dimen325
+\rightsep=\dimen326
+\g_tblr_level_int=\count343
+\g__tblr_data_row_key_count_int=\count344
+\g__tblr_data_column_key_count_int=\count345
+\g__tblr_data_cell_key_count_int=\count346
+\g__tblr_array_int=\count347
+\l__tblr_key_count_int=\count348
+\l__tblr_key_quotient_int=\count349
+\l__tblr_key_quotient_two_int=\count350
+\l__tblr_key_remainder_int=\count351
+\g__tblr_data_str_value_count_int=\count352
+\rulewidth=\dimen327
+\l__tblr_strut_dp_dim=\dimen328
+\l__tblr_strut_ht_dim=\dimen329
+\g__tblr_cell_wd_dim=\dimen330
+\g__tblr_cell_ht_dim=\dimen331
+\g__tblr_cell_head_dim=\dimen332
+\g__tblr_cell_foot_dim=\dimen333
+\l__column_target_dim=\dimen334
+\l__tblr_caption_box=\box86
+\l__tblr_caption_left_box=\box87
+\l__tblr_row_head_box=\box88
+\l__tblr_row_foot_box=\box89
+\l__tblr_row_head_foot_dim=\dimen335
+\tablewidth=\dimen336
+\l__tblr_table_firsthead_box=\box90
+\l__tblr_table_middlehead_box=\box91
+\l__tblr_table_lasthead_box=\box92
+\l__tblr_table_firstfoot_box=\box93
+\l__tblr_table_middlefoot_box=\box94
+\l__tblr_table_lastfoot_box=\box95
+\l__tblr_remain_height_dim=\dimen337
+\l__tblr_long_from_int=\count353
+\l__tblr_long_to_int=\count354
+\l__tblr_curr_i_int=\count355
+\l__tblr_prev_i_int=\count356
+\l__tblr_table_page_int=\count357
+\l__tblr_table_head_box=\box96
+\l__tblr_table_foot_box=\box97
+\l__tblr_table_head_foot_dim=\dimen338
+\l__tblr_table_head_body_foot_dim=\dimen339
+\l__tblr_table_box=\box98
+\l__tblr_table_hlines_box=\box99
+\l__tblr_hline_box=\box100
+\l__tblr_row_box=\box101
+\l__tblr_col_o_wd_dim=\dimen340
+\l__tblr_col_b_wd_dim=\dimen341
+\l__tblr_hline_leftskip_dim=\dimen342
+\l__tblr_hline_rightskip_dim=\dimen343
+\l__tblr_row_ht_dim=\dimen344
+\l__tblr_row_dp_dim=\dimen345
+\l__tblr_row_abovesep_dim=\dimen346
+\l__tblr_row_belowsep_dim=\dimen347
+\l__tblr_row_vlines_box=\box102
+\l__tblr_vline_box=\box103
+\l__tblr_cell_box=\box104
+\l__row_upper_dim=\dimen348
+\l__row_lower_dim=\dimen349
+\l__row_vpace_dim=\dimen350
+\l__tblr_vline_aboveskip_dim=\dimen351
+\l__tblr_vline_belowskip_dim=\dimen352
+\l__tblr_cell_wd_dim=\dimen353
+\l__tblr_cell_ht_dim=\dimen354
+\l__tblr_diag_box=\box105
+)
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count331
+\lrq@indent=\count358
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count332
-\c@listtotal=\count333
-\c@listcount=\count334
-\c@liststart=\count335
-\c@liststop=\count336
-\c@citecount=\count337
-\c@citetotal=\count338
-\c@multicitecount=\count339
-\c@multicitetotal=\count340
-\c@instcount=\count341
-\c@maxnames=\count342
-\c@minnames=\count343
-\c@maxitems=\count344
-\c@minitems=\count345
-\c@citecounter=\count346
-\c@maxcitecounter=\count347
-\c@savedcitecounter=\count348
-\c@uniquelist=\count349
-\c@uniquename=\count350
-\c@refsection=\count351
-\c@refsegment=\count352
-\c@maxextratitle=\count353
-\c@maxextratitleyear=\count354
-\c@maxextraname=\count355
-\c@maxextradate=\count356
-\c@maxextraalpha=\count357
-\c@abbrvpenalty=\count358
-\c@highnamepenalty=\count359
-\c@lownamepenalty=\count360
-\c@maxparens=\count361
-\c@parenlevel=\count362
-\blx@tempcnta=\count363
-\blx@tempcntb=\count364
-\blx@tempcntc=\count365
-\c@blx@maxsection=\count366
-\blx@maxsegment@0=\count367
-\blx@notetype=\count368
-\blx@parenlevel@text=\count369
-\blx@parenlevel@foot=\count370
-\blx@sectionciteorder@0=\count371
-\blx@sectionciteorderinternal@0=\count372
-\blx@entrysetcounter=\count373
-\blx@biblioinstance=\count374
-\labelnumberwidth=\skip61
-\labelalphawidth=\skip62
-\biblabelsep=\skip63
-\bibitemsep=\skip64
-\bibnamesep=\skip65
-\bibinitsep=\skip66
-\bibparsep=\skip67
-\bibhang=\skip68
+\c@tabx@nest=\count359
+\c@listtotal=\count360
+\c@listcount=\count361
+\c@liststart=\count362
+\c@liststop=\count363
+\c@citecount=\count364
+\c@citetotal=\count365
+\c@multicitecount=\count366
+\c@multicitetotal=\count367
+\c@instcount=\count368
+\c@maxnames=\count369
+\c@minnames=\count370
+\c@maxitems=\count371
+\c@minitems=\count372
+\c@citecounter=\count373
+\c@maxcitecounter=\count374
+\c@savedcitecounter=\count375
+\c@uniquelist=\count376
+\c@uniquename=\count377
+\c@refsection=\count378
+\c@refsegment=\count379
+\c@maxextratitle=\count380
+\c@maxextratitleyear=\count381
+\c@maxextraname=\count382
+\c@maxextradate=\count383
+\c@maxextraalpha=\count384
+\c@abbrvpenalty=\count385
+\c@highnamepenalty=\count386
+\c@lownamepenalty=\count387
+\c@maxparens=\count388
+\c@parenlevel=\count389
+\blx@tempcnta=\count390
+\blx@tempcntb=\count391
+\blx@tempcntc=\count392
+\c@blx@maxsection=\count393
+\blx@maxsegment@0=\count394
+\blx@notetype=\count395
+\blx@parenlevel@text=\count396
+\blx@parenlevel@foot=\count397
+\blx@sectionciteorder@0=\count398
+\blx@sectionciteorderinternal@0=\count399
+\blx@entrysetcounter=\count400
+\blx@biblioinstance=\count401
+\labelnumberwidth=\skip78
+\labelalphawidth=\skip79
+\biblabelsep=\skip80
+\bibitemsep=\skip81
+\bibnamesep=\skip82
+\bibinitsep=\skip83
+\bibparsep=\skip84
+\bibhang=\skip85
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
-\c@mincomprange=\count375
-\c@maxcomprange=\count376
-\c@mincompwidth=\count377
+\c@mincomprange=\count402
+\c@maxcomprange=\count403
+\c@mincompwidth=\count404
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -922,88 +1125,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count378
-\c@savedafterword=\count379
-\c@annotator=\count380
-\c@savedannotator=\count381
-\c@author=\count382
-\c@savedauthor=\count383
-\c@bookauthor=\count384
-\c@savedbookauthor=\count385
-\c@commentator=\count386
-\c@savedcommentator=\count387
-\c@editor=\count388
-\c@savededitor=\count389
-\c@editora=\count390
-\c@savededitora=\count391
-\c@editorb=\count392
-\c@savededitorb=\count393
-\c@editorc=\count394
-\c@savededitorc=\count395
-\c@foreword=\count396
-\c@savedforeword=\count397
-\c@holder=\count398
-\c@savedholder=\count399
-\c@introduction=\count400
-\c@savedintroduction=\count401
-\c@namea=\count402
-\c@savednamea=\count403
-\c@nameb=\count404
-\c@savednameb=\count405
-\c@namec=\count406
-\c@savednamec=\count407
-\c@translator=\count408
-\c@savedtranslator=\count409
-\c@shortauthor=\count410
-\c@savedshortauthor=\count411
-\c@shorteditor=\count412
-\c@savedshorteditor=\count413
-\c@labelname=\count414
-\c@savedlabelname=\count415
-\c@institution=\count416
-\c@savedinstitution=\count417
-\c@lista=\count418
-\c@savedlista=\count419
-\c@listb=\count420
-\c@savedlistb=\count421
-\c@listc=\count422
-\c@savedlistc=\count423
-\c@listd=\count424
-\c@savedlistd=\count425
-\c@liste=\count426
-\c@savedliste=\count427
-\c@listf=\count428
-\c@savedlistf=\count429
-\c@location=\count430
-\c@savedlocation=\count431
-\c@organization=\count432
-\c@savedorganization=\count433
-\c@origlocation=\count434
-\c@savedoriglocation=\count435
-\c@origpublisher=\count436
-\c@savedorigpublisher=\count437
-\c@publisher=\count438
-\c@savedpublisher=\count439
-\c@language=\count440
-\c@savedlanguage=\count441
-\c@origlanguage=\count442
-\c@savedoriglanguage=\count443
-\c@pageref=\count444
-\c@savedpageref=\count445
-\shorthandwidth=\skip69
-\shortjournalwidth=\skip70
-\shortserieswidth=\skip71
-\shorttitlewidth=\skip72
-\shortauthorwidth=\skip73
-\shorteditorwidth=\skip74
-\locallabelnumberwidth=\skip75
-\locallabelalphawidth=\skip76
-\localshorthandwidth=\skip77
-\localshortjournalwidth=\skip78
-\localshortserieswidth=\skip79
-\localshorttitlewidth=\skip80
-\localshortauthorwidth=\skip81
-\localshorteditorwidth=\skip82
+\c@afterword=\count405
+\c@savedafterword=\count406
+\c@annotator=\count407
+\c@savedannotator=\count408
+\c@author=\count409
+\c@savedauthor=\count410
+\c@bookauthor=\count411
+\c@savedbookauthor=\count412
+\c@commentator=\count413
+\c@savedcommentator=\count414
+\c@editor=\count415
+\c@savededitor=\count416
+\c@editora=\count417
+\c@savededitora=\count418
+\c@editorb=\count419
+\c@savededitorb=\count420
+\c@editorc=\count421
+\c@savededitorc=\count422
+\c@foreword=\count423
+\c@savedforeword=\count424
+\c@holder=\count425
+\c@savedholder=\count426
+\c@introduction=\count427
+\c@savedintroduction=\count428
+\c@namea=\count429
+\c@savednamea=\count430
+\c@nameb=\count431
+\c@savednameb=\count432
+\c@namec=\count433
+\c@savednamec=\count434
+\c@translator=\count435
+\c@savedtranslator=\count436
+\c@shortauthor=\count437
+\c@savedshortauthor=\count438
+\c@shorteditor=\count439
+\c@savedshorteditor=\count440
+\c@labelname=\count441
+\c@savedlabelname=\count442
+\c@institution=\count443
+\c@savedinstitution=\count444
+\c@lista=\count445
+\c@savedlista=\count446
+\c@listb=\count447
+\c@savedlistb=\count448
+\c@listc=\count449
+\c@savedlistc=\count450
+\c@listd=\count451
+\c@savedlistd=\count452
+\c@liste=\count453
+\c@savedliste=\count454
+\c@listf=\count455
+\c@savedlistf=\count456
+\c@location=\count457
+\c@savedlocation=\count458
+\c@organization=\count459
+\c@savedorganization=\count460
+\c@origlocation=\count461
+\c@savedoriglocation=\count462
+\c@origpublisher=\count463
+\c@savedorigpublisher=\count464
+\c@publisher=\count465
+\c@savedpublisher=\count466
+\c@language=\count467
+\c@savedlanguage=\count468
+\c@origlanguage=\count469
+\c@savedoriglanguage=\count470
+\c@pageref=\count471
+\c@savedpageref=\count472
+\shorthandwidth=\skip86
+\shortjournalwidth=\skip87
+\shortserieswidth=\skip88
+\shorttitlewidth=\skip89
+\shortauthorwidth=\skip90
+\shorteditorwidth=\skip91
+\locallabelnumberwidth=\skip92
+\locallabelalphawidth=\skip93
+\localshorthandwidth=\skip94
+\localshortjournalwidth=\skip95
+\localshortserieswidth=\skip96
+\localshorttitlewidth=\skip97
+\localshortauthorwidth=\skip98
+\localshorteditorwidth=\skip99
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1019,19 +1222,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count446
-\c@textcitetotal=\count447
-\c@textcitemaxnames=\count448
-\c@biburlbigbreakpenalty=\count449
-\c@biburlbreakpenalty=\count450
-\c@biburlnumpenalty=\count451
-\c@biburlucpenalty=\count452
-\c@biburllcpenalty=\count453
+\c@textcitecount=\count473
+\c@textcitetotal=\count474
+\c@textcitemaxnames=\count475
+\c@biburlbigbreakpenalty=\count476
+\c@biburlbreakpenalty=\count477
+\c@biburlnumpenalty=\count478
+\c@biburlucpenalty=\count479
+\c@biburllcpenalty=\count480
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count454
+\c@smartand=\count481
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1045,8 +1248,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count455
-\c@bbx:relatedtotal=\count456
+\c@bbx:relatedcount=\count482
+\c@bbx:relatedtotal=\count483
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1083,13 +1286,13 @@ Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 ))
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count457
-\csq@gtype=\count458
-\csq@glevel=\count459
-\csq@qlevel=\count460
-\csq@maxlvl=\count461
-\csq@tshold=\count462
-\csq@ltx@everypar=\toks37
+\csq@reset=\count484
+\csq@gtype=\count485
+\csq@glevel=\count486
+\csq@qlevel=\count487
+\csq@maxlvl=\count488
+\csq@tshold=\count489
+\csq@ltx@everypar=\toks39
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -1108,8 +1311,8 @@ Package: glossaries 2022/11/03 v4.52 (NLCT)
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks38
-\@glsmrest=\toks39
+\@glsmfirst=\toks40
+\@glsmrest=\toks41
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -1119,66 +1322,66 @@ sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip83
+\@mathmargin=\skip100
 For additional information on amsmath, use the `?' option.
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen294
+\pmbraise@=\dimen355
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count463
+\inf@bad=\count490
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count464
-\leftroot@=\count465
+\uproot@=\count491
+\leftroot@=\count492
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count466
-\DOTSCASE@=\count467
+\classnum@=\count493
+\DOTSCASE@=\count494
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box79
-\strutbox@=\box80
+\Mathstrutbox@=\box106
+\strutbox@=\box107
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen295
+\big@size=\dimen356
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count468
+\macc@depth=\count495
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count469
+\c@MaxMatrixCols=\count496
 \dotsspace@=\muskip21
-\c@parentequation=\count470
-\dspbrk@lvl=\count471
-\tag@help=\toks40
-\row@=\count472
-\column@=\count473
-\maxfields@=\count474
-\andhelp@=\toks41
-\eqnshift@=\dimen296
-\alignsep@=\dimen297
-\tagshift@=\dimen298
-\tagwidth@=\dimen299
-\totwidth@=\dimen300
-\lineht@=\dimen301
-\@envbody=\toks42
-\multlinegap=\skip84
-\multlinetaggap=\skip85
-\mathdisplay@stack=\toks43
+\c@parentequation=\count497
+\dspbrk@lvl=\count498
+\tag@help=\toks42
+\row@=\count499
+\column@=\count500
+\maxfields@=\count501
+\andhelp@=\toks43
+\eqnshift@=\dimen357
+\alignsep@=\dimen358
+\tagshift@=\dimen359
+\tagwidth@=\dimen360
+\totwidth@=\dimen361
+\lineht@=\dimen362
+\@envbody=\toks44
+\multlinegap=\skip101
+\multlinetaggap=\skip102
+\mathdisplay@stack=\toks45
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count475
+\c@su@anzahl=\count502
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.st
 y
@@ -1189,19 +1392,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count476
+\actioncount=\count503
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count477
-\FP@xia=\count478
-\FP@xib=\count479
-\FP@xfa=\count480
-\FP@xfb=\count481
-\FP@rega=\count482
-\FP@regb=\count483
-\FP@regs=\count484
-\FP@times=\count485
+\FP@xs=\count504
+\FP@xia=\count505
+\FP@xib=\count506
+\FP@xfa=\count507
+\FP@xfb=\count508
+\FP@rega=\count509
+\FP@regb=\count510
+\FP@regs=\count511
+\FP@times=\count512
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1220,7 +1423,7 @@ Package: fp-pas 1994/08/29
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count486
+\FPseed=\count513
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1231,15 +1434,15 @@ Package: fp-upn 1996/10/21
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks44
-\@dtl@tmpcount=\count487
-\dtl@tmplength=\skip86
-\dtl@sortresult=\count488
-\@dtl@numgrpsepcount=\count489
-\@dtl@datatype=\count490
-\dtl@codeA=\count491
-\dtl@codeB=\count492
-\@dtl@foreach@level=\count493
+\@dtl@toks=\toks46
+\@dtl@tmpcount=\count514
+\dtl@tmplength=\skip103
+\dtl@sortresult=\count515
+\@dtl@numgrpsepcount=\count516
+\@dtl@datatype=\count517
+\dtl@codeA=\count518
+\dtl@codeB=\count519
+\@dtl@foreach@level=\count520
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
@@ -1254,13 +1457,13 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 saries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count494
-\@gls@tmpb=\toks45
-\gls@tmplen=\skip87
-\glskeylisttok=\toks46
-\glslabeltok=\toks47
-\glsshorttok=\toks48
-\glslongtok=\toks49
+\gls@level=\count521
+\@gls@tmpb=\toks47
+\gls@tmplen=\skip104
+\glskeylisttok=\toks48
+\glslabeltok=\toks49
+\glsshorttok=\toks50
+\glslongtok=\toks51
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-hypernav.sty
@@ -1269,13 +1472,13 @@ Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-list.sty
 Package: glossary-list 2022/11/03 v4.52 (NLCT)
-\glslistdottedwidth=\skip88
+\glslistdottedwidth=\skip105
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-long.sty
 Package: glossary-long 2022/11/03 v4.52 (NLCT)
-\glsdescwidth=\skip89
-\glspagelistwidth=\skip90
+\glsdescwidth=\skip106
+\glspagelistwidth=\skip107
 )
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-super.sty
@@ -1284,90 +1487,93 @@ Package: glossary-super 2022/11/03 v4.52 (NLCT)
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
 ar.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count495
-\ST@wd=\dimen302
-\ST@rightskip=\skip91
-\ST@leftskip=\skip92
-\ST@parfillskip=\skip93
-\ST@pageleft=\dimen303
-\ST@headht=\dimen304
-\ST@tailht=\dimen305
-\ST@pagesofar=\dimen306
-\ST@pboxht=\dimen307
-\ST@lineht=\dimen308
-\ST@prevht=\dimen309
-\ST@toadd=\dimen310
-\ST@dimen=\dimen311
-\ST@pbox=\box81
+\c@tracingst=\count522
+\ST@wd=\dimen363
+\ST@rightskip=\skip108
+\ST@leftskip=\skip109
+\ST@parfillskip=\skip110
+\ST@pageleft=\dimen364
+\ST@headht=\dimen365
+\ST@tailht=\dimen366
+\ST@pagesofar=\dimen367
+\ST@pboxht=\dimen368
+\ST@lineht=\dimen369
+\ST@prevht=\dimen370
+\ST@toadd=\dimen371
+\ST@dimen=\dimen372
+\ST@pbox=\box108
 ))
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
 ary-tree.sty
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
-\glstreeindent=\skip94
+\glstreeindent=\skip111
 ))
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip95
-\enit@outerparindent=\dimen312
-\enit@toks=\toks50
-\enit@inbox=\box82
-\enit@count@id=\count496
-\enitdp@description=\count497
+\labelindent=\skip112
+\enit@outerparindent=\dimen373
+\enit@toks=\toks52
+\enit@inbox=\box109
+\enit@count@id=\count523
+\enitdp@description=\count524
 )
-\c@questionsi=\count498
-\c@questionsii=\count499
-\enitdp@questions=\count500
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen374
+\WF@size=\dimen375
+\c@WF@wrappedlines=\count525
+\WF@box=\box110
+\WF@everypar=\toks53
+Package: wrapfig 2003/01/31  v 3.6
+)
+\c@questionsi=\count526
+\c@questionsii=\count527
+\enitdp@questions=\count528
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 121.
+Package glossaries Info: Writing glossary file main.glo on input line 146.
 \glo@acronym@file=\write7
 \openout7 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 121.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 228.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 228.
-Package hyperref Info: Option `colorlinks' set `true' on input line 228.
-Package hyperref Info: Option `unicode' set `true' on input line 228.
-Package hyperref Info: Option `breaklinks' set `true' on input line 228.
+Package glossaries Info: Writing glossary file main.acn on input line 146.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 204.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 204.
+Package hyperref Info: Option `colorlinks' set `true' on input line 204.
+Package hyperref Info: Option `unicode' set `true' on input line 204.
+Package hyperref Info: Option `breaklinks' set `true' on input line 204.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 22
-8.
 
-(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
-File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)
-(main.aux (Chapters/Chapter4_Results.aux) (Chapters/Chapter5_Discussion.aux))
+(main.aux (Appendices/AppendixB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 204.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-28.
+04.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1375,10 +1581,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 228.
+or `english'. on input line 204.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1388,22 +1596,21 @@ Package caption Info: End \AtBeginDocument code.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* bindingoffset: 14.22636pt
-* modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(71.13188pt, 426.79137pt, 85.35826pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79137pt
-* \textheight=693.49382pt
-* \oddsidemargin=13.08826pt
-* \evensidemargin=13.08827pt
+* \textwidth=455.24411pt
+* \textheight=691.80992pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-29.59087pt
-* \headheight=18.85803pt
+* \headheight=20.54193pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
 * \footskip=27.46295pt
-* \marginparwidth=116.0pt
+* \marginparwidth=62.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1411,23 +1618,29 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \abbrevname on input line 228.
-Package scrbase Info: activating english \byname on input line 228.
-Package scrbase Info: activating english \acknowledgementname on input line 228
+Package scrbase Info: activating english \abbrevname on input line 204.
+Package scrbase Info: activating english \byname on input line 204.
+Package scrbase Info: activating english \acknowledgementname on input line 204
 .
-Package scrbase Info: activating english \authorshipname on input line 228.
-Package scrbase Info: activating english \constantsname on input line 228.
-Package scrbase Info: activating english \symbolsname on input line 228.
-Package hyperref Info: Link coloring ON on input line 228.
+Package scrbase Info: activating english \authorshipname on input line 204.
+Package scrbase Info: activating english \constantsname on input line 204.
+Package scrbase Info: activating english \symbolsname on input line 204.
+Package hyperref Info: Link coloring ON on input line 204.
 (main.out) (main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
 
+
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.s
+ty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1444,8 +1657,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 228.
-Package biblatex Info: Reference segment=0 on input line 228.
+Package biblatex Info: Reference section=0 on input line 204.
+Package biblatex Info: Reference segment=0 on input line 204.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
 saries-dictionary-English.dict
@@ -1459,504 +1672,136 @@ Dictionary: glossaries-dictionary, Language: English
 
 
 ]
-Missing character: There is no “ in font pplri8t!
-Missing character: There is no ” in font pplri8t!
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
-57.
+--------------------
+ Declaration of Authorship
+--------------------
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
+67.
+(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+1: section
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 2
+82.
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-357.
+282.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-357.
+282.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-357.
+282.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-357.
+282.
 
 (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-[2]
-No file main.gls.
-No file main.acr.
+[1
+
+]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 282.
+ [2
+
+]
+--------------------
+ Abstract
+--------------------
+1: section
 [3
 
-] [4
+]
+--------------------
+ Acknowledgements
+--------------------
+1: section
+[4
+
+] (main.toc)
+\tf@toc=\write9
+\openout9 = `main.toc'.
+
+
+1: section
+[5
+
+] (main.lof)
+\tf@lof=\write10
+\openout10 = `main.lof'.
+
+
+1: section
+[6
+
+] (main.lot)
+\tf@lot=\write11
+\openout11 = `main.lot'.
+
+
+1: section
+[7
+
+]
+No file main.gls.
+No file main.acr.
+[8
 
 ]
 1: section
-\openout2 = `Chapters/Chapter4_Results.aux'.
+\openout2 = `Chapters/Chapter6_conclusion_outlook.aux'.
 
-(Chapters/Chapter4_Results.tex
+(Chapters/Chapter6_conclusion_outlook.tex
 Chapter 1.
-
-LaTeX Warning: Reference `TODO:' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Reference `TODO:' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `TODO:' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `subsec:ssf' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Reference `TODO:' on page 1 undefined on input line 14.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 16.
 1: section
 [1
 
 
-] [2]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
-9.
 
-(C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
+]) [2]
 
-LaTeX Warning: Reference `subsec:project_requirements' on page 3 undefined on i
-nput line 40.
+LaTeX Warning: Empty bibliography on input line 415.
 
-[3] [4] [5] [6]
-
-LaTeX Warning: Reference `TODO:,' on page 7 undefined on input line 61.
-
-
-LaTeX Warning: Reference `TODO:' on page 7 undefined on input line 61.
-
-
-LaTeX Warning: Reference `TODO:' on page 7 undefined on input line 61.
-
-
-LaTeX Warning: Reference `TODO:' on page 7 undefined on input line 61.
-
-[7]
-
-LaTeX Warning: Reference `TODO:' on page 8 undefined on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-[8]
-
-LaTeX Warning: Reference `TODO:' on page 9 undefined on input line 77.
-
-
-Overfull \hbox (0.92126pt too wide) in paragraph at lines 82--84
-\T1/ppl/m/n/10.95 The prod-ucts rep-re-sent po-ten-tial ar-eas of such re-quire
-d in-no-va-tions or adap-ta-tions. These
- []
-
-[9] [10]
-
-LaTeX Warning: Reference `TODO:' on page 11 undefined on input line 97.
-
-
-LaTeX Warning: Reference `sec:case_area' on page 11 undefined on input line 106
-.
-
-
-LaTeX Warning: Reference `chapter2' on page 11 undefined on input line 106.
-
-
-LaTeX Warning: Reference `subsec:water_quality' on page 11 undefined on input l
-ine 108.
-
-
-LaTeX Warning: Reference `TODO' on page 11 undefined on input line 112.
-
-
-Overfull \hbox (8.5104pt too wide) in paragraph at lines 106--113
-\T1/ppl/m/n/10.95 Table [] shows all avail-able data sets of wa-ter sources in 
-So-ma-liland, pro-vided by []SWALIM. 
- []
-
-[11] [12]
-
-LaTeX Warning: Reference `subsubsec:cbwm' on page 13 undefined on input line 13
-9.
-
-[13]
-
-LaTeX Warning: Reference `subsec:water_sources' on page 14 undefined on input l
-ine 149.
-
-[14]
-
-LaTeX Warning: Reference `sec:fundamental_concepts' on page 15 undefined on inp
-ut line 165.
-
-
-LaTeX Warning: Reference `sec:case_area' on page 15 undefined on input line 165
-.
-
-
-LaTeX Warning: Reference `subsec:indicators' on page 15 undefined on input line
- 165.
-
-
-LaTeX Warning: Reference `TODO:' on page 15 undefined on input line 167.
-
-
-LaTeX Warning: Reference `subsec:water_sources' on page 15 undefined on input l
-ine 167.
-
-[15]
-
-LaTeX Warning: Reference `TODO:' on page 16 undefined on input line 186.
-
-
-LaTeX Warning: Reference `subsec:case_eap' on page 16 undefined on input line 1
-86.
-
-
-LaTeX Warning: Reference `TODO:' on page 16 undefined on input line 186.
-
-[16]
-
-LaTeX Warning: Reference `TODO:' on page 17 undefined on input line 190.
-
-[17]
-
-LaTeX Warning: Reference `subsec:case_eap' on page 18 undefined on input line 2
-03.
-
-
-LaTeX Warning: Reference `subsubsec:cbwm' on page 18 undefined on input line 20
-8.
-
-[18]
-
-LaTeX Warning: Reference `subsec:mcs' on page 19 undefined on input line 249.
-
-
-LaTeX Warning: Reference `subsec:case_eap' on page 19 undefined on input line 2
-49.
-
-
-LaTeX Warning: Reference `subsubsec:cbs' on page 19 undefined on input line 249
-.
-
-
-LaTeX Warning: Reference `subsubsec:cbwm' on page 19 undefined on input line 24
-9.
-
-
-LaTeX Warning: Command \. invalid in math mode on input line 256.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.256 \[1. Weekly:\.\#
-                      \, Water Source ID\, \#\, Water Level\, \#\, Functioni...
-
-? 
-
-LaTeX Warning: Command \. invalid in math mode on input line 257.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.257 \[2. Weekly:\.\#
-                      \, Water Source ID\, \#\, Predicted Supply Duration\, ...
-
-? 
-
-LaTeX Warning: Command \. invalid in math mode on input line 259.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.259 \[1. Monthly:\. \#
-                        \# Water Source ID\, \#\, Number of dependent people...
-
-? 
-[19]
-
-LaTeX Warning: Command \. invalid in math mode on input line 260.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.260 \[2. Monthly:\. \#
-                        \# Water Source ID\, \#\, Daily Amount of Withdrawal\]
-? 
-
-LaTeX Warning: Command \. invalid in math mode on input line 262.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.262 \[1. Annually:\. \#
-                         \#\# Water Source ID\, \#\, Water Source Condition\]
-? 
-
-LaTeX Warning: Command \. invalid in math mode on input line 263.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.263 \[2. Annually:\. \#
-                         \#\# Water Source ID\, \#\, Water Source Condition\]
-? 
-
-LaTeX Warning: Reference `TODO: List of initially necessary berkad information'
- on page 20 undefined on input line 265.
-
-[20]
-
-LaTeX Warning: Reference `subsec:mcs' on page 21 undefined on input line 289.
-
-
-LaTeX Warning: Reference `subsubsec:cbs' on page 21 undefined on input line 289
-.
-
-
-LaTeX Warning: Reference `subsec:case_eap' on page 21 undefined on input line 2
-89.
-
-[21]) [22] [23] [24]
-\openout2 = `Chapters/Chapter5_Discussion.aux'.
-
- (Chapters/Chapter5_Discussion.tex
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-1: section
-[25
-
-
-
-
-]
-
-LaTeX Warning: Reference `sec:cs' on page 26 undefined on input line 119.
-
-
-LaTeX Warning: Reference `sec:cs' on page 26 undefined on input line 125.
-
-
-LaTeX Warning: Reference `subsubsec:cbwm' on page 26 undefined on input line 12
-5.
-
-
-LaTeX Warning: Reference `subsubsec:cbs' on page 26 undefined on input line 125
-.
-
-
-LaTeX Warning: Reference `subsec:cbc' on page 26 undefined on input line 125.
-
-
-LaTeX Warning: Reference `subsec:eap' on page 26 undefined on input line 127.
-
-
-LaTeX Warning: Reference `sec:case_area' on page 26 undefined on input line 127
-.
-
-
-LaTeX Warning: Reference `sec:cs' on page 26 undefined on input line 131.
-
-
-Overfull \hbox (10.6445pt too wide) in paragraph at lines 119--132
-\T1/ppl/m/n/10.95 frame-works and re-spec-tive guide-lines could be iden-ti-fie
-d but none of them ex-actly matched
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--132
-
- []
-
-[26]
-
-LaTeX Warning: Reference `TODO: tha juicy figuuuuure' on page 27 undefined on i
-nput line 136.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
-
- []
-
-[27]
-
-LaTeX Warning: Reference `subsec:slmc' on page 28 undefined on input line 140.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-
- []
-
-[28] [29]
-Missing character: There is no “ in font pplr8t!
-Missing character: There is no ” in font pplr8t!
-! Misplaced alignment tab character &.
-l.215 ...pdf/groups/4773535/items/4YG35TC6?page=1&
-                                                  annotation=IC6W8R3B))
-? 
-
-Overfull \hbox (165.17032pt too wide) in paragraph at lines 215--216
-\T1/ppl/m/n/10.95 ne-ously share find-ings back with the users. ([Mc-Neil et al
-., 2022, p. 1](zotero://select/groups/4773535/items/LVLYX8N5))
- []
-
-
-Overfull \hbox (32.54547pt too wide) in paragraph at lines 215--216
-\T1/ppl/m/n/10.95 ([pdf](zotero://open-pdf/groups/4773535/items/4YG35TC6?page=1
-annotation=IC6W8R3B)) 
- []
-
-
-LaTeX Warning: Reference `sec:cs' on page 30 undefined on input line 255.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--257
-
- []
-
-[30] [31]
-Missing character: There is no “ in font pplr8t!
-Missing character: There is no ” in font pplr8t!
-! Misplaced alignment tab character &.
-l.275 ...pdf/groups/4773535/items/4YG35TC6?page=8&
-                                                  annotation=AQ46ELFM))
-? 
-
-Overfull \hbox (231.66806pt too wide) in paragraph at lines 275--276
-\T1/ppl/m/n/10.95 bers, to trained vol-un-teers re-port-ing in-va-sive plant pe
-sts, ([Mc-Neil et al., 2022, p. 8](zotero://select/groups/4773535/items/LVLYX8N
-5))
- []
-
-
-Overfull \hbox (37.61519pt too wide) in paragraph at lines 275--276
-\T1/ppl/m/n/10.95 ([pdf](zotero://open-pdf/groups/4773535/items/4YG35TC6?page=8
-annotation=AQ46ELFM)) 
- []
-
-
-LaTeX Warning: Reference `TODO:' on page 32 undefined on input line 280.
-
-
-LaTeX Warning: Reference `sec:cs' on page 32 undefined on input line 281.
-
-
-LaTeX Warning: Reference `subsec:case_eap' on page 32 undefined on input line 2
-83.
-
-
-LaTeX Warning: Reference `subsec:mcs' on page 32 undefined on input line 285.
-
-
-LaTeX Warning: Reference `subsec:water_scarcity' on page 32 undefined on input 
-line 286.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--289
-
- []
-
-[32] [33] [34] [35] [36]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.382 private owner _
-                     > prevent access - what else?
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.383 
-      
-? 
-[37]) [38]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-37.
- (C:\Users\bosse\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (48.42322pt too wide) in paragraph at lines 437--437
-[][]\T1/ppl/m/n/10.95 CitizenScience.gov (2023). \T1/ppl/m/it/10.95 Ba-sic Step
-s for Your Project Plan-ning\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m
-/n/10.95 : []$\T1/lmtt/m/n/10.95 https : / / www . citizenscience .
- []
-
-1: section
-[39
-
-
-
-]
-Missing character: There is no ” in font ec-lmtt10!
-Missing character: There is no ‘ in font pplri8t!
-Missing character: There is no ’ in font pplri8t!
-
-Overfull \hbox (0.27745pt too wide) in paragraph at lines 437--437
-[][]\T1/ppl/m/n/10.95 IFRC, RCCC, and GRC (2023). \T1/ppl/m/it/10.95 FbF Prac-t
-i-tion-ers Man-ual\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 :
- []$\T1/lmtt/m/n/10.95 https : / / manual . forecast -[]
- []
-
-[40]
-Missing character: There is no ‘ in font pplr8t!
-Missing character: There is no ’ in font pplr8t!
-[41] [42] (main.aux (Chapters/Chapter4_Results.aux)
-(Chapters/Chapter5_Discussion.aux))
-
-LaTeX Warning: There were undefined references.
-
+(main.aux (Chapters/Chapter6_conclusion_outlook.aux))
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B7ABA0B4FF389A9A934138424192FAE9;7336.
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DE37DB1AE5DD3103A35AEE3F144F5E38;1464
+(rerunfilecheck)             After:  D94C93DF2ECB08EC2B374D514C091CE6;535.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47559 strings out of 411476
- 1015096 string characters out of 5818380
- 1866001 words of memory out of 5000000
- 67205 multiletter control sequences out of 15000+600000
- 542562 words of font info for 72 fonts, out of 8000000 for 9000
+ 50498 strings out of 411476
+ 1077176 string characters out of 5818380
+ 1857001 words of memory out of 5000000
+ 70089 multiletter control sequences out of 15000+600000
+ 540529 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,20n,95p,3938b,5665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,20n,95p,2235b,4138s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (46 pages).
+Output written on main.pdf (11 pages).

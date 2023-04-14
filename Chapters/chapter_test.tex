@@ -2,6 +2,257 @@
 
 \chapter{Discussion and Justification} % Main chapter title
 
-\label{chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+\label{chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere: use \ref{ChapterX}
 
-this is a citation. \autocite{fraislCitizenScienceEnvironmental2022}
+
+
+
+% \begin{figure}[!htp]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{figures/}
+%     \decoRule
+%     \caption[]{Source: }
+%     \label{fig:th_}
+% \end{figure}
+
+
+
+% \begin{landscape}
+    % \begin{table}[!ht]
+    %     \centering
+    %     \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+    %     \hline
+    %         Name & Country & Interest & Requirements & Participation & Time & Organisation & source  & ~ & ~ \\ \hline
+    %         CreekWatch & Canada & Environmental monitoring, water quality & Internet access, Iphone applicaton & Corporate and community volunteers, officials & 2014- ongoing & non-profit RiverWatch Institute of Alberta & platzhalter quelle 1  & ~ & ~ \\ \hline
+    %         CoCoRaHS  (Community Collaborative Rain, Hail \& Snow Network) & USA \& Canada & Precipitation, condition, drought monitoring & Internet access, local knowledge, measurement equipments & Volunteer based Network & 2016 - ongoing & CoCoRaHS & platzhalter quelle 2  & ~ & ~ \\ \hline
+    %         Texas Stream Team (TST) & USA & Environmental monitoring, water quality & Measurement equipment & Network of partner organizations and trained volunteers & 1991 - ongoing & Texas State University, the Texas Commission on Environmental Quality, and the Environmental Protection Agency & platzhalter quelle 3  & ~ & ~ \\ \hline
+    %         Smart Water Crowdsensing Project & USA & Groundwater monitoring & Internet access, measurement equipment & Citizens as sensors & 2019 - ongoing & University of Notre Dame & platzhalter quelle 4  & ~ & ~ \\ \hline
+    %         Social.Water & USA & Hydrologic measurements & Mobile phones & Scientific Project, General Public & 2012 & University at Buffalo Department of Geology & platzhalter quelle 5  & ~ & ~ \\ \hline
+    %         CrowdHydrology & USA & Hydrologic monitoring & Mobile phones & Scientific Project, General Public & 2013 - ongoing & University at Buffalo Department of Geology & platzhalter quelle 6  & ~ & ~ \\ \hline
+    %         Cooperative Observer Program (COOP) & USA & Weather and climate observations & Mobile phones, Internet access & Volunteer based (8700) & 1890- ongoing & National Climatic Data Center (NCDC) & platzhalter quelle 7  & ~ & ~ \\ \hline
+    %         Haltwhistle Burn Citizen Science & United Kingdom of Great Britain and Northern Ireland (the) & Water;Environmental risks & Internet access & All;Skilled volunteers/experts & 2017 & Newcastle University, UK & platzhalter quelle 8  & ~ & ~ \\ \hline
+    %         CS in Water Quality Monitoring & Netherlands & Water quality monitoring & Measurement equipment & Scientific Project & 2015 & Delft University of Technology & platzhalter quelle 9  & ~ & ~ \\ \hline
+    %     \end{tabular}
+    % \end{table}
+    % \label{tab:th_projects}
+    % \begin{landscape}
+
+
+
+
+
+
+\begin{table}
+    \caption{Different Types of Drought}
+    \begin{adjustbox}{center,max width=\linewidth}
+        \def\arraystretch{1.5}
+        \begin{tabular}{m{2cm}m{5cm}}
+            \toprule
+            \bf Type of Drought & \bf Characteristics  \\ 
+            \midrule
+            Meteorological      & Duration and degree of dryness in comparison to the normal average, mostly based on precipitation and temperature  \\ 
+            Agricultural        & Impacts on agriculture measured by low soil-moisture, evapotranspiration rate and soil water deficits  \\ 
+            Hydrological        & Impact on surface and subsurface water by level of depletion  \\ 
+            Socioeconomic       & Negative implications for and impacts on society when demand exceeds supply  \\ 
+            \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \label{tab:th_drought_types}
+\end{table}
+
+\begin{sidewaystable}
+    \caption{All currently available data sets for water sources provided by SWALIM in Somaliland. Data Source: \autocite{swalimSomaliaWaterSources,swalmSomaliaWaterSources2023}}
+    \begin{adjustbox}{center,max width=\linewidth}
+        \def\arraystretch{1.5}
+        \begin{tabular}{rlrrrrrrrr}
+            \toprule
+            \bf Year & \bf Name    & \bf Total & \bf Berkads & \bf Boreholes & \bf Dams & \bf Dug Wells & \bf Springs & Other \\
+            \midrule
+            2018 & Strategic WS    & 1792      & 50           & 357          & 319      & 853           & 163         & 50    \\
+            2019 & Surface WS      & 1210      & ~            & 357          & ~        & 853           & ~           & ~     \\
+            2020 & Strategic WS    & 3014      & 218          & 885          & 185      & 1422          & 245         & 59    \\
+            2022 & Strategic WS    & 685       & ~            & 490          & 41       & 138           & 16          & ~     \\
+            2023 & SWIMS Dashboard & 3648      & 217          & 1339         & 225      & 1547          & 261         & 59    \\
+            \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \label{tab:ress_da}
+\end{sidewaystable}
+
+
+
+% \noindent%
+% \begin{tblr}{
+%   colspec={rlrrrrrrrr},
+%   row{odd}={bg=lightgray},  
+%   row{1}={bg=white,fg=black},
+% }
+%     \hline
+%     \bf Year & \bf Name    & \bf Total & \bf Berkads & \bf Boreholes & \bf Dams & \bf Dug Wells & \bf Springs & Other \\
+%     \hline
+%     2018 & Strategic WS    & 1792      & 50           & 357          & 319      & 853           & 163         & 50    \\
+%     2019 & Surface WS      & 1210      & ~            & 357          & ~        & 853           & ~           & ~     \\
+%     2020 & Strategic WS    & 3014      & 218          & 885          & 185      & 1422          & 245         & 59    \\
+%     2022 & Strategic WS    & 685       & ~            & 490          & 41       & 138           & 16          & ~     \\
+%     2023 & SWIMS Dashboard & 3648      & 217          & 1339         & 225      & 1547          & 261         & 59    \\
+%     \hline
+% \end{tblr} 
+
+
+\begin{adjustbox}{center,max width=0.95\linewidth}
+    \noindent%
+    \begin{tblr}{
+      colspec={XXXXX},
+      row{odd}={bg=whitesmoke},  
+      row{1}={bg=white,fg=black},
+    }
+
+    \end{tblr}
+    \end{adjustbox}
+
+
+
+
+% \begin{sidewaystable}
+%     \caption{All currently available data sets for water sources provided by SWALIM in Somaliland. Data Source: \autocite{swalimSomaliaWaterSources,swalmSomaliaWaterSources2023}}
+%     \begin{adjustbox}{center,max width=0.8\linewidth}
+%         % \def\arraystretch{1.5}
+%         \setlength\extrarowheight{2pt}
+%         % \resizebox{\textwidth}{!}{
+%         \begin{ctabularx}{\linewidth}{|*{8}{C|}}
+%             \toprule
+%             \bf Name & \bf Country & \bf Interest & \bf Requirements & \bf Participation & \bf Time & \bf Organisation & \bf source  \\ 
+%             \midrule
+%             CreekWatch & Canada & Environmental monitoring, water quality & Internet access, Iphone applicaton & Corporate and community volunteers, officials & 2014- ongoing & Non-profit RiverWatch Institute of Alberta & platzhalter quelle 1  \\ 
+%             CoCoRaHS  (Community Collaborative Rain, Hail \& Snow Network) & USA \& Canada & Precipitation, condition, drought monitoring & Internet access, local knowledge, measurement equipments & Volunteer based Network & 2016 - ongoing & CoCoRaHS & platzhalter quelle 2  \\ 
+%             Texas Stream Team (TST) & USA & Environmental monitoring, water quality & Measurement equipment & Network of partner organizations and trained volunteers & 1991 - ongoing & Texas State University, the Texas Commission on Environmental Quality, and the Environmental Protection Agency & platzhalter quelle 3  \\ 
+%             Smart Water Crowdsensing Project & USA & Groundwater monitoring & Internet access, measurement equipment & Citizens as sensors & 2019 - ongoing & University of Notre Dame & platzhalter quelle 4  \\ 
+%             Social.Water & USA & Hydrologic measurements & Mobile phones & Scientific Project, General Public & 2012 & University at Buffalo Department of Geology & platzhalter quelle 5  \\ 
+%             CrowdHydrology & USA & Hydrologic monitoring & Mobile phones & Scientific Project, General Public & 2013 - ongoing & University at Buffalo Department of Geology & platzhalter quelle 6  \\ 
+%             Cooperative Observer Program (COOP) & USA & Weather and climate observations & Mobile phones, Internet access & Volunteer based (8700) & 1890- ongoing & National Climatic Data Center (NCDC) & platzhalter quelle 7  \\ 
+%             Haltwhistle Burn Citizen Science & UK & Water, Environmental risks & Internet access & General Public, Skilled volunteers/experts & 2017 & Newcastle University, UK & platzhalter quelle 8  \\ 
+%             CS in Water Quality Monitoring & Netherlands & Water quality monitoring & Measurement equipment & Scientific Project & 2015 & Delft University of Technology & platzhalter quelle 9  \\ 
+%             \bottomrule
+%         \end{ctabularx}%}
+%     \end{adjustbox}
+%     \label{tab:th_projects}
+% \end{sidewaystable}
+
+
+
+
+
+% \begin{sidewaystable}
+%     \caption{All currently available data sets for water sources provided by SWALIM in Somaliland. Data Source: \autocite{swalimSomaliaWaterSources,swalmSomaliaWaterSources2023}}
+%     \begin{adjustbox}{center,max width=0.95\linewidth}
+% \noindent%
+% \resizebox{\textwidth}{!}{
+% \begin{tblr}{
+%   colspec={XXXXXXXX},
+%   row{odd}={bg=whitesmoke},  
+%   row{1}={bg=white,fg=black},
+% }
+%     \hline
+%     \bf Name & \bf Country & \bf Interest & \bf Requirements & \bf Participation & \bf Time & \bf Organisation & \bf source  \\ 
+%     \hline
+%     CreekWatch & Canada & Environmental monitoring, water quality & Internet access, Iphone applicaton & Corporate and community volunteers, officials & 2014- ongoing & Non-profit RiverWatch Institute of Alberta & platzhalter quelle 1  \\ 
+%     CoCoRaHS  (Community Collaborative Rain, Hail \& Snow Network) & USA \& Canada & Precipitation, condition, drought monitoring & Internet access, local knowledge, measurement equipments & Volunteer based Network & 2016 - ongoing & CoCoRaHS & platzhalter quelle 2  \\ 
+%     Texas Stream Team (TST) & USA & Environmental monitoring, water quality & Measurement equipment & Network of partner organizations and trained volunteers & 1991 - ongoing & Texas State University, TCEQ, TEPA & platzhalter quelle 3  \\ 
+%     Smart Water Crowdsensing Project & USA & Groundwater monitoring & Internet access, measurement equipment & Citizens as sensors & 2019 - ongoing & University of Notre Dame & platzhalter quelle 4  \\ 
+%     Social.Water & USA & Hydrologic measurements & Mobile phones & Scientific Project, General Public & 2012 & University at Buffalo Department of Geology & platzhalter quelle 5  \\ 
+%     CrowdHydrology & USA & Hydrologic monitoring & Mobile phones & Scientific Project, General Public & 2013 - ongoing & University at Buffalo Department of Geology & platzhalter quelle 6  \\ 
+%     Cooperative Observer Program (COOP) & USA & Weather and climate observations & Mobile phones, Internet access & Volunteer based (8700) & 1890- ongoing & National Climatic Data Center (NCDC) & platzhalter quelle 7  \\ 
+%     Haltwhistle Burn Citizen Science & UK & Water, Environmental risks & Internet access & General Public, Skilled volunteers/experts & 2017 & Newcastle University, UK & platzhalter quelle 8  \\ 
+%     CS in Water Quality Monitoring & Netherlands & Water quality monitoring & Measurement equipment & Scientific Project & 2015 & Delft University of Technology & platzhalter quelle 9  \\ 
+%     MAppERS (Mobile Applications for Emergency Response and Support) & Denmark & Flood risk monitoring & Internet access, Android application & Citizens as contributors in case of emergency & 2018 & Italian National Research Council (CNR) & platzhalter quelle 10\\
+%     SIMILE APP (Informative System for the Integrated Monitoring of Insubric Lakes and their Ecosystems) & Italy & Lake water quality monitoring & Internet accesss, mobile phones & General public & 2020 & Lecco Campus, Department of Civil and Environmental Engineering & platzhalter quelle 11\\
+%     Citizen science in Kenya & Kenya & Hydrological monitoring & Mobile phone & General public, passers-by & 2018 & Justus Liebig Universität Giessen, KIT, GIZ, Centre for International Forestry Research, Kenya & platzhalter quelle 12\\
+%     ITIKI (Information Technology and Indigenous Knowledge with Intelligence) & Sub-Saharan Africa & Drought prediction, early warning & Mobile phone app, wireless sensors, gauging stations & Scientific Project, Farmers, LK Experts, Subscribers, Scientists, Administrators & 2011 - ongoing & Central University of Technology, South Africa & platzhalter quelle 13\\
+%     Smartphone-based System for water quality analysis & Rajasthan, India & Water quality monitoring & Smartphone, Measurement equipment & Scientific Project & 2018 & Academy of Scientific and Innovative Research (AcSiR) & platzhalter quelle 14\\
+%     Ushahidi & worldwide & Disaster Management & Mobile phone, backend self service  & Ushahidi, Community, Administrators(s) & 2008 - ongoing & Ushahidi & platzhalter quelle 15\\
+%     Sahana Eden & worldwide & Disaster Management & Internet access, self-hosted & voluntary community & 2004 - ongoing & Sahana Eden, voluntary community & platzhalter quelle 16\\
+%     \hline
+% \end{tblr}}
+% \end{adjustbox}
+% \end{sidewaystable}
+
+
+
+% \caption{All currently available data sets for water sources provided by SWALIM in Somaliland. Data Source: \autocite{swalimSomaliaWaterSources,swalmSomaliaWaterSources2023}}
+
+
+
+
+% Ensuring water security is considered as one of the major challenges of the twenty-first century. The trend of increasing demand and diminishing supplies is putting pressure on the availability of water worldwide. Particularly in the Horn of Africa, drought impacts determine the life of millions of people. Somaliland is in the midst of a years-long drought and water sources become more important than ever. Yet, information particularly about the most important water source type of berkads is incomplete and outdated. 
+
+% The poor data availability severely hinders Disaster Risk Reduction activities especially in regard to Forecast based Financing. Triggered by predicted disaster impacts, Anticipatory Actions attempt to counteract impacts before the disaster occurs, rather than responding to post-disaster impacts. However, drought is a relatively novel application focus for this approach and highly dependent on good and timely information.\newline
+% Citizen Science has successfully been applied to provide data for acting on environmental issues primarily in North America and Europe. Furthermore, Community-based Monitoring together with Mobile Crowdsensing currently provide the conceptual backbone to the health related Community-based Surveillance project by the Somalia Red Crescent Society. Building on the combination of these concepts, the aim of this study is to develop and apply a new approach for community-based participatory mapping and monitoring of water sources in this water-scarce and resource-limited setting in collaboration with the SRCS to facilitate respective AAs in the context of FbF, with the ultimate goal of improving water management and information availability to address water shortages.
+
+% The work is embedded in a primarily inductive design of an exploratory, iterative case study, and guided by a mixed-methods approach combining literature analysis and expert consultations. The results indicate that it is conceptually possible to integrate the concepts of FbF and CS for monitoring water sources in resource scarce settings to eventually trigger AAs within one framework. Moreover, in the case of Somaliland, it can also reasonably be assumed that the practical feasibility of this integrated framework is given. Future work on this basis will be able to integrate and evaluate local information by means of a pilot study, thereby overcoming the main limitations of resource, time and information constraints.
+
+
+
+% The implementation of successful 
+
+% context and general topic -> specific topic
+
+% central question / problem
+
+% previous research
+
+% main reasons/rationale/goals
+% gap?new methods?
+
+% methods
+
+% findings/results/arguments
+
+% significance/implications
+
+% Outlook
+
+
+
+
+% The aim of this study is to design and test an approach for community-based participatory mapping and monitoring of water sources in a water-scarce and resource-limited setting in collaboration with a national non-governmental organization to facilitate respective \acrlongpl{aa} in the context of \acrlong{fbf}, with the goal of improving water management and accessibility in underserved communities.
+
+
+% \section*{Intro}
+% Water is a crucial element for sustaining life, and access to it is a fundamental necessity for every society and human being. Nonetheless, water security is increasingly becoming a pressing issue affecting the lives of billions of people across the world \autocite{caretta2022water}. In order to meet this challenge, the United Nations have already recognized the importance of water security in 2015 and have made clean water and sanitation the sixth Sustainable Development Goal \autocite{unGoalEnsureAvailability2016}.
+
+
+% \section{TH Background Summary}
+% This chapter outlined the overall theoretical background of the case studies context by starting with wide ranging and complex concepts such as Water Security, Water Scarcity, Drought and their respective indicators and indices subsequently narrowing them down to the actual case study area and the problem at hand.\newline
+% A relatively new approach to mitigate, instead of focus on post-disaster response, was described in the concept of \acrlong{fbf} and respective sub-parts. The \acrshort{fbf} approach is based on impact forecasts which predict what the weather will do, instead of conventional forecasts that predict what the weather will be. Based on this knowledge, protocols can be developed which specify the exact threshold to trigger corresponding \acrlongpl{aa} to counteract impact of the disaster. To facilitate this, the knowledge needs to be highly local and relevant to the specific action. \acrlong{cs}, together with its sub-divisions of \acrlong{cbm} and \acrlong{mcs} was introduced and practical examples with \acrlong{cbs} and \acrlong{cbwm} further exemplified its area of application. In this context, several other \acrshort{cs} projects were identified and their characteristics elaborated.\newline
+% In the last section, the previously presented concepts were broken down to the concrete case study area. The case study area was described in detail in terms of its physical, social, political and economic conditions and the development of the EAP development overlying this project was delineated.\newline
+% The literature and project analysis suggest the need to adjust and potentially extend proven frameworks to account for the case study specifics, as no suitable framework could be identified. The inability to respond appropriately due to lack of data also shows the importance of implementing such an approach in Somaliland to fill existing data and administrative gaps. 
+
+
+
+
+% \section{Method Summary}
+
+% Based on the philosophical ideas of interpretism and post-positivism, this chapter presented the methodological framework this work utilised. Embedded in an primarily inductive design type of an exploratory, iterative case study, a mixed-method approach with data and document analysis as well as expert interviews was adopted. In case of the interviews, non-probability together with snowball sampling was applied. The transcribed interviews were subsequently coded facilitating an open thematic coding strategy. The final design was guided by the 6-stage-design for \acrlong{cs} projects in ecological science by \autocite{fraislCitizenScienceEnvironmental2022} and further deepened by the development of a new \acrlong{prc} guided by the Seven-layer Model of Collaboration from \autocite{briggsSevenLayerModelCollaboration2009}. Moreover, multiple other guidelines for the creation of a \acrshort{cs} program were consolidated and their recommendations taken into account.\newline
+
+
+% \section{Results Summary}
+
+% The results presented findings for the design of a community-based participatory water source monitoring approach, its development and subsequent application. The \acrfull{ssdr} adjusted and expanded \autocite{fraislCitizenScienceEnvironmental2022} \acrlong{ssf} to the prevailing conditions and context of the study area and project foci. The structure and respective thematic focus of the \acrshort{ssf} have been retained, but expanded to include additional guidance, including best practices from the \acrshort{ifrc} and the local \acrshort{brcis} initiative. The first stage explores the overall context, the problem and derives initial approaches to solutions. The second stage assesses the feasibility of the \acrlong{cs} approach in the given context. It goes into more detail, defines goals along with sub-goals and explores the actual possibility and capacities for a successful design, implementation and operation of a \acrshort{cs} project. Only when this phase has been successfully completed, the requirements have been met and no \textit{red flags} have been encountered, will the next phases be considered. Stage 3 \textit{Structure \& Design} further specifies the previous findings and clearly focusses on the actual required products and activities to reach the goals. The overall structure is laid out by utilising the \acrfull{prc}. Stages 4 to 6 go into more detail in terms of community building, data management, and evaluation and improvement practices respectively.\newline
+% The mentioned \acrshort{prc} in Stage 3 is presented in the second section of this chapter and is one major result of this work. The catalogue was developed in addition to the above process oriented \acrshort{ssdr} in order to better structure and order the actual information to reduce cognitive overload. The catalogue is grouped into four groups namely \textit{Knowledge Base}, \textit{Groundwork}, \textit{Innovations} and \textit{Management}. Each of these groups incorporates one or more of the derived goals of \acrlong{cs} by \autocite{minkmanCitizenScienceWater2015} and is design with the help of the \acrlong{slmc}. The defined products and activities are derived from the \acrshort{ssdr}, literature, guidelines, identified projects and conducted interviews. The \textit{Knowledge Base} provides an overview of all topics for which information needs to be obtained and groups them in order of their dependencies. The group \textit{Groundwork} is concerned with the educational, social and political foundation in which the actual project is recommended to be embedded. \textit{Innovations} covers all new developments that need to be made in order to adjust the framework to the local context and \textit{Management} summarizes all other developments and decisions that are required in the previous groups.\newline
+% The third section finally applies the \acrshort{ssdr} together with the \acrshort{prc} on the projects' second research question. The problem and context investigation (Stage 1) along with the feasibility assessment (Stage 2) defined a problem with a possible solution through a \acrshort{cs} project and confirmed the feasibility in this context. The \acrshort{prc} could successfully be applied in Stage 3 to help structure and order the design process. This framework was subsequently deepened in the following stages. The design could continue until closer consolidation with local stakeholders and communities was required, which was not possible due to overall project constraints. Nevertheless, a good and orderly knowledge base, structure and conceptual basis for a first pilot study could be established.
+
+
+
+
+% \section*{Conclusion}
+% This study has investigated the intersection of \acrlong{fbf} policies and techniques, \acrlong{cs} approaches and methods, and water management structures and procedures in Somaliland. This investigation was driven by the aim to \textit{adapt and apply an approach for community-based participatory mapping and monitoring of water sources in a water-scarce and resource-limited setting in collaboration with a national non-governmental organization to facilitate respective \acrlongpl{aa} in the context of \acrlong{fbf}, with the goal of improving water management and availability to address water shortages}.\newline
+% Guided by two research questions and a mixed-methods approach combining literature analysis and expert consultation, a tailored framework could be developed and an implementation roadmap created. The results indicate that integrating the concepts of \acrlong{fbf} and \acrlong{cs} for monitoring water source levels in resource-scarce settings to ultimately trigger \acrlongpl{aa} into one framework is theoretically possible. In the case of Somaliland, the practical feasibility of this integrated framework can also be assumed to be feasible based on the results.
+
+
+
+
+% \noindent In the Canadian prairies wetlands are crucial to the environment, yet they continue to be drained and affected by various other activities. This thesis is the first part of a new case study using the diagnostic approach developed by the STEER research project (from its German acronym \textit{Erhöhung der STEuerungskompetenz zur ERreichung der Ziele eines integrierten Wassermanagements}, Increasing Good Governance for Achieving the Objectives of Integrated Water Resources Management). The diagnostic approach is based on the concept of ecosystem services, classified using the Common International Classification of Ecosystem Services (CICES) framework. The aim of this thesis is to identify the ecosystem services of wetlands and whether and how interactions with wetland services affect these environments and each other in the case study area.
+
+% In the Moose Mountain watershed in South Saskatchewan, 22 ecosystem services of wetlands, including the provision of habitat, buffer and purification capacities for climate, water flow and quality were identified. A total of ten direct interactions with wetlands were identified and analyzed. Due to the link via the environment, seven of these interactions have mainly negative influences on each other and are therefore in trade-off situations. \textit{Agriculture}, \textit{oil and gas production} and \textit{wetland drainage} are found to be the interactions that most negatively affect wetland ecosystems. On the other hand, the \textit{protection} and \textit{restoration} of wetlands and the \textit{regulation of water-flow} are, through their mainly positive influences on wetland ecosystems, mostly in synergy situations with other interactions. It became apparent, that overall trade-off situations occur about twice as often as synergy situations.
+
+% The results indicate an important role of wetlands for the entire environment of the Canadian prairies, while the high proportion of trade-offs shows a clear potential for mismanagement if adequate policies and governance are not in place. Future work will be able to collect missing local data through interviews in the region, thus overcoming the main limitation of this work.

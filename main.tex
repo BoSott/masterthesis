@@ -24,7 +24,7 @@
 
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
-%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
 onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
@@ -45,7 +45,26 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{mathpazo} % Use the Palatino font by default
 \usepackage{marginnote}
 \usepackage{todonotes}
-\usepackage{siunitx}
+
+\usepackage[T1]{fontenc}
+% \usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{hhline}
+\usepackage{pdflscape,array}
+\usepackage{rotating}
+\usepackage{tabularx,ragged2e}
+\newcolumntype{C}{>{\Centering\arraybackslash}X}
+% \PassOptionsToPackage{latin1}{inputenc}
+\usepackage{tabularray}
+\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
+
+% \newenvironment{ctabularx}[1]{% or whatever name you like
+%    \rowcolors{1}{}{lightgray}%
+%    \tabularx{#1}%
+%   }{%
+%    \endtabularx
+% }
 
 % \usepackage[style=authoryear]{biblatex}
 
@@ -64,6 +83,12 @@ headsepline, % Uncomment to get a line under the header
 % \addbibresource{01_Masterarbeit.bib} % The filename of the bibliography
 
 \usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{pdflscape}
+% \usepackage{apacite}
+% \PassOptionsToPackage{table}{xcolor}
+% \usepackage[table]{xcolor}
+
 
 \newlist{questions}{enumerate}{2}
 \setlist[questions,1]{label=RQ\arabic*.,ref=RQ\arabic*}
@@ -76,8 +101,8 @@ headsepline, % Uncomment to get a line under the header
 \geometry{
 	paper=a4paper, % Change to letterpaper for US letter
 	inner=2.5cm, % Inner margin
-	outer=3.0cm, % Outer margin
-	bindingoffset=.5cm, % Binding offset
+	outer=2.5cm, % Outer margin
+	bindingoffset=0.0cm, % Binding offset - was 0.5
 	top=1.5cm, % Top margin
 	bottom=1.5cm, % Bottom margin
 	%showframe, % Uncomment to show how the type block is set on the page
@@ -87,7 +112,7 @@ headsepline, % Uncomment to get a line under the header
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Thesis Title} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Super duper fancy title. DONT FORGET TO CHANGE THIS!} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{apl. Prof. Dr. Sven \textsc{Lautenbach}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{Prof. Dr. Alexander \textsc{Zipf}} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Master of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
@@ -119,61 +144,6 @@ headsepline, % Uncomment to get a line under the header
 
 
 \makeglossaries
-
-% \newacronym{}{}{}
-% \newacronym{gwp}{GWP}{Global Water Partnership}
-% \newacronym{idmp}{IDMP}{Integrated Drought Managment Programme}
-% \newacronym{iwmi}{IWMI}{International Water Management Institute}
-% \newacronym{wpi}{WPI}{Water Poverty Index}
-% \newacronym{ea}{EA}{Early Action}
-% \newacronym{aa}{AA}{Anticipatory Action}
-% \newacronym{drm}{DRM}{Disaster Risk Management}
-
-% \newacronym{cbm}{CBM}{Community-based monitoring}
-
-% \newacronym{mcs}{MCS}{Mobile Crowdsensing}
-
-% \newacronym{cocorahs}{CoCoRaHS}{Community Collaborative Rain, Hail and Snow Network}
-
-% \newacronym{cbs}{CBS}{Community-based Surveillance}
-% \newacronym{nyss}{NYSS}{NYSS}
-
-% \newacronym{cbwm}{CBWM}{Community-based Water Monitoring}
-
-% \newacronym{iwrm}{IWRM}{Integrated Water Resource Management}
-% \newacronym{cs}{CS}{Citizen Science}
-% \newacronym{rcrc}{RCRC}{Red Cross Red Crescent}
-% \newacronym{ifrc}{IFRC}{International Federation of Red Cross and Red Crescent Societies}
-% \newacronym{rcrccc}{RCRCCC}{Red Cross Red Crescent Climate Center}
-% \newacronym{grc}{GRC}{German Red Cross}
-% \newacronym{brcis}{BRCiS}{Building Resilient Communities in Somalia Consortium}
-% \newacronym{cdrmc}{CDRMC}{Somaliland Community Disaster Risk Management Committees}
-% \newacronym{crtrms}{CRTRMS}{Community Real-Time Risk Monitoring Systems}
-% \newacronym{un}{UN}{United Nations}
-% \newacronym{fao}{FAO}{Food and Agriculture Organisation of the United Nations}
-% \newacronym{ocha}{OCHA}{United Nations Office for Coordination of Humanitarian Affaires}
-% \newacronym{undrr}{UNDRR}{United Nations Office for Disaster Risk Reduction}
-% \newacronym{wfp}{WFP}{United Nations World Food Programme}
-% \newacronym{who}{WHO}{World Health Organization}
-% \newacronym{wmo}{WMO}{World Meteorological Organization}
-% \newacronym{ngo}{NGO}{Non-Governmental Organization}
-% \newacronym{drr}{DRR}{Disaster Risk Reduction}
-
-% \newacronym{mowr}{MoWR}{Ministry of Water Resources}
-% \newacronym{moh}{MoH}{Ministry of Health}
-% \newacronym{moad}{MoAD}{Ministry of Agricultural Development}
-% \newacronym{nadfor}{NADFOR}{National Disaster Preparedness and Food Reserve Authority}
-% \newacronym{fewsnet}{FEWSNET}{Famine Early Warning Systems Network}
-% \newacronym{slmc}{SLMC}{Seven-layer model of collaboration}
-% \newacronym{ssf}{SSF}{Six-Stage Framework}
-% \newacronym{idp}{IDP}{Internally Displayed Person}
-
-% \newacronym{qc}{QC}{Quality Control}
-% \newacronym{qa}{QA}{Quality Assurance}
-% \newacronym{swalim}{SWALIM}{Somali Water and Land Information Management}
-% \newacronym{dpia}{DPIA}{Data Protection Impact Assessment}
-% \newacronym{prc}{PRC}{Project Requirements Catalogue}
-
 % in alphabetical order
 \newacronym{aa}{AA}{Anticipatory Action}
 \newacronym{brcis}{BRCiS}{Building Resilient Communities in Somalia Consortium}
@@ -186,12 +156,18 @@ headsepline, % Uncomment to get a line under the header
 \newacronym{cs}{CS}{Citizen Science}
 \newacronym{dpia}{DPIA}{Data Protection Impact Assessment}
 \newacronym{drm}{DRM}{Disaster Risk Management}
+\newacronym{drr}{DRR}{Disaster Risk Reduction}
+\newacronym{ea}{EA}{Early Action}
 \newacronym{eap}{EAP}{Early Action Protocol}
 \newacronym{ecsa}{ECSA}{European Citizen Science Association}
 \newacronym{fao}{FAO}{Food and Agriculture Organization of the United Nation}
 \newacronym{fba}{FbA}{Forecast based Action}
 \newacronym{fbf}{FbF}{Forecast based Financing}
+\newacronym{fewsnet}{FEWSNET}{Famine Early Warning Systems Network}
 \newacronym{fsnau}{FSNAU}{Food Security and Nutrition Analysis Unit}
+\newacronym{grc}{GRC}{German Red Cross}
+\newacronym{gwp}{GWP}{Global Water Partnership}
+\newacronym{heigit}{HeiGIT}{Heidelberg Institute for Geoinformation Technology}
 \newacronym{idm}{IDM}{Integrated Drought Management}
 \newacronym{idmp}{IDMP}{Integrated Drought Management Programme}
 \newacronym{idp}{IDP}{Internally Displayed Person}
@@ -202,6 +178,7 @@ headsepline, % Uncomment to get a line under the header
 \newacronym{moad}{MoAD}{Ministry of Agricultural Development}
 \newacronym{moh}{MoH}{Ministry of Health}
 \newacronym{mowr}{MoWR}{Ministry of Water Resources}
+\newacronym{ngo}{NGO}{Non-Governmental Organization}
 \newacronym{nrc}{NRC}{Norwegian Red Cross}
 \newacronym{nadfor}{NADFOR}{National Disaster Preparedness and Food Reserve Authority}
 \newacronym{oam}{OAM}{Open Accessible and Mappable}
@@ -266,7 +243,7 @@ headsepline, % Uncomment to get a line under the header
  
 \vfill
 
-\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+\large \textit{A thesis submitted in partial fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
 \deptname\\\facname\\[2cm] % Research group name and department name
  
@@ -283,27 +260,27 @@ headsepline, % Uncomment to get a line under the header
 %	DECLARATION PAGE
 %----------------------------------------------------------------------------------------
 
-% \begin{declaration}
-% \addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
-% \noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+\begin{declaration}
+\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
 
-% \begin{itemize} 
-% \item This work was done wholly or mainly while in candidature for a research degree at this University.
-% \item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
-% \item Where I have consulted the published work of others, this is always clearly attributed.
-% \item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
-% \item I have acknowledged all main sources of help.
-% \item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
-% \end{itemize}
+\begin{itemize} 
+\item This work was done wholly while in candidature for a research degree at this University.
+\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+\item Where I have consulted the published work of others, this is always clearly attributed.
+\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item I have acknowledged all main sources of help.
+\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+\end{itemize}
  
-% \noindent Signed:\\
-% \rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+\noindent Signed:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
  
-% \noindent Date:\\
-% \rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
-% \end{declaration}
+\noindent Date:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+\end{declaration}
 
-% \cleardoublepage
+\cleardoublepage
 
 %----------------------------------------------------------------------------------------
 %	QUOTATION PAGE
@@ -311,40 +288,54 @@ headsepline, % Uncomment to get a line under the header
 
 \vspace*{0.2\textheight}
 
-\centerline{\noindent\enquote{\itshape“Whatever source of water they can find is what they have.”}}\bigbreak
+\centerline{\noindent\enquote{\itshape"Can't A Guy Make One Mistake?"}}\bigbreak
 
-\hfill {\tiny Interviewee 3}
+\hfill {\small Baloo, The Jungle Book}
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
 
-% \begin{abstract}
-% \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
 
-% assessment of approach one part -> successful *yey*
+Ensuring water security is considered as one of the major challenges of the twenty-first century. The trend of increasing demand and diminishing supplies is putting pressure on the availability of water worldwide. Particularly in the Horn of Africa, drought impacts determine the life of millions of people. Somaliland is in the midst of a years-long drought and water sources become more important than ever. Yet, information particularly about the most important water source type of berkads is incomplete and outdated. 
 
-% \end{abstract}
+The poor data availability severely hinders Disaster Risk Reduction activities especially in regard to Forecast based Financing. Triggered by predicted disaster impacts, Anticipatory Actions attempt to counteract impacts before the disaster occurs, rather than responding to post-disaster impacts. However, drought is a relatively novel application focus for this approach and highly dependent on good and timely information.\newline
+Citizen Science has successfully been applied to provide data for acting on environmental issues primarily in North America and Europe. Furthermore, Community-based Monitoring together with Mobile Crowdsensing currently provide the conceptual backbone to the health related Community-based Surveillance project by the Somalia Red Crescent Society. Building on the combination of these concepts, the aim of this study is to develop and apply a new approach for community-based participatory mapping and monitoring of water sources in this water-scarce and resource-limited setting in collaboration with the SRCS to facilitate respective AAs in the context of FbF, with the ultimate goal of improving water management and information availability to address water shortages.
+
+The work is embedded in a primarily inductive design of an exploratory, iterative case study, and guided by a mixed-methods approach combining literature analysis and expert consultations. The results indicate that it is conceptually possible to integrate the concepts of FbF and CS for monitoring water sources in resource scarce settings to eventually trigger AAs within one framework. Moreover, in the case of Somaliland, it can also reasonably be assumed that the practical feasibility of this integrated framework is given. Future work on this basis will be able to integrate and evaluate local information by means of a pilot study, thereby overcoming the main limitations of resource, time and information constraints.
+
+
+\end{abstract}
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
 
-% \begin{acknowledgements}
-% \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+\vspace{1cm}
 
+I would like to express my deep gratitude to \examname for providing me with the opportunity to write my thesis in the frame of the GIScience at the University Heidelberg.\newline
+To \supname and \textit{Dr. Michael Auer} for their time, continuous guidance and great humour during our numerous meetings.\newline
+To \textit{Melanie Eckle-Elze} and the \textit{HeiGIT Disaster Team} for their willingness to involve me in the project, practical help and encouraging support.
 
-% \end{acknowledgements}
+I would also like to express my gratitude to all interviewees for their valuable time and shared perspectives and experiences. Their contribution has been indispensable to the success of this study.
+
+Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} for providing me with unfailing support and continuous encouragement throughout my years of study and through the process of researching and writing this thesis. This accomplishment would not have been possible without you. Thank you.
+
+\end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
 
-% \tableofcontents % Prints the main table of contents
+\tableofcontents % Prints the main table of contents
 
-% \listoffigures % Prints the list of figures
+\listoffigures % Prints the list of figures
 
-% \listoftables % Prints the list of tables
+\listoftables % Prints the list of tables
 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
@@ -411,11 +402,21 @@ headsepline, % Uncomment to get a line under the header
 % \include{Chapters/Chapter2_TheoreticalBackground.tex}
 % \include{Chapters/Chapter3_methodology.tex}
 % \include{Chapters/Chapter4_Results.tex}
-\include{Chapters/Chapter5_Discussion.tex}
-% \include{Chapters/Chapter6_conclusion_outlook.tex}
+% \include{Chapters/Chapter5_Discussion.tex}
+\include{Chapters/Chapter6_conclusion_outlook.tex}
 % \include{Chapters/chapter_test.tex} 
 % \include{Chapters/ChapterTemplate.tex} 
 % \include{Chapters/example_chapter} 
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -427,15 +428,8 @@ headsepline, % Uncomment to get a line under the header
 % Uncomment the lines as you write the Appendices
 
 %\include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
+% \include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-\printbibliography[heading=bibintoc]
-
-%----------------------------------------------------------------------------------------
 
 \end{document}  

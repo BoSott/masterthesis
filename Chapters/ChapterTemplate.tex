@@ -15,6 +15,7 @@ data analysis protocol (see joplin) or add to methods (?)
 
 % naja check. Da steht zumindest was.. yikes.
 discussion chapter
+% ! Einleitung discussion section überarbeiten. Das klingt kacke.
 
 % check
 introduction - check
@@ -24,6 +25,11 @@ conclusion
 outlook
 
 abstract (at least a first draft)
+
+% !!!!!
+Eidesstattliche Erklärung!!
+% !!!!!
+
 
 % check
 Zitationen fixen! noch vor den figures -> das Zeug gibt nur noch mehr Probleme
@@ -40,9 +46,9 @@ map of Somaliland!!
 
 Karte für case study area - ggf. auch für wasser resources (jedoch schwierig welchen Datensatz..)
 
-Eigene Result Abbildungen nochmals überprüfen und Einbinden
+% Eigene Result Abbildungen nochmals überprüfen und Einbinden
 
-alles überlesen -> nicht zu doll eskalieren beim Neuschreiben..
+% alles überlesen -> nicht zu doll eskalieren beim Neuschreiben..
 
 Appendix:
 transcripts
@@ -76,13 +82,47 @@ On the one hand, citizens can help to fill data gaps of categorized measurements
 
 
 
+\section{How do I change the colors of links?}
+
+The color of links can be changed to your liking using:
+
+{\small\verb!\hypersetup{urlcolor=red}!}, or
+
+{\small\verb!\hypersetup{citecolor=green}!}, or
+
+{\small\verb!\hypersetup{allcolor=blue}!}.
+
+\noindent If you want to completely hide the links, you can use:
+
+{\small\verb!\hypersetup{allcolors=.}!}, or even better: 
+
+{\small\verb!\hypersetup{hidelinks}!}.
+
+\noindent If you want to have obvious links in the PDF but not the printed text, use:
+
+{\small\verb!\hypersetup{colorlinks=false}!}.
 
 
 
 
 
-
-
+\begin{table}
+    \caption[Drought Types]{Different Types of Drought. Source: Own representation, based on \autocite{rcrcFORECASTBASEDFINANCINGEARLY2020,wilhiteUnderstandingDroughtPhenomenon1985}}
+    \begin{adjustbox}{center,max width=\linewidth}
+        \def\arraystretch{1.5}
+        \begin{tabular}{m{2cm}m{5cm}}
+            \toprule
+            \bf Type of Drought & \bf Characteristics  \\ 
+            \midrule
+            Meteorological      & Duration and degree of dryness in comparison to the normal average, mostly based on precipitation and temperature  \\ 
+            Agricultural        & Impacts on agriculture measured by low soil-moisture, evapotranspiration rate and soil water deficits  \\ 
+            Hydrological        & Impact on surface and subsurface water by level of depletion  \\ 
+            Socioeconomic       & Negative implications for and impacts on society when demand exceeds supply  \\ 
+            \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \label{tab:th_drought_types}
+\end{table}
 
 
 
