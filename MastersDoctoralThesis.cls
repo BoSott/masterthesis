@@ -325,18 +325,29 @@ KOMA-script documentation for details.}]{fancyhdr}
 %	ABBREVIATIONS PAGE DESIGN
 %----------------------------------------------------------------------------------------
 
+
+
 \newcommand{\abbrevname}{List of Abbreviations}
 \providecaptionname{english,british,american}{\abbrevname}{List of Abbreviations}
 \providecaptionname{ngerman,german,austrian,naustrian}{\abbrevname}{Abk\"urzungsverzeichnis}
 \NewDocumentEnvironment{abbreviations}{ m }{%
-	\ifbool{nolistspace}{\begingroup\singlespacing}{}
-	\ifbool{listtoc}{\addchap{\abbrevname}}{\addchap*{\abbrevname}}
-	\begin{longtable}{#1}
 	}{%
-	\end{longtable}
-	\addtocounter{table}{-1}% Don't count this table as one of the document tables
-	\ifbool{nolistspace}{\endgroup}{}
 }
+
+
+
+% \newcommand{\abbrevname}{List of Abbreviations}
+% \providecaptionname{english,british,american}{\abbrevname}{List of Abbreviations}
+% \providecaptionname{ngerman,german,austrian,naustrian}{\abbrevname}{Abk\"urzungsverzeichnis}
+% \NewDocumentEnvironment{abbreviations}{ m }{%
+% 	\ifbool{nolistspace}{\begingroup\singlespacing}{}
+% 	\ifbool{listtoc}{\addchap{\abbrevname}}{\addchap*{\abbrevname}}
+% 	\begin{longtable}{#1}
+% 	}{%
+% 	\end{longtable}
+% 	\addtocounter{table}{-1}% Don't count this table as one of the document tables
+% 	\ifbool{nolistspace}{\endgroup}{}
+% }
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE DESIGN

@@ -18,8 +18,17 @@ main.tex.blg
 main.toc
 main.acn
 main.ist
+main.acn
+main.acr
+main.alg
+main.gls
+main.ist
+main.log
+main.run.xml
+x.log
 indent.log
 *.aux
 *.json
 .vscode/settings.json
 /figures/*
+test*

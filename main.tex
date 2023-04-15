@@ -82,7 +82,7 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage{url}
 
-\usepackage[acronyms,shortcuts]{glossaries}
+\usepackage[acronym]{glossaries} %for no numbers: nonumberlist
 
 % \addbibresource{01_Masterarbeit.bib} % The filename of the bibliography
 
@@ -148,6 +148,13 @@ headsepline, % Uncomment to get a line under the header
 
 
 \makeglossaries
+
+\newglossaryentry{formula}
+{
+    name=formula,
+    description={A mathematical expression}
+}
+
 % in alphabetical order
 \newacronym{aa}{AA}{Anticipatory Action}
 \newacronym{brcis}{BRCiS}{Building Resilient Communities in Somalia Consortium}
@@ -335,6 +342,8 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
+% \printglossary[type=\acronymtype]
+% \printglossary
 
 \tableofcontents % Prints the main table of contents
 
@@ -346,18 +355,17 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
 
-% \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
 % \textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
 % \textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
-\clearpage
+\printglossary[type=\acronymtype, title=List of Abbreviations]
 
-\printglossary
-\printglossary[type=\acronymtype]
-\printglossary[type=\acronymtype]
-
-
-% \end{abbreviations}
+% \printglossary[type=\acronymtype]
+% \printglossary[type=\acronymtype]
+% \printglossary
+% \printglossary[title=Special Terms, toctitle=List of terms]
+\end{abbreviations}
 
 %----------------------------------------------------------------------------------------
 %	PHYSICAL CONSTANTS/OTHER DEFINITIONS
@@ -415,6 +423,7 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 % \include{Chapters/ChapterTemplate.tex} 
 % \include{Chapters/example_chapter} 
 
+\clearpage
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -436,7 +445,5 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 
 %\include{Appendices/AppendixA}
 %\include{Appendices/AppendixB}
-%\include{Appendices/AppendixC}
-
 
 \end{document}  
