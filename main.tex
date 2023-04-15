@@ -48,10 +48,12 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[T1]{fontenc}
 % \usepackage{siunitx}
+\usepackage{graphics, subcaption}
 \usepackage{booktabs}
 \usepackage{adjustbox}
 \usepackage{hhline}
-\usepackage{pdflscape,array}
+\usepackage{pdflscape}
+\usepackage{array}
 \usepackage{rotating}
 \usepackage{tabularx,ragged2e}
 \newcolumntype{C}{>{\Centering\arraybackslash}X}
@@ -87,6 +89,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{enumitem}
 \usepackage{wrapfig}
 \usepackage{pdflscape}
+\usepackage{float}
 % \PassOptionsToPackage{table}{xcolor}
 % \usepackage[table]{xcolor}
 
@@ -302,10 +305,11 @@ headsepline, % Uncomment to get a line under the header
 
 Ensuring water security is considered as one of the major challenges of the twenty-first century. The trend of increasing demand and diminishing supplies is putting pressure on the availability of water worldwide. Particularly in the Horn of Africa, drought impacts determine the life of millions of people. Somaliland is in the midst of a years-long drought and water sources become more important than ever. Yet, information particularly about the most important water source type of berkads is incomplete and outdated. 
 
-The poor data availability severely hinders Disaster Risk Reduction activities especially in regard to Forecast based Financing. Triggered by predicted disaster impacts, Anticipatory Actions attempt to counteract impacts before the disaster occurs, rather than responding to post-disaster impacts. However, drought is a relatively novel application focus for this approach and highly dependent on good and timely information.\newline
-Citizen Science has successfully been applied to provide data for acting on environmental issues primarily in North America and Europe. Furthermore, Community-based Monitoring together with Mobile Crowdsensing currently provide the conceptual backbone to the health related Community-based Surveillance project by the Somalia Red Crescent Society. Building on the combination of these concepts, the aim of this study is to develop and apply a new approach for community-based participatory mapping and monitoring of water sources in this water-scarce and resource-limited setting in collaboration with the SRCS to facilitate respective AAs in the context of FbF, with the ultimate goal of improving water management and information availability to address water shortages.
+Insufficient data availability can severely hamper disaster risk reduction measures, especially with regard to Forecast-based Financing (FbF), a proactive natural disaster response approach that has recently become increasingly widespread. Triggered by predicted disaster impacts, Anticipatory Actions (AAs) attempt to counteract impacts before the disaster occurs, rather than responding to post-disaster impacts. However, drought is a relatively novel application focus for this approach and is highly dependent on relevant information about local impacts.\newline
+One way to gather these information can be Citizen Science (CS), which has successfully been applied to provide data for acting on environmental issues primarily in North America and Europe. In addition, sub-categories of CS such as community-based monitoring, together with mobile crowdsensing, already form the conceptual backbone for the Somalia Red Crescent Society's health-related Community-based Surveillance project.\newline
+Building on the combination of these concepts, the aim of this study is to first develop a new and transferable approach for community-based participatory mapping and monitoring of water sources for water-scarce and resource-limited settings to facilitate relevant AAs in the context of FbF. This framework will subsequently be applied to create an implementation roadmap for the SRCS, ultimately aiming to improve water governance and information availability to address water scarcity in Somaliland.
 
-The work is embedded in a primarily inductive design of an exploratory, iterative case study, and guided by a mixed-methods approach combining literature analysis and expert consultations. The results indicate that it is conceptually possible to integrate the concepts of FbF and CS for monitoring water sources in resource scarce settings to eventually trigger AAs within one framework. Moreover, in the case of Somaliland, it can also reasonably be assumed that the practical feasibility of this integrated framework is given. Future work on this basis will be able to integrate and evaluate local information by means of a pilot study, thereby overcoming the main limitations of resource, time and information constraints.
+The work is embedded in a primarily inductive design of an exploratory, iterative case study, and guided by a mixed-methods approach combining literature analysis and expert consultations. The results indicate that it is conceptually possible to integrate the concepts of FbF and CS for monitoring water sources in resource scarce settings to eventually trigger AAs within one framework. Moreover, in the case of Somaliland, it can also reasonably be assumed that the practical feasibility of this integrated framework is given. On this basis, future work will be able to integrate and assess local information in a pilot study, thereby overcoming the main limitations of this work due to resource, time and information constraints.
 
 
 \end{abstract}
@@ -318,8 +322,8 @@ The work is embedded in a primarily inductive design of an exploratory, iterativ
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
 \vspace{1cm}
 
-I would like to express my deep gratitude to \examname for providing me with the opportunity to write my thesis in the frame of the GIScience at the University Heidelberg.\newline
-To \supname and \textit{Dr. Michael Auer} for their time, continuous guidance and great humour during our numerous meetings.\newline
+I would like to express my deep gratitude to \examname\,\,for providing me with the opportunity to write my thesis in the frame of the GIScience at the University Heidelberg.\newline
+To \supname\,\,and \textit{Dr. Michael Auer} for their time, continuous guidance and great humour during our numerous meetings.\newline
 To \textit{Melanie Eckle-Elze} and the \textit{HeiGIT Disaster Team} for their willingness to involve me in the project, practical help and encouraging support.
 
 I would also like to express my gratitude to all interviewees for their valuable time and shared perspectives and experiences. Their contribution has been indispensable to the success of this study.
@@ -402,11 +406,11 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 % Uncomment the lines as you write the chapters
 
 % \include{Chapters/Chapter1_Introduction.tex}
-\include{Chapters/Chapter2_TheoreticalBackground.tex}
+% \include{Chapters/Chapter2_TheoreticalBackground.tex}
 % \include{Chapters/Chapter3_methodology.tex}
 % \include{Chapters/Chapter4_Results.tex}
 % \include{Chapters/Chapter5_Discussion.tex}
-% \include{Chapters/Chapter6_conclusion_outlook.tex}
+\include{Chapters/Chapter6_conclusion_outlook.tex}
 % \include{Chapters/chapter_test.tex} 
 % \include{Chapters/ChapterTemplate.tex} 
 % \include{Chapters/example_chapter} 
