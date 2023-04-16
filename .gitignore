@@ -30,5 +30,4 @@ indent.log
 *.aux
 *.json
 .vscode/settings.json
-/figures/*
 test*

@@ -92,12 +92,22 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{float}
 % \PassOptionsToPackage{table}{xcolor}
 % \usepackage[table]{xcolor}
-
+\usepackage{epigraph}
+% \epigraphsize{\large}
+\renewcommand{\epigraphsize}{\small}
+\setlength\epigraphwidth{12cm}
+\setlength\epigraphrule{0pt}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
 
 \newlist{questions}{enumerate}{2}
 \setlist[questions,1]{label=RQ\arabic*.,ref=RQ\arabic*}
 \setlist[questions,2]{label=(\alph*),ref=\thequestionsi(\alph*)}
 
+
+\renewcommand*{\bibfont}{\small}
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
@@ -116,7 +126,7 @@ headsepline, % Uncomment to get a line under the header
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Super duper fancy title. DONT FORGET TO CHANGE THIS!} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Community-based Mapping and Monitoring of Water Sources in Somaliland: An integrated approach combining Citizen Science and Forecast-based Financing} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{apl. Prof. Dr. Sven \textsc{Lautenbach}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{Prof. Dr. Alexander \textsc{Zipf}} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Master of Science} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
@@ -226,7 +236,7 @@ headsepline, % Uncomment to get a line under the header
 \begin{titlepage}
 \begin{center}
 
-\vspace*{.06\textheight}
+\vspace*{.05\textheight}
 {\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
 \textsc{\Large Master Thesis}\\[0.5cm] % Thesis type
 
@@ -250,17 +260,17 @@ headsepline, % Uncomment to get a line under the header
 \emph{Examiner:}\\
 {\examname}
 \end{flushright}
-\end{minipage}\\[3cm]
+\end{minipage}\\[2cm]
  
 \vfill
 
 \large \textit{A thesis submitted in partial fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
-\deptname\\\facname\\[2cm] % Research group name and department name
+\deptname\\\facname\\[1.5cm] % Research group name and department name
  
 \vfill
 
-{\large \today}\\[4cm] % Date
+{\large \today}\\[1cm] % Date
 %\includegraphics{Logo} % University/department logo - uncomment to place it
  
 \vfill
@@ -297,11 +307,11 @@ headsepline, % Uncomment to get a line under the header
 %	QUOTATION PAGE
 %----------------------------------------------------------------------------------------
 
-\vspace*{0.2\textheight}
+% \vspace*{0.2\textheight}
 
-\centerline{\noindent\enquote{\itshape"Can't A Guy Make One Mistake?"}}\bigbreak
+% \centerline{\noindent\enquote{\itshape Can't A Guy Make One Mistake?}}\bigbreak
 
-\hfill {\small Baloo, The Jungle Book}
+% \hfill {\small Baloo, The Jungle Book}
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -347,9 +357,17 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 
 \tableofcontents % Prints the main table of contents
 
+% \listoffigures % Prints the list of figures
+
+% \listoftables % Prints the list of tables
+
+\begingroup
 \listoffigures % Prints the list of figures
 
+\let\clearpage\relax
+\vspace{0.5cm}
 \listoftables % Prints the list of tables
+\endgroup
 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
@@ -413,12 +431,12 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-% \include{Chapters/Chapter1_Introduction.tex}
-% \include{Chapters/Chapter2_TheoreticalBackground.tex}
-% \include{Chapters/Chapter3_methodology.tex}
+\include{Chapters/Chapter1_Introduction.tex}
+\include{Chapters/Chapter2_TheoreticalBackground.tex}
+\include{Chapters/Chapter3_methodology.tex}
 \include{Chapters/Chapter4_Results.tex}
-% \include{Chapters/Chapter5_Discussion.tex}
-% \include{Chapters/Chapter6_conclusion_outlook.tex}
+\include{Chapters/Chapter5_Discussion.tex}
+\include{Chapters/Chapter6_conclusion_outlook.tex}
 % \include{Chapters/chapter_test.tex} 
 % \include{Chapters/ChapterTemplate.tex} 
 % \include{Chapters/example_chapter} 
@@ -443,7 +461,7 @@ Special thanks to my \textit{family}, \textit{flatmates} and \textit{friends} fo
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
-%\include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
+\include{Appendices/AppendixA}
+\include{Appendices/AppendixB}
 
 \end{document}  
